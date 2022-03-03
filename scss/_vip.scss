@@ -1,0 +1,586 @@
+//vip
+.vipWrap {
+    width: 100%;
+    min-height: calc(100vh - 92px);
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+    //上部
+    .topWrap {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        border-bottom: solid 1px $borderColor_6;
+        background: $backgroundColor_2;
+
+        .info {
+            width: 100%;
+            height: auto;
+            padding: 0 4vw 7.46vw;
+            margin-bottom: 6.66vw;
+            border-bottom: solid 1px $borderColor_6;
+            box-sizing: border-box;
+
+            .content {
+                padding-top: 14px;
+                margin-bottom: 9.33vw;
+                width: 100%;
+                height: auto;
+                position: relative;
+
+                .account {
+                    font-size: 16px;
+                    margin-bottom: 12px;
+                    letter-spacing: 2px;
+                    color: $font-color_2;
+                    font-weight: bold;
+                }
+
+                .text {
+                    display: flex;
+                    margin-bottom: 12px;
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    color: $font-color_3;
+                    font-weight: bold;
+
+                    p {
+                        margin-left: 8px;
+                        font-size: 14px;
+                    }
+                }
+
+                .medal {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 22.93vw;
+                    height: 30.13vw;
+                }
+            }
+
+            .expBar {
+                width: 100%;
+                height: auto;
+
+                .level {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 9px;
+
+                    p {
+                        font-size: 14px;
+                        letter-spacing: 1px;
+                        color: $font-color_2;
+                        font-weight: bold;
+                    }
+                }
+
+                .bar {
+                    width: 100%;
+                    height: 8px;
+                    background: $backgroundColor_13;
+                    border-radius: 4px;
+                    overflow: hidden;
+
+                    .cur {
+                        width: 10%;
+                        height: 100%;
+                        border-radius: 4px;
+                        background: $backgroundColor_1;
+                    }
+                }
+            }
+        }
+
+        .levelBox {
+            position: relative;
+            width: 92%;
+            height: 6.86vw;
+            margin: 0 auto;
+            overflow: hidden;
+
+            div {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+                hr {
+                    width: 100%;
+                    border: solid 1px $borderColor_5;
+                }
+            }
+
+            ul {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                z-index: 1;
+                overflow-x: scroll;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    width: 13.66vw;
+                    height: 6.33vw;
+                    margin-right: 4.99vw;
+                    background: $backgroundColor_13;
+                    border-radius: 4vw;
+                    font-size: 12px;
+                    color: $font-color_1;
+
+                    &.active {
+                        background: $backgroundColor_1;
+                    }
+                }
+            }
+        }
+
+        .cards {
+            width: 100%;
+            height: 47.46vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1vw;
+            margin-top: 5.33vw;
+            box-sizing: border-box;
+
+            i {
+                width: 2.67vw;
+                height: 5.33vw;
+
+                &.prev {
+                    transform: scaleX(-1);
+                }
+            }
+
+            div:not(.text) {
+                width: 88.27vw;
+                height: 47.47vw;
+                overflow: hidden;
+
+                ul {
+                    display: flex;
+                    transition: all 0.5s ease;
+
+                    li {
+                        position: relative;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: flex-end;
+                        width: 88.27vw;
+                        height: 47.47vw;
+                        flex-shrink: 0;
+                        padding: 0 6.67vw;
+                        box-sizing: border-box;
+                        border: solid 1px $borderColor_6;
+                        border-radius: 10px;
+
+                        .medal {
+                            position: absolute;
+                            top: 0;
+                            left: 5.6vw;
+                            width: 19.47vw;
+                            height: 25.87vw;
+                        }
+
+                        .text {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin-bottom: 6.4vw;
+                            font-size: 14px;
+                            color: $font-color_2;
+                            font-weight: bold;
+
+                            p {
+                                margin-top: 2.4vw;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //中部
+    .midWrap {
+        background: $backgroundColor_2;
+        padding: 15px 12px;
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        border: solid 1px $borderColor_6;
+        border-width: 1px 0;
+        box-sizing: border-box;
+
+        .smallTitle {
+            margin-bottom: 15px;
+            font-style: 17px;
+            letter-spacing: 2px;
+            color: $font-color_2;
+            font-weight: bold;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: auto;
+
+            li {
+                width: 100%;
+                height: 17.6vw;
+                min-height: 51px;
+                padding-left: 12px;
+                box-sizing: border-box;
+                border-radius: 3px;
+                font-size: 13px;
+                color: $font-color_2;
+                font-weight: bold;
+                margin-bottom: 3vw;
+                display: flex;
+                justify-content: center;
+                background: $backgroundColor_15;
+                border: solid 1px $borderColor_6;
+                flex-direction: column;
+
+                &.noMar {
+                    margin: 0;
+                }
+
+                p {
+                    font-weight: bold;
+                    font-size: 22px;
+                    color: $font-color_7;
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+
+    //底部
+    .bottomWrap {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        background: $backgroundColor_2;
+        border-top: solid 1px $borderColor_6;
+
+        button {
+            width: 90%;
+            height: 52px;
+            margin: 0 auto;
+            @include buttonStyle_2;
+            justify-content: space-between;
+            padding: 0 20px;
+            color: $font-color_2;
+
+            .arrow {
+                width: 3vw;
+                height: 5vw;
+            }
+
+            &:active,&.active {
+
+                .arrow {
+                    background-position-y: 100%;
+                }
+            }
+        }
+    }
+}
+
+//vip詳情
+.vipDetail {
+    width: 100%;
+    min-height: calc(100vh - 92px);
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+    .title {
+        color: $font-color_8;
+        font-size: 4vw;
+        display: flex;
+        width: 92%;
+        margin: 0 auto;
+        height: 60px;
+        align-items: center;
+        font-weight: bold;
+
+        &.blue {
+            color: $font-color_2;
+        }
+    }
+
+    .listBox {
+        display: flex;
+        width: 92%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+
+        .arrow {
+            position: absolute;
+            width: 20px;
+            height: 30px;
+            top: 6px;
+            left: 53px;
+            display: block;
+            background: $backgroundColor_1;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%) rotate(90deg);
+                width: 16px;
+                height: 10px;
+            }
+
+            &.next {
+                left: unset;
+                right: 1px;
+
+                &::before {
+                    transform: translate(-50%,-50%) rotate(-90deg);
+                }
+            }
+        }
+
+        .listLeft {
+            width: 18%;
+            height: auto;
+            border-radius: 5px 0 0 5px;
+            border: solid 1px $borderColor_6;
+            border-right: none;
+            overflow: hidden;
+
+            ul {
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 42px;
+                    background: $backgroundColor_2;
+                    color: $font-color_8;
+                    border-bottom: solid 1px $borderColor_6;
+    
+                    &.listTitle {
+                        background: $backgroundColor_1;
+                        color: $font-color_1;
+                        font-size: 14px;
+                        border: none;
+                        font-weight: bold;
+                    }
+    
+                    &.gray {
+                        background: $backgroundColor_14;
+                    }
+    
+                    &.noBorder {
+                        border: none;
+                    }
+    
+                    p {
+                        color: $font-color_8;
+                        font-size: 14px;
+                        font-weight: bold;
+                        border-right: solid 1px $borderColor_6;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .listRight {
+            width: 82%;
+            height: auto;
+            border-radius: 0 5px 5px 0;
+            border: solid 1px $borderColor_6;
+            border-left: none;
+            overflow: hidden;
+            display: flex;
+            position: relative;
+
+            ul {
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: auto;
+                    height: 42px;
+                    background: $backgroundColor_2;
+                    color: $font-color_8;
+                    border-bottom: solid 1px $borderColor_6;
+                    padding: 0 12px;
+                    position: relative;
+    
+                    &.listTitle {
+                        background: $backgroundColor_1;
+                        color: $font-color_1;
+                        font-size: 14px;
+                        border: none;
+                        font-weight: bold;
+                        white-space: nowrap;
+                        
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            right: 0;
+                            width: 1px;
+                            height: 14px;
+                            background: $backgroundColor_2;
+                        }
+                    }
+    
+                    &.gray {
+                        background: $backgroundColor_14;
+                    }
+    
+                    &.noBorder {
+                        border: none;
+                    }
+    
+                    p {
+                        position: absolute;
+                        color: $font-color_8;
+                        font-size: 14px;
+                        font-weight: bold;
+                        border-right: solid 1px $borderColor_6;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .fingerBox {
+                width: 80px;
+                height: 70px;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                animation: disappear 4s ease 0s infinite;
+
+                .finger {
+                    width: 31px;
+                    height: 42px;
+                    margin-bottom: 8px;
+                }
+
+                i {
+                    display: block;
+                    width: 15px;
+                    height: 12px;
+                    position: absolute;
+                    top: 7px;
+                    left: 45px;
+
+                    &.left {
+                        transform: scaleX(-1);
+                        right: 52px;
+                        left: unset;
+                        animation: arrowMove2 4s ease 0s infinite;
+                    }
+
+                    &.right {
+                        animation: arrowMove1 4s ease 0s infinite;
+                    }
+                }
+
+                @keyframes arrowMove1 {
+                    0% {
+                        transform: translateX(0);
+                    }
+
+                    25% {
+                        transform: translateX(70%);
+                    }
+
+                    50% {
+                        transform: translateX(0);
+                    }
+
+                    75% {
+                        transform: translateX(70%);
+                    }
+                }
+
+                @keyframes arrowMove2 {
+                    0% {
+                        transform: scaleX(-1) translateX(0);
+                    }
+
+                    25% {
+                        transform: scaleX(-1) translateX(70%);
+                    }
+
+                    50% {
+                        transform: scaleX(-1) translateX(0);
+                    }
+
+                    75% {
+                        transform: scaleX(-1) translateX(70%);
+                    }
+                }
+
+                @keyframes disappear {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    25% {
+                        opacity: 1;
+                    }
+
+                    75% {
+                        opacity: 1;
+                    }
+
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .remindBox {
+        width: 92%;
+        height: auto;
+        margin: 0 auto;
+
+        p {
+            line-height: 24px;
+            font-size: 15px;
+            font-weight: bold;
+            color: $font-color_7;
+            margin-bottom: 24px;
+
+            span {
+                display: inline-block;
+            }
+        }
+    }
+}

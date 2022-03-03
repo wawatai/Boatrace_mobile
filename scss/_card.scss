@@ -1,0 +1,218 @@
+//上部
+.cardList {
+    width: 100%;
+    height: 212px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px $borderColor_6;
+    box-sizing: border-box;
+    padding: 0 14px 15px 14px;
+    background: $backgroundColor_2;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+    .title {
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        color: $font-color_7;
+        top: 10px;
+        left: 14px;
+    }
+
+    ul {
+        width: auto;
+        height: auto;
+        display: flex;
+        padding: 5px;
+        box-sizing: border-box;
+        overflow-x: scroll;
+
+        li {
+            width: 250px;
+            height: 150px;
+            border-radius: 5px;
+            background: $linear_4;
+            margin-right: 10px;
+            border: solid 1px $borderColor_1;
+            box-shadow: 0 0 5px 0 $backgroundColor_3;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            flex-shrink: 0;
+
+            &.empty {
+                background: $linear_2;
+                border-color: $borderColor_6;
+                box-shadow: none;
+
+                .addCard,.status {
+                    display: block;
+                }
+
+                .smallTitle,.smallBranch,.code {
+                    display: none;
+                }
+            }
+
+            &.waiting {
+
+                .waiting {
+                    display: block;
+                }
+
+                .code {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .addCard {
+                display: none;
+                width: 50px;
+                height: 50px;
+                margin: 27px 0;
+                background: $backgroundColor_1;
+                border-radius: 50%;
+                position: relative;
+                flex-shrink: 0;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    width: 4px;
+                    height: 75%;
+                    background: $backgroundColor_2;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    width: 75%;
+                    height: 4px;
+                    background: $backgroundColor_2;
+                }
+            }
+
+            .status {
+                display: none;
+                width: 100%;
+                height: auto;
+                margin-bottom: 8px;
+
+                p {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: $font-color_2;
+                    text-align: center;
+                    line-height: 18px;
+                }
+            }
+
+            .smallTitle {
+                width: 85%;
+                font-size: 22px;
+                font-weight: bold;
+                color: $font-color_1;
+                margin-bottom: 10px;
+            }
+
+            .smallBranch {
+                width: 85%;
+                font-size: 14px;
+                color: $font-color_1;
+                margin-bottom: 20px;
+            }
+
+            .code {
+                width: 85%;
+                font-size: 22px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                color: $font-color_1;
+                margin-bottom: 31px;
+            }
+
+            .waiting {
+                display: none;
+                width: 85%;
+                height: auto;
+                padding: 5px 0;
+                background: $backgroundColor_2;
+                border-radius: 30px;
+                color: $font-color_7;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+//下部
+.cardContent {
+    width: 100%;
+    height: auto;
+    border: solid 1px $borderColor_6;
+    border-width: 1px 0;
+    background: $backgroundColor_2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    form {
+        width: 92%;
+        height: auto;
+
+        .title {
+            color: $font-color_2;
+            font-size: 14px;
+            margin: 18px 0 9px 0;
+            font-weight: bold;
+            
+            span {
+                color: $font-color_14;
+            }
+        }
+
+        select {
+            width: 100%;
+            height: 42px;
+            @include selectStyle_1;
+        }
+
+        input {
+            width: 100%;
+            height: 42px;
+            @include inputStyle_1;
+        }
+
+        .remind {
+            color: $font-color_3;
+            font-size: 12px;
+            margin-top: 10px;
+            line-height: 18px;
+        }
+
+        button {
+            width: 100%;
+            height: 42px;
+            @include buttonStyle_5;
+            margin: 34px 0;
+        }
+
+        .forBank,.forUsdt,.forVp {
+            display: none;
+
+            &.display {
+                display: block;
+            }
+        }
+    }
+}

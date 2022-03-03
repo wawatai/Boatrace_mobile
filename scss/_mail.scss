@@ -1,0 +1,417 @@
+//上滑選單
+.mailHeader {
+    width: 100%;
+    height: 40px;
+    background: $backgroundColor_2;
+
+    ul {
+        display: flex;
+        width: auto;
+        height: 100%;
+        overflow-x: auto;
+
+        li {
+            width: 50%;
+            height: 100%;
+            box-sizing: border-box;
+            border-bottom: solid 2px transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $font-color_7;
+            font-weight: bold;
+            font-size: 14px;
+
+            &:active,&.active {
+                border-color: $borderColor_2;
+                color: $font-color_2;
+            }
+        }
+    }
+}
+
+//內容
+.mailBody {
+    width: 100%;
+    height: auto;
+
+    &.normal {
+        display: none;
+
+        &.display {
+            display: block;
+        }
+
+        .subClass {
+            width: 100%;
+            height: 62px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                width: 46%;
+                height: 42px;
+                @include buttonStyle_2;
+                font-size: 12px;
+
+                &.left {
+                    border-right: none !important;
+                    border-radius: 3px 0 0 3px;
+                }
+                &.right {
+                    border-left: none !important;
+                    border-radius: 0 3px 3px 0;
+                }
+            }
+        }
+
+        .editBox {
+            width: 100%;
+            height: auto;
+            padding: 16px;
+            box-sizing: border-box;
+            justify-content: space-between;
+            display: none;
+
+            &.display {
+                display: flex;
+            }
+
+            .all {
+                display: flex;
+                align-items: center;
+                color: $font-color_8;
+                font-size: 16px;
+                font-weight: bold;
+
+                input {
+                    margin-right: 10px;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 19px;
+                        height: 19px;
+                        border: solid 1px $borderColor_2;
+                        background: $backgroundColor_2;
+                        border-radius: 50%;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        box-sizing: border-box;
+                    }
+
+                    &:checked {
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            width: 12px;
+                            height: 12px;
+                            background: $backgroundColor_5;
+                            border-radius: 50%;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                        }
+                    }
+                }
+            }
+
+            .modify {
+
+                button {
+                    width: 82px;
+                    height: 28px;
+                    @include buttonStyle_5;
+                    font-size: 12px;
+
+                    &.delete {
+                        @include buttonStyle_7;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .list {
+            width: 100%;
+            height: calc(100vh - 205px);
+            overflow-y: auto;
+
+            &.editing {
+                height: calc(100vh - 265px);
+
+                .title,.textBox {
+                    padding: 0 30px 0 50px;
+                }
+
+                .inputBox {
+                    display: flex;
+                }
+            }
+
+            &.system,&.personal {
+                display: none;
+
+                &.display {
+                    display: block;
+                }
+            }
+
+            ul {
+                width: 100%;
+                height: auto;
+                box-sizing: border-box;
+                padding: 0 4%;
+
+                li {
+                    width: 100%;
+                    height: 108px;
+                    background: $backgroundColor_2;
+                    border-radius: 5px;
+                    border: solid 1px $borderColor_6;
+                    position: relative;
+                    margin-bottom: 10px;
+
+                    &.read {
+                        background: $backgroundColor_14;
+
+                        .title {
+                            color: $font-color_8;
+                        }
+                    }
+
+                    .title {
+                        width: 100%;
+                        height: 40%;
+                        box-sizing: border-box;
+                        padding: 0 30px;
+                        display: flex;
+                        align-items: flex-end;
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: $font-color_2;
+                    }
+
+                    .textBox {
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+                        box-sizing: border-box;
+                        padding: 0 30px;
+                        align-items: center;
+                        position: relative;
+
+                        p {
+                            width: 100%;
+                            height: auto;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            color: $font-color_7;
+                            font-size: 14px;
+                        }
+
+                        .date {
+                            position: absolute;
+                            top: 0;
+                            right: 30px;
+                            font-size: 13px;
+                            font-weight: bold;
+                            color: $font-color_7;
+                        }
+                    }
+
+                    .inputBox {
+                        display: none;
+                        width: 50px;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        align-items: center;
+                        justify-content: center;
+
+                        input {
+                            position: relative;
+        
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                width: 19px;
+                                height: 19px;
+                                border: solid 1px $borderColor_2;
+                                background: $backgroundColor_2;
+                                border-radius: 50%;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%,-50%);
+                                box-sizing: border-box;
+                            }
+        
+                            &:checked {
+        
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    width: 12px;
+                                    height: 12px;
+                                    background: $backgroundColor_5;
+                                    border-radius: 50%;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%,-50%);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.post {
+        display: none;
+
+        &.display {
+            display: block;
+        }
+
+        .subClass {
+            width: 100%;
+            height: 62px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            ul {
+                width: 91%;
+                height: auto;
+                overflow: hidden;
+                border-radius: 5px;
+                border: solid 1px $borderColor_6;
+                display: flex;
+                
+                li {
+                    width: 34%;
+                    height: 42px;
+
+                    &.mid {
+                        margin: 0 1px;
+                    }
+
+                    button {
+                        width: 100%;
+                        height: 100%;
+                        @include buttonStyle_2;
+                        border: none;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+
+        .list {
+            width: 100%;
+            height: calc(100vh - 205px);
+            overflow-y: auto;
+
+            &.pop,&.nor,&.dep {
+                display: none;
+
+                &.display {
+                    display: block;
+                }
+            }
+
+            ul {
+                width: 100%;
+                height: auto;
+                box-sizing: border-box;
+                padding: 0 4%;
+
+                li {
+                    width: 100%;
+                    height: auto;
+                    padding: 15px;
+                    box-sizing: border-box;
+                    background: $backgroundColor_2;
+                    border-radius: 5px;
+                    border: solid 1px $borderColor_6;
+                    position: relative;
+                    margin-bottom: 10px;
+
+                    p {
+                        width: 70%;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: $font-color_2;
+                        box-sizing: border-box;
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//信件內頁
+.mailContent {
+    width: 90%;
+    height: calc(100vh - 133px);
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 10vw 15px;
+    background: $backgroundColor_2;
+    margin: 15px auto 0;
+    border-radius: 5px;
+    border: solid 1px $borderColor_6;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 8vw;
+        background: $backgroundColor_1;
+    }
+
+    .msg {
+        margin-top: 19px;
+        
+        pre {
+            font-size: 17px;
+            color: $font-color_2;
+            font-weight: bold;
+            white-space: pre-wrap;
+            line-height: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mailBody {
+
+        &.normal {
+
+            .subClass {
+
+                button {
+
+                    p {
+                        transform: scale(0.8);
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

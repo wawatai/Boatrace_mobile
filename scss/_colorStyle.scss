@@ -1,0 +1,288 @@
+$backgroundColor_1: #0069d5;
+$backgroundColor_2: #ffffff;
+$backgroundColor_3: #00000066;
+$backgroundColor_4: #cacfd3;
+$backgroundColor_5: #f07b1c;
+$backgroundColor_6: #eef2f5;
+$backgroundColor_7: #3e7ece;
+$backgroundColor_8: #78b14a;
+$backgroundColor_9: #f0bc16;
+$backgroundColor_10: #EE3F3D;
+$backgroundColor_11: #003f97;
+$backgroundColor_12: #e9eef2;
+$backgroundColor_13: #dcdcdc;
+$backgroundColor_14: #f7f7f7;
+$backgroundColor_15: #eff5f8;
+$backgroundColor_16: #f8eded;
+$backgroundColor_17: #f0f5f8;
+
+$font-color_1: #ffffff;
+$font-color_2: #0069d5;
+$font-color_3: #f07b1c;
+$font-color_4: #4c5159;
+$font-color_5: #cacfd3;
+$font-color_6: #000000;
+$font-color_7: #5f5f5f;
+$font-color_8: #323232;
+$font-color_9: #3cbbf0;
+$font-color_10: #555555;
+$font-color_11: #4ea104;
+$font-color_12: #72d01e;
+$font-color_13: #666c75;
+$font-color_14: #c50803;
+$font-color_15: #ef2929;
+$font-color_16: #ff8d68;
+$font-color_17: #5aa960;
+$font-color_18: #617b8d;
+
+$borderColor_1: #ffffff;
+$borderColor_2: #0069d5;
+$borderColor_3: #d4d9dd;
+$borderColor_4: #cacfd3;
+$borderColor_5: #dcdcdc;
+$borderColor_6: #c2c2c2;
+$borderColor_7: #4ea104;
+$borderColor_8: #d38f8f;
+
+$linear_1: linear-gradient(to top,#9bd722 0%,#99d420 45%,#8fc819 100%);
+$linear_2: linear-gradient(to bottom,#f3fafe 30%,#e5ecf0 100%);
+$linear_3: linear-gradient(to top,#e6e6e6 0%,#ffffff 78%);
+$linear_4: linear-gradient(-51deg,#4f9ff1 0%,#0069d5 51%,#5dacfd 100%);
+
+
+///////button↓
+
+
+//首頁lang
+@mixin buttonStyle_1 {
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px 30px 4px 8px;
+    color: #ffffff;
+}
+
+//灰漸層按鈕
+@mixin buttonStyle_2 {
+    background: linear-gradient(to top,#e6e6e6 0,#ffffff 78%);
+    border: solid 1px #c2c2c2;
+    font-size: 4vw;
+    font-weight: bold;
+    color: #5f5f5f;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:active,&.active {
+        background: #0069d5;
+        color: #fff;
+    }
+}
+
+//首頁存提按鈕
+@mixin buttonStyle_3 {
+    background: linear-gradient(to bottom,#41bef2 0%,#36b7ed 41%,#29afe6 100%);
+    box-shadow: 0 1px 1px 0 #00000049;
+    border-radius: 11vw;
+    position: relative;
+
+    &:active,&.active {
+        background: linear-gradient(to top,#41bef2 0%,#36b7ed 41%,#29afe6 100%);
+        box-shadow: 0 0 5px 3px #0000002b inset;
+    }
+}
+
+//首頁主賽事按鈕
+@mixin buttonStyle_4 {
+    background: #0069d5;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 4vw;
+    letter-spacing: 2px;
+}
+
+//綠漸層按鈕
+@mixin buttonStyle_5 {
+    background: linear-gradient(to bottom,#9bd722 0,#99d420 45%,#8fc819);
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: bold;
+
+    &:active,&.active {
+        background: linear-gradient(to top,#9bd722 0,#99d420 45%,#8fc819);
+    }
+}
+
+//news 上按鈕
+@mixin buttonStyle_6 {
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0069d5;
+    border-radius: 3px;
+    border: solid 1px #dbdbdb;
+    background: #eef2f5;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:active,&.active {
+        background: #0069d5;
+        border-color: transparent;
+        color: #ffffff;
+    }
+}
+
+//橘漸層按鈕
+@mixin buttonStyle_7 {
+    background: linear-gradient(to bottom,#ff952e 0,#ef7513 100%);
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: bold;
+
+    &:active,&.active {
+        background: linear-gradient(to top,#ff952e 0,#ef7513 100%);
+    }
+}
+
+//客服中心按鈕
+@mixin buttonStyle_8 {
+    display: flex;
+    background: #ffffff;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1rem;
+    box-sizing: border-box;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+}
+
+//藍漸層按鈕
+@mixin buttonStyle_9 {
+    background: linear-gradient(to bottom,#41bef2 0%,#36b7ed 41%,#29afe6 100%);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 4vw;
+
+    &:active,&.active {
+        background: linear-gradient(to top,#41bef2 0%,#36b7ed 41%,#29afe6 100%);
+    }
+}
+
+//白線框按鈕
+@mixin buttonStyle_10 {
+    background: #0069d5;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 5px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+
+    &:active,&.active {
+        background: #ffffff;
+        color: #0069d5;
+    }
+}
+
+//helpWrap 白底按鈕
+@mixin buttonStyle_11 {
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: solid 1px #c2c2c2;
+    color: #323232;
+
+    &:active,&.active {
+        background: #0069d5;
+        color: #ffffff;
+    }
+}
+
+//disabled
+
+button:disabled {
+    background: #cccccc !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    pointer-events: none;
+}
+
+
+////////input↓
+
+
+//彈窗輸入框
+@mixin inputStyle_1 {
+    background: #eef5f8;
+    border: solid 1px #c2c2c2;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: #5f6368;
+    border-radius: 3px;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+    &::placeholder {
+        color: #a6afbf;
+    }
+}
+
+//個人資料內頁input
+@mixin  inputStyle_2 {
+    background: none;
+    border: none;
+    text-align: right;
+    font-size: 14px;
+    border-radius: 3px;
+    color: #5f5f5f;
+    box-sizing: border-box;
+    padding-right: 2vw;
+    border: solid 1px transparent;
+    font-weight: bold;
+    
+    &::placeholder {
+        color: #acacac;
+    }
+
+    &.active {
+        border-color: #b3b3b3;
+        background: #eef2f5;
+    }
+}
+
+
+//////////select↓
+
+
+@mixin selectStyle_1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0069d5;
+    border-radius: 3px;
+    border: solid 1px #c2c2c2;
+    padding-left: 3vw;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: #eff5f8;
+    background-image: linear-gradient(45deg,transparent 50%,#0069d5 0),linear-gradient(135deg,#0069d5 50%,transparent 0);
+    background-position: calc(100% - 20px) calc(1em + 4px),calc(100% - 15px) calc(1em + 4px);
+    background-size: 5px 5px,5px 5px;
+    background-repeat: no-repeat;
+}

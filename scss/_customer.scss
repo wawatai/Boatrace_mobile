@@ -1,0 +1,88 @@
+//客服開頭
+.customerHeader {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 1rem 1.5rem;
+
+    .title {
+        width: 100%;
+        height: auto;
+
+        p {
+            color: $font-color_2;
+            font-size: 4vw;
+            font-weight: bold;
+            line-height: 22px;
+        }
+    }
+
+    .content {
+        font-size: 3vw;
+        color: $font-color_7;
+        font-weight: bold;
+        line-height: 22px;
+        margin-top: 4px;
+    }
+}
+
+//客服按鈕
+a {
+    @include buttonStyle_8;
+
+    .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .textBox {
+        width: calc(100% - 4rem);
+        height: auto;
+        margin-left: 1rem;
+
+        div {
+            line-height: 1.2rem;
+
+            &.title {
+                font-size: 4vw;
+            }
+
+            &.entitle {
+                font-size: 3vw;
+            }
+
+            &.prompt {
+                font-size: 3vw;
+            }
+        }
+    }
+
+    &.mainBtn {
+        border: solid 1px $borderColor_2;
+
+        .title {
+            color: $font-color_2;
+        }
+
+        .entitle {
+            color: $font-color_9;
+        }
+
+        .prompt {
+            color: $font-color_10;
+        }
+    }
+
+    &.lineBtn {
+        border: solid 1px $borderColor_7;
+
+        .title {
+            color: $font-color_11;
+            font-size: 3.7vw !important;
+        }
+
+        .prompt {
+            color: $font-color_12;
+        }
+    }
+}

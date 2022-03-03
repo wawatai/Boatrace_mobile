@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='./wallet.html'"></i>
+            <div class="title">出金エリア</div>
+            <button class="detailBtn" onclick="window.location.href='./help_new.html'">チュートリアル</button>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--提款-->
+        <div class="withdrawalWrap">
+            <!--上部-->
+            <div class="withdrawalTop">
+                <div class="content">
+                    <p class="title">
+                        ウォレット
+                        <i class="refresh_ic"></i>
+                    </p>
+                    $50000000
+                </div>
+                <div class="row">
+                    出金可能額
+                    <p>$0</p>
+                </div>
+                <div class="row limit">
+                    <span>
+                        ベット額制限
+                        <p>$0</p>
+                    </span>
+                    <button>ベット額履歴</button>
+                </div>
+            </div>
+            <!--內容-->
+            <div class="withdrawalCnt">
+                <div class="textBox">今日の出金可能回数: 無制限 回; 毎日の出金クォータ: 無制限。; 毎日無料出金の最大数 0 </div>
+                <select>
+                    <option value="" disabled>選んでください</option>
+                    <option value="bank" selected>銀行卡</option>
+                    <option value="vp">VenusPoint</option>
+                    <option value="usdt">USDT</option>
+                </select>
+                <div class="wayBox forBank display">
+                    <select>
+                        <option value="">上海銀行 - 上海分行</option>
+                        <option value="">上海銀行 - 上海分行</option>
+                        <option value="">上海銀行 - 上海分行</option>
+                    </select>
+                    <p class="remind">尾翼番号: </p>
+                    <input type="text" placeholder="出金金額を入力してください">
+                    <p class="remind">単一出金額は「$0〜無制限」でなければなりません</p>
+                    <button>確認</button>
+                </div>
+                <div class="wayBox forVp">
+                    <select>
+                        <option value="">虛擬帳戶</option>
+                        <option value="">虛擬帳戶</option>
+                        <option value="">虛擬帳戶</option>
+                    </select>
+                    <input type="text" placeholder="出金金額を入力してください">
+                    <p class="remind">単一出金額は「$10〜$100,000」でなければなりません</p>
+                    <button>確認</button>
+                </div>
+                <div class="wayBox forUsdt">
+                    <select>
+                        <option value="">綠界</option>
+                        <option value="">綠界</option>
+                        <option value="">綠界</option>
+                    </select>
+                    <input type="text" placeholder="出金金額を入力してください">
+                    <p class="remind">単一出金額は「$0〜$500」でなければなりません</p>
+                    <button>確認</button>
+                </div>
+            </div>
+            <!--提醒-->
+            <div class="remindBox">
+                <div class="title">ご注意</div>
+                <p>1. 会員はVIPレベルに応じて無料出金回数が異なり、回数を超えた場合は1%の手数料が発生します（VIP詳細参照）。</p>
+                <p>2. メンバーは、申し込む前に、各入金の有効な賭け金の 100% に到達する必要があります。</p>
+                <p class="sp">当サイトを使用してマネーロンダリングや詐欺行為やその他の法令に抵触し犯罪行為となどの不当利用。当サイトは該当アカウントで得たすべてのボーナス、勝ち金を没収し、アカウントを直ちに閉鎖する権利を有します。</p>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li class="active" onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter display">
+        <!--未綁定銀行卡-->
+        <div class="jumpWindow plsGo display">
+            <div class="title">ヒント</div>
+            <div class="content">
+                <p>銀行口座を使用する前に、</p>
+                <p>銀行カード情報を入カしてください</p>
+            </div>
+            <div class="btnBox">
+                <button class="close">確認</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+</body>
+</html>

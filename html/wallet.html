@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='../index.html'"></i>
+            <div class="title">マイウォレット</div>
+            <i class="refresh_ic"></i>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--我的錢包-->
+        <div class="walletWrap">
+            <!--上半-->
+            <div class="walletBox">
+                <!--漸層-->
+                <div class="gradient">
+                    <div class="content">
+                        <div class="amount">
+                            <div class="half">
+                                <div class="title">
+                                    ウォレット
+                                </div>
+                                <p class="money">$9999</p>
+                            </div>
+                            <div class="half">
+                                <div class="title">
+                                    出金可能額
+                                </div>
+                                <p class="money">$9999</p>
+                            </div>
+                        </div>
+                        <div class="limit">
+                            <p>ベット額制限</p>
+                            <p class="money">0</p>
+                        </div>
+                    </div>
+                </div>
+                <!--轉存提-->
+                <ul>
+                    <li onclick="window.location.href='./deposit.html'">
+                        <i class="deposit_ic"></i>
+                        <p>入金</p>
+                    </li>
+                    <li onclick="window.location.href='./withdrawal.html'">
+                        <i class="withdrawal_ic"></i>
+                        <p>出金</p>
+                    </li>
+                </ul>
+            </div>
+            <!--選項-->
+            <div class="options" onclick="window.location.href='./dealRecord.html'">
+                <div>
+                    <i class="icon record"></i>
+                    <p>取引履歷</p>
+                </div>
+                <i class="arrow_ic"></i>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li class="active" onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter"></div>
+    <div class="bg"></div>
+</body>
+</html>

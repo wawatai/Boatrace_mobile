@@ -1,0 +1,646 @@
+//會員中心
+.memberWrap {
+    width: 100%;
+    height: auto;
+    min-height: calc(100vh - 92px);
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+    //玩家資訊
+    .user {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        background: $backgroundColor_2;
+        padding-bottom: 19px;
+        border-bottom: solid 1px $borderColor_6;
+
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            padding: 20px 15px 17px;
+            box-sizing: border-box;
+            width: 100%;
+            height: auto;
+
+            div {
+
+                .account {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 9px;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    color: $font-color_2;
+                    font-weight: bold;
+
+                    .lv {
+                        min-width: 50px;
+                        width: auto;
+                        height: 18px;
+                        padding: 0 5px;
+                        margin-right: 9px;
+                        border-radius: 1vw;
+                        background: $backgroundColor_5;
+                        font-size: 14px;
+                        letter-spacing: 1px;
+                        font-weight: bold;
+                        color: $font-color_1;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                .date {
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    color: $font-color_13;
+                }
+            }
+
+            button {
+                width: auto;
+                height: auto;
+                @include buttonStyle_5;
+                font-size: 14px;
+                padding: 4px 15px;
+            }
+        }
+
+        .wallet {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 12px;
+
+            p {
+                display: flex;
+                align-items: center;
+                width: 64.53vw;
+                height: 8.27vw;
+                box-sizing: border-box;
+                padding-left: 16px;
+                background: $backgroundColor_15;
+                border-style: solid;
+                border-width: 1px 0 1px 1px;
+                border-color: $borderColor_6;
+                border-radius: 3px 0 0 3px;
+                font-size: 16px;
+                letter-spacing: 1px;
+                color: $font-color_10;
+                font-weight: bold;
+            }
+
+            button {
+                width: 27.73vw;
+                height: 8.27vw;
+                @include buttonStyle_9;
+                border-radius: 0 3px 3px 0;
+                border-style: solid;
+                border-width: 1px 1px 1px 0;
+                border-color: $borderColor_6;
+            }
+        }
+
+        .btnBox {
+            display: flex;
+            width: 92.26vw;
+            height: auto;
+            margin: 0 auto;
+            justify-content: space-between;
+
+            button {
+                width: 45.07vw;
+                height: 18.4vw;
+                @include buttonStyle_2;
+
+                &:active,&.active {
+
+                    .text {
+                        color: $font-color_1;
+
+                        p {
+                            color: $font-color_1;
+                        }
+                    }
+
+                    i {
+                        background-position-y: 100%;
+                    }
+                }
+
+                i {
+                    display: block;
+                    width: 9vw;
+                    height: 9vw;
+
+                    &.vip_ic {
+                        background-position-x: 100%;
+                    }
+                }
+
+                .text {
+                    margin-left: 3.47vw;
+                    font-size: 18px;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    color: $font-color_2;
+
+                    &.jp {
+                        font-size: 12px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        letter-spacing: 1px;
+                        color: $font-color_7;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            width: 92.26vw;
+            margin: 15px auto 0;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 23.53vw;
+                padding: 5px 0;
+                height: auto;
+                position: relative;
+                border-radius: 3px;
+
+                &:active,&.active {
+                    background: $backgroundColor_1;
+
+                    i {
+                        background-position-y: 100%;
+                    }
+
+                    p {
+                        color: $font-color_1;
+                    }
+                }
+
+                i {
+                    display: block;
+                    width: 10.4vw;
+                    height: 9.33vw;
+
+                    &.mail_ic {
+                        background-position-x: -20.8vw;
+                    }
+                    &.card_ic {
+                        background-position-x: -31.2vw;
+                    }
+                }
+
+                p {
+                    font-size: 13px;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    margin-top: 5px;
+                    color: $font-color_7;
+                    width: 100%;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    text-align: center;
+                }
+
+                .bubble {
+                    position: absolute;
+                    width: auto;
+                    height: auto;
+                    min-width: 17px;
+                    min-height: 17px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 12px;
+                    padding: 0 1px 2px;
+                    top: 2px;
+                    right: 17px;
+                    border-radius: 50%;
+                    color: $font-color_1;
+                    background: $backgroundColor_5;
+                }
+            }
+        }
+    }
+
+    //選項條
+    .options {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        padding: 0 14px 0 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: $backgroundColor_2;
+        margin-bottom: 10px;
+        border: solid 1px $borderColor_6;
+
+        &:active,&.active {
+            background: $backgroundColor_1;
+
+            i {
+                background-position-y: 100%;
+            }
+
+            p {
+                color: $font-color_1;
+            }
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+
+            i {
+                display: block;
+                margin-right: 18px;
+                width: 7.5vw;
+                height: 7.5vw;
+
+                &.help_ic {
+                    background-position-x: 20%;
+                }
+                &.about_ic {
+                    background-position-x: 40%;
+                }
+                &.lang_ic {
+                    background-position-x: 80%;
+                }
+                &.logout_ic {
+                    background-position-x: 100%;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                color: $font-color_7;
+            }
+        }
+
+        .arrow_ic {
+            display: block;
+            width: 4vw;
+            height: 4vw;
+        }
+    }
+}
+
+//會員中心內頁滑軸
+.memberList {
+    display: flex;
+    background: $backgroundColor_2;
+    overflow-x: auto;
+    width: 100%;
+    height: auto;
+
+    span {
+        width: 50vw;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        border-bottom: solid 3px transparent;
+        font-weight: bold;
+        color: $font-color_7;
+        flex-shrink: 0;
+
+        &:active,&.active {
+            color: $font-color_2;
+            border-color: $borderColor_2;
+        }
+
+        &.noWrap {
+            width: auto;
+            white-space: nowrap;
+            padding: 0 5px;
+        }
+    }
+}
+
+//會員中心內頁基本情報
+.memberInfo {
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100vh - 153px);
+    padding: 25px 0;
+    box-sizing: border-box;
+
+    form {
+        width: 100%;
+        height: auto;
+        background: $backgroundColor_2;
+        padding-bottom: 1px;
+
+        .inputList {
+
+            li {
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+                padding: 7px 17px;
+                border-top: solid 1px $borderColor_5;
+                flex-wrap: wrap;
+                position: relative;
+
+                &.active {
+                    height: 103px;
+                    
+                    button {
+                        display: block;
+                    }
+                }
+    
+                em {
+    
+                    &::before {
+                        content: "※";
+                        color: $font-color_14;
+                        padding-right: 5px;
+                        font-size: 14px;
+                    }
+                }
+    
+                span {
+                    width: 20vw;
+                    color: $font-color_7;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+    
+                input {
+                    width: 64vw;
+                    height: 36px;
+                    @include inputStyle_2;
+
+                    &.userName {
+                        color: $font-color_2;
+                    }
+                }
+
+                button {
+                    display: none;
+                    @include buttonStyle_9;
+                    border-radius: 3px;
+                }
+
+                .err {
+                    display: none;
+                    width: auto;
+                    position: absolute;
+                    right: 36px;
+                    bottom: 2px;
+                    color: $font-color_3;
+                    font-size: 12px;
+
+                    &.display {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        button {
+            width: 88vw;
+            height: 42px;
+            @include buttonStyle_5;
+            display: block;
+            margin: 8px auto;
+        }
+    }
+
+    .info_1 {
+        width: 100%;
+        height: auto;
+        background: $backgroundColor_2;
+
+        ul {
+            width: 100%;
+            height: auto;
+
+            li {
+                width: 100%;
+                height: 50px;
+                border-top: solid 1px $borderColor_5;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-sizing: border-box;
+                padding: 0 24px;
+
+                span {
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: $font-color_2;
+
+                    &.title {
+                        color: $font-color_7;
+                    }
+                }
+            }
+        }
+    }
+
+    .info_2 {
+        width: 100%;
+        height: auto;
+        background: $backgroundColor_2;
+
+        li {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            padding: 0 24px;
+            border-top: solid 1px $borderColor_5;
+            flex-wrap: wrap;
+
+            &.active {
+                height: 100px;
+                
+                button {
+                    display: block;
+                }
+            }
+
+            &.security {
+                height: 70px;
+
+                div {
+                    width: 100%;
+                    height: 42px;
+                    display: flex;
+                    align-items: center;
+                    background: $backgroundColor_16;
+                    border: solid 1px $borderColor_8;
+                    color: $font-color_7;
+                    padding: 0 20px;
+                    border-radius: 3px;
+                    box-sizing: border-box;
+                    font-size: 14px;
+                    font-weight: bold;
+
+                    span {
+                        padding-left: 5px;
+                        width: auto;
+
+                        &.low {
+                            color: $font-color_15;
+                        }
+
+                        &.middle {
+                            color: $font-color_16;
+                        }
+
+                        &.high {
+                            color: $font-color_17;
+                        }
+                    }
+                }
+            }
+
+            &.pwd {
+                border-bottom: solid 1px $borderColor_5;
+
+                .title {
+                    width: 88vw;
+                }
+            }
+
+            i {
+                display: block;
+                margin-right: 12px;
+                width: 24px;
+                height: 24px;
+            }
+
+            span {
+                display: flex;
+                font-size: 13px;
+                font-weight: bold;
+                align-items: center;
+                width: 28vw;
+                justify-content: flex-end;
+
+                &.title {
+                    width: 57vw;
+                    justify-content: flex-start;
+                }
+
+                &.empty {
+                    color: $font-color_3;
+                }
+            }
+
+            button {
+                display: none;
+                width: 88vw;
+                height: 42px;
+                @include buttonStyle_9;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+
+//會員中心內頁平台帳戶
+.memberPlatform {
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100vh - 153px);
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    
+    .platformBox {
+        width: 90%;
+        height: auto;
+        margin: 12px auto 0;
+        background: $backgroundColor_2;
+        border: solid 1px $borderColor_5;
+        border-radius: 3px;
+
+        .title {
+            width: 100%;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            padding: 0 14px;
+            color: $font-color_2;
+            border-bottom: solid 1px $borderColor_5;
+        }
+
+        .content {
+            width: 100%;
+            height: auto;
+
+            li {
+                display: flex;
+                justify-content: space-between;
+                box-sizing: border-box;
+                width: 100%;
+                height: 42px;
+                align-items: center;
+                padding: 0 14px;
+
+                p {
+                    color: $font-color_7;
+                    font-size: 14px;
+                }
+
+                button {
+                    width: 55px;
+                    height: 32px;
+                    @include buttonStyle_5;
+                    font-size: 15px;
+                    margin-left: 12px;
+
+                    &.un {
+                        background: none;
+                        border: none;
+                        color: transparent;
+                        pointer-events: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .memberInfo {
+
+        .info_2 {
+
+            li {
+
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

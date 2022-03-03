@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='./member.html'"></i>
+            <div class="title">銀行口座を連携</div>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--上部-->
+        <div class="cardList">
+            <p class="title">カードの数 0<span> / 無制限</span></p>
+            <ul>
+                <li class="empty">
+                    <div class="addCard"></div>
+                    <div class="status">
+                        <p>先に銀行口座情報を連携してください,</p>
+                        <p>入金に使用されます</p>
+                    </div>
+                    <p class="smallTitle"></p>
+                    <p class="smallBranch"></p>
+                    <p class="code"></p>
+                    <p class="waiting"></p>
+                </li>
+                <li class="waiting">
+                    <div class="addCard"></div>
+                    <div class="status">
+                        <p>先に銀行口座情報を連携してください,</p>
+                        <p>入金に使用されます</p>
+                    </div>
+                    <p class="smallTitle">台中商銀</p>
+                    <p class="smallBranch">台中</p>
+                    <p class="code">***21232</p>
+                    <p class="waiting">レビュー中</p>
+                </li>
+                <li>
+                    <div class="addCard"></div>
+                    <div class="status">
+                        <p>先に銀行口座情報を連携してください,</p>
+                        <p>入金に使用されます</p>
+                    </div>
+                    <p class="smallTitle">台中商銀</p>
+                    <p class="smallBranch">台中</p>
+                    <p class="code">***21232</p>
+                    <p class="waiting">レビュー中</p>
+                </li>
+            </ul>
+        </div>
+        <!--下部-->
+        <div class="cardContent">
+            <form>
+                <p class="title">
+                    <span>※</span>
+                    出金方法
+                </p>
+                <select>
+                    <option value="" disabled>選んでください</option>
+                    <option value="bank" selected>銀行口座</option>
+                    <option value="usdt">USDT</option>
+                    <option value="vp">VenusPoint</option>
+                </select>
+                <div class="forBank display">
+                    <p class="title">
+                        <span>※</span>
+                        銀行名
+                    </p>
+                    <input type="text">
+                    <p class="remind">関連する単語を入力して、銀行名を選んでください; メニューをクリックして銀行名情報を入力し、情報が正しいことを確認してください。</p>
+                    <p class="title">
+                        <span>※</span>
+                        支店名
+                    </p>
+                    <input type="text">
+                    <p class="title">
+                        <span>※</span>
+                        口座名義(カタカナ)
+                    </p>
+                    <input type="text">
+                    <p class="title">
+                        <span>※</span>
+                        銀行口座番号
+                    </p>
+                    <input type="text">
+                    <p class="remind">入金と出金の銀行口座は同じでなければなりません。</p>
+                    <p class="title">
+                        <span>※</span>
+                        口座番号を確認する
+                    </p>
+                    <input type="text">
+                    <p class="remind">入金と出金の銀行口座は同じでなければなりません。</p>
+                    <button>確認</button>
+                </div>
+                <div class="forUsdt">
+                    <p class="title">
+                        <span>※</span>
+                        ウォレットアドレス
+                    </p>
+                    <input type="text">
+                    <button>確認</button>
+                </div>
+                <div class="forVp">
+                    <p class="title">
+                        <span>※</span>
+                        VPアカウント
+                    </p>
+                    <input type="text">
+                    <p class="title">
+                        <span>※</span>
+                        VPパスワード
+                    </p>
+                    <input type="text">
+                    <button>確認</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter"></div>
+    <div class="bg"></div>
+</body>
+</html>

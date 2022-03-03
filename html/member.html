@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <div class="title">マイページ</div>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--會員中心-->
+        <div class="memberWrap">
+            <!--玩家資訊-->
+            <div class="user">
+                <div class="info">
+                    <div>
+                        <div class="account">
+                            <div class="lv">工程測試階級</div>
+                            user898
+                        </div>
+                        <p class="date">加入通博第 485 天</p>
+                    </div>
+                    <button onclick="window.location.href='./member_info.html'">個人情報</button>
+                </div>
+                <div class="wallet">
+                    <p>ウォレット: $ 500000</p>
+                    <button>今すぐ入金</button>
+                </div>
+                <div class="btnBox">
+                    <button onclick="window.location.href='./wallet.html'">
+                        <i class="wallet_ic"></i>
+                        <div class="text jp">
+                            マイウォレット
+                            <p>MY PURSE</p>
+                        </div>
+                    </button>
+                    <button onclick="window.location.href='./vip.html'">
+                        <i class="vip_ic"></i>
+                        <div class="text">
+                            VIP
+                            <p>VIP</p>
+                        </div>
+                    </button>
+                </div>
+                <ul>
+                    <li onclick="window.location.href='./dealRecord.html'">
+                        <i class="deal_ic"></i>
+                        <p>取引履歷</p>
+                    </li>
+                    <li onclick="window.location.href='./mail.html'">
+                        <i class="mail_ic"></i>
+                        <p>インボックス</p>
+                        <em class="bubble">4</em>
+                    </li>
+                    <li onclick="window.location.href='./card.html'">
+                        <i class="card_ic"></i>
+                        <p>銀行口座</p>
+                    </li>
+                </ul>
+            </div>
+            <!--選項條-->
+            <div class="options" onclick="window.location.href='./eventApply.html'">
+                <div>
+                    <i class="eventApply_ic"></i>
+                    <p>プロモーション申請</p>
+                </div>
+                <i class="arrow_ic"></i>
+            </div>
+            <div class="options" onclick="window.location.href='./help_new.html'">
+                <div>
+                    <i class="help_ic"></i>
+                    <p>ヘルプ​センター</p>
+                </div>
+                <i class="arrow_ic"></i>
+            </div>
+            <div class="options" onclick="window.location.href='./help_about.html'">
+                <div>
+                    <i class="about_ic"></i>
+                    <p>当社について</p>
+                </div>
+                <i class="arrow_ic"></i>
+            </div>
+            <div class="options opLang">
+                <div>
+                    <i class="lang_ic"></i>
+                    <p>日本語</p>
+                </div>
+                <i class="arrow_ic"></i>
+            </div>
+            <div class="options" onclick="window.location.href='../index.html'">
+                <div>
+                    <i class="logout_ic"></i>
+                    <p>登出</p>
+                </div>
+                <i class="arrow_ic"></i>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li class="active" onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter">
+        <!--language-->
+        <div class="jumpWindow langWindow">
+            <div class="title">
+                <i class="close"></i>
+            </div>
+            <ul>
+                <li>繁體中文</li>
+                <li>简体中文</li>
+                <li class="active">日本語</li>
+                <li>English</li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg"></div>
+</body>
+</html>

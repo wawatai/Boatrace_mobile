@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='./wallet.html'"></i>
+            <div class="title">入金エリア</div>
+            <button class="detailBtn" onclick="window.location.href='./help_new.html'">チュートリアル</button>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--存款-->
+        <div class="depositWrap">
+            <!--跑馬燈-->
+            <div class="marqueeBox">
+                <i class="marquee_ic"></i>
+                <div class="marquee">
+                    <pre>公告測試公告測試公告測試</pre>
+                </div>
+            </div>
+            <!--存款選單-->
+            <div class="depositList">
+                <p class="title">決済方法を選択</p>
+                <ul>
+                    <li class="active">
+                        <i class="bankCard_ic"></i>
+                        <p>銀行振込</p>
+                    </li>
+                    <li>
+                        <i class="atm_ic"></i>
+                        <p>ATM</p>
+                    </li>
+                    <li>
+                        <i class="usdt_ic"></i>
+                        <p>USDT</p>
+                    </li>
+                    <li>
+                        <i class="bank_ic"></i>
+                        <p>ウェブバンク決済</p>
+                    </li>
+                    <li>
+                        <i class="shop_ic"></i>
+                        <p>コンビニコード</p>
+                    </li>
+                </ul>
+            </div>
+            <!--內容-->
+            <div class="depositCnt forBankCard display">
+                <p class="title">
+                    銀行名を選んでください
+                    <span class="remind">連携された銀行からの送金のみを受け入れます</span>
+                </p>
+                <select>
+                    <option value="">上海銀行-上海分行</option>
+                    <option value="">上海銀行-北京分行</option>
+                    <option value="">上海銀行-南京分行</option>
+                </select>
+                <span class="remind">尾翼番号:***21232 </span>
+                <p class="title">入金額</p>
+                <input type="text" placeholder="入金額を入力してください">
+                <span class="remind">入金額は「$0〜無制限」でなければなりません</span>
+                <button class="check">今すぐ入金</button>
+            </div>
+            <div class="depositCnt forAtm">
+                <p class="title">
+                    <span class="red">※</span>
+                    チャンネルを選択
+                </p>
+                <select>
+                    <option value="">虛擬帳號</option>
+                    <option value="">虛擬帳號</option>
+                    <option value="">虛擬帳號</option>
+                </select>
+                <p class="title">
+                    <span class="red">※</span>
+                    入金額
+                </p>
+                <input type="text" placeholder="入金額を入力してください">
+                <span class="remind">入金額は「$10〜$50,000」でなければなりません</span>
+                <span class="remind">参照為替レート - $1 : $1</span>
+                <button class="check">今すぐ入金</button>
+            </div>
+            <div class="depositCnt forUsdt">
+                <p class="title">
+                    <span class="red">※</span>
+                    チャンネルを選択
+                </p>
+                <select>
+                    <option value="">JP付測試</option>
+                    <option value="">虛擬帳號</option>
+                    <option value="">虛擬帳號</option>
+                </select>
+                <p class="title">
+                    <span class="red">※</span>
+                    入金額
+                </p>
+                <input type="text" placeholder="入金額を入力してください">
+                <span class="remind">入金額は「USDT$10〜USDT$100,000」でなければなりません</span>
+                <span class="remind">参照為替レート - USDT$1 : $114.3243</span>
+                <button class="check">今すぐ入金</button>
+            </div>
+            <div class="depositCnt forBank">
+                <p class="title">
+                    <span class="red">※</span>
+                    チャンネルを選択
+                </p>
+                <select>
+                    <option value="">綠界</option>
+                    <option value="">綠界</option>
+                    <option value="">綠界</option>
+                </select>
+                <p class="title">
+                    <span class="red">※</span>
+                    入金額
+                </p>
+                <input type="text" placeholder="入金額を入力してください">
+                <span class="remind">入金額は「$10〜$10,000」でなければなりません</span>
+                <span class="remind">参照為替レート - $1 : $1</span>
+                <button class="check">今すぐ入金</button>
+            </div>
+            <div class="depositCnt forShop">
+                <p class="title">
+                    <span class="red">※</span>
+                    チャンネルを選択
+                </p>
+                <select>
+                    <option value="">存款測試用</option>
+                    <option value="">存款測試用</option>
+                    <option value="">存款測試用</option>
+                </select>
+                <p class="title">
+                    <span class="red">※</span>
+                    入金額
+                </p>
+                <input type="text" placeholder="入金額を入力してください">
+                <span class="remind">入金額は「$10〜$500」でなければなりません</span>
+                <span class="remind">参照為替レート - $1 : $1</span>
+                <button class="check">今すぐ入金</button>
+            </div>
+            <div class="depositCnt ing">
+                <p class="title">下記口座にご入金ください</p>
+                <p class="content">
+                    <span class="smallTitle">銀行</span>
+                    <span class="info">測試銀行-分行</span>
+                </p>
+                <p class="content">
+                    <span class="smallTitle">口座番号</span>
+                    <span class="info">
+                        852852
+                        <button class="copy">コピー</button>
+                    </span>
+                </p>
+                <p class="content">
+                    <span class="smallTitle">口座名義(カタカナ)</span>
+                    <span class="info">
+                        AZGGG
+                        <button class="copy">コピー</button>
+                    </span>
+                </p>
+                <div class="contentBox">
+                    <p>
+                        $1500
+                        <button class="copy">コピー</button>
+                    </p>
+                    <span>(振込金額は注文金額と同じである必要があります!!)</span>
+                </div>
+                <button class="check">送金しました</button>
+            </div>
+            <!--提醒-->
+            <div class="remindBox">
+                <div class="title">ご注意</div>
+                <p>1. 入金口座はメンバーの銀行口座である必要があり、メンバーの口座以外の場合、入金は正常に入金されません。</p>
+                <p>2. 入金額は申込時に提出された金額と同一でなければならず、同一でない場合は実際の入金額が優先されます。</p>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li class="active" onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter display">
+        <!--未綁定銀行卡-->
+        <div class="jumpWindow plsGo display">
+            <div class="title">ヒント</div>
+            <div class="content">
+                <p>銀行口座を使用する前に、</p>
+                <p>銀行カード情報を入カしてください</p>
+            </div>
+            <div class="btnBox">
+                <button class="close">確認</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+</body>
+</html>

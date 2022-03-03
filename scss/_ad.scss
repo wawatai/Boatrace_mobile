@@ -1,0 +1,93 @@
+//ad
+.ad {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .single-item {
+        margin-bottom: 13vw;
+
+        .slick-list {
+            height: 100%;
+
+            .slick-track {
+                height: 100%;
+
+                img {
+                    outline: none;
+                }
+            }
+        }
+        
+        .slick-dots {
+            bottom: -13vw;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 13vw;
+            width: 100%;
+            background: $backgroundColor_2;
+            border-bottom: solid 1px $borderColor_3;
+
+            li {
+                
+                button {
+
+                    &::before {
+                        width: 3vw;
+                        height: 3vw;
+                        background: $backgroundColor_4;
+                        border-radius: 3vw;
+                        opacity: 1;
+                        color: transparent;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                }
+
+                &.slick-active {
+
+                    button {
+
+                        &::before {
+                            background: $backgroundColor_1;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slick-prev,.slick-next {
+            top: unset;
+            bottom: calc(-13vw + 1px);
+            transform: translate(0);
+            width: 13vw;
+            height: 13vw;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 4vw;
+                height: 7vw;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+
+        .slick-prev {
+            left: 0;
+        }
+        .slick-next {
+            right: 0;
+
+            &::before {
+                transform: translate(-50%,-50%) scaleX(-1);
+            }
+        }
+    }
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='./member.html'"></i>
+            <div class="title">プロモーション申請</div>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--上滑選單-->
+        <div class="applyHeader">
+            <ul>
+                <li class="active">プロモーション申請</li>
+                <li>出金が適用されました</li>
+                <li>プロモーション申請履歴</li>
+            </ul>
+        </div>
+        <!--內容-->
+        <div class="applyBody apply display">
+            <ul class="list">
+                <li class="box">
+                    <div class="title">測試優惠任務1</div>
+                    <ul>
+                        <li>
+                            <label>プロモーション時間</label>
+                            <p>
+                                <em>無制限</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>ボーナスポイント履歷</label>
+                            <p>
+                                <em class="sp">1</em>
+                                / 1
+                            </p>
+                        </li>
+                        <li>
+                            <label>ボーナスポイント</label>
+                            <p>10.00</p>
+                        </li>
+                        <li>
+                            <label>有効ベット額</label>
+                            <p>1</p>
+                        </li>
+                        <li class="cur">
+                            <label>現在ベット額</label>
+                            <p>
+                                <em>0</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>現時点で請求できるボーナスポイント</label>
+                            <p>10.00</p>
+                        </li>
+                        <li>
+                            <label>ゲームプラットフォームを制限する</label>
+                            <p>無制限</p>
+                        </li>
+                    </ul>
+                    <div class="btnBox">
+                        <button class="applyBtn">出金申請する</button>
+                        <button class="seeBtn">プロモーションを見る</button>
+                    </div>
+                </li>
+                <li class="box">
+                    <div class="title">測試優惠任務2</div>
+                    <ul>
+                        <li>
+                            <label>プロモーション時間</label>
+                            <p>
+                                <em>無制限</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>プロモーション時間</label>
+                            <p>
+                                <em>每日</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>ボーナスポイント履歷</label>
+                            <p>
+                                <em class="sp">1</em>
+                                / 1
+                            </p>
+                        </li>
+                        <li>
+                            <label>ボーナスポイント</label>
+                            <p>300.00</p>
+                        </li>
+                        <li>
+                            <label>有効ベット額</label>
+                            <p>1</p>
+                        </li> 
+                        <li class="cur">
+                            <label>現在ベット額</label>
+                            <p>
+                                <em>0</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>ゲームプラットフォームを制限する</label>
+                            <p>無制限</p>
+                        </li>
+                    </ul>
+                    <div class="btnBox">
+                        <button class="applyBtn" disabled>出金申請する</button>
+                        <button class="seeBtn">プロモーションを見る</button>
+                    </div>
+                </li>
+                <li class="box">
+                    <div class="title">測試優惠任務3</div>
+                    <ul>
+                        <li>
+                            <label>プロモーション時間</label>
+                            <p>
+                                <em>無制限</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>ボーナスポイント履歷</label>
+                            <p>
+                                <em class="sp">1</em>
+                                / 1
+                            </p>
+                        </li>
+                        <li>
+                            <label>ギフト入金比率</label>
+                            <p>10%</p>
+                        </li>
+                        <li>
+                            <label>通常入金</label>
+                            <p>1000</p>
+                        </li>
+                        <li>
+                            <label>ベット額倍数</label>
+                            <p>5</p>
+                        </li>
+                        <li class="cur">
+                            <label>現在ベット額</label>
+                            <p>
+                                <em>0</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>ゲームプラットフォームを制限する</label>
+                            <p>無制限</p>
+                        </li>
+                    </ul>
+                    <div class="btnBox">
+                        <button class="applyBtn" disabled>出金申請する</button>
+                        <button class="seeBtn" disabled>プロモーションを見る</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="applyBody already">
+            <ul class="list">
+                <li class="box">
+                    <div class="title">測試優惠任務1</div>
+                    <ul>
+                        <li>
+                            <label>プロモーション時間</label>
+                            <p>
+                                <em>無制限</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>ボーナスポイント履歷</label>
+                            <p>
+                                <em class="sp">1</em>
+                                / 1
+                            </p>
+                        </li>
+                        <li>
+                            <label>ボーナスポイント</label>
+                            <p>10.00</p>
+                        </li>
+                        <li>
+                            <label>有効ベット額</label>
+                            <p>1</p>
+                        </li>
+                        <li class="cur">
+                            <label>現在ベット額</label>
+                            <p>
+                                <em>0</em>
+                            </p>
+                        </li>
+                        <li>
+                            <label>現時点で請求できるボーナスポイント</label>
+                            <p>10.00</p>
+                        </li>
+                        <li>
+                            <label>ゲームプラットフォームを制限する</label>
+                            <p>無制限</p>
+                        </li>
+                    </ul>
+                    <div class="btnBox">
+                        <button class="seeBtn">プロモーションを見る</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="applyBody applyRecord">
+            <div class="searchContain">
+                <form>
+                    <ul>
+                        <li>
+                            <p>タイプ</p>
+                            <select>
+                                <option value="">全て</option>
+                                <option value="">審査合格</option>
+                                <option value="">キャンセル</option>
+                                <option value="">審査失敗</option>
+                                <option value="">待っています</option>
+                                <option value="">審査中</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>日付</p>
+                            <div class="date">
+                                <input type="date">
+                                <input type="date">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btnBox">
+                                <button type="button">昨日</button>
+                                <button type="button" class="active">今日</button>
+                                <button type="button">今週</button>
+                                <button type="button" class="noBorder">今月</button>
+                            </div>
+                        </li>
+                        <li class="noMar">
+                            <button type="button" class="check">検索</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="review">
+                <div class="noData display">データなし</div>
+                <div class="recordBox">
+                    <ul>
+                        <li class="title">
+                            測試
+                            <p>
+                                ステータス
+                                <span class="status">審查中</span>
+                            </p>
+                        </li>
+                        <li>
+                            申請日
+                            <span>2022-02-07 09:44:56</span>
+                        </li>
+                        <li>
+                            ベット額
+                            <span>1.00</span>
+                        </li>
+                        <li>
+                            現在ベット額
+                            <span>0.0000</span>
+                        </li>
+                        <li>
+                            ボーナスポイント
+                            <span>10.00</span>
+                        </li>
+                        <li>
+                            パーセンテージ
+                            <span>-</span>
+                        </li>
+                        <li>
+                            最大ボーナスポイント
+                            <span>-</span>
+                        </li>
+                        <li>
+                            最小のベット額
+                            <span>-</span>
+                        </li>
+                        <li>
+                            理由
+                            <span class="reason">-</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="recordBox">
+                    <ul>
+                        <li class="title">
+                            測試
+                            <p>
+                                ステータス
+                                <span class="status">審查中</span>
+                            </p>
+                        </li>
+                        <li>
+                            申請日
+                            <span>2022-02-07 09:44:56</span>
+                        </li>
+                        <li>
+                            ベット額
+                            <span>1.00</span>
+                        </li>
+                        <li>
+                            現在ベット額
+                            <span>0.0000</span>
+                        </li>
+                        <li>
+                            ボーナスポイント
+                            <span>10.00</span>
+                        </li>
+                        <li>
+                            パーセンテージ
+                            <span>-</span>
+                        </li>
+                        <li>
+                            最大ボーナスポイント
+                            <span>-</span>
+                        </li>
+                        <li>
+                            最小のベット額
+                            <span>-</span>
+                        </li>
+                        <li>
+                            理由
+                            <span class="reason">-</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter">
+        <!--活動詳情-->
+        <div class="jumpWindow activityWindow">
+            <div class="title">ミッションの詳しく</div>
+            <div class="content">
+                <div class="box">
+                    <img src="../images/new/eventImg_1.png">
+                    <p>測試測試測試測試測試測試測試測試測試測試</p>
+                    <p>測試測試測試測試測試測試測試測試測試測試</p>
+                    <p>測試測試測試測試</p>
+                    <p>測試測試測試測試測試測試測試測試測試測試試測試試測試</p>
+                </div>
+                <div class="btnBox">
+                    <button class="close">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+</body>
+</html>

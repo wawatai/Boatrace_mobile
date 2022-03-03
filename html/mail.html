@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='./member.html'"></i>
+            <div class="title">インボックス</div>
+            <button class="editBtn display"></button>
+            <button class="doneBtn">完成</button>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--上滑選單-->
+        <div class="mailHeader">
+            <ul>
+                <li class="active">メッセージ</li>
+                <li>お知らせ</li>
+            </ul>
+        </div>
+        <!--內容-->
+        <div class="mailBody normal display">
+            <div class="subClass">
+                <button class="left active"><p>システムインフォメーション</p></button>
+                <button class="right"><p>プライベート・メッセージ</p></button>
+            </div>
+            <div class="editBox">
+                <div class="all">
+                    <input type="checkbox">
+                    全て
+                </div>
+                <div class="modify">
+                    <button>既読</button>
+                    <button class="delete">削除</button>
+                </div>
+            </div>
+            <div class="list system display">
+                <ul class="mailBox">
+                    <li onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                    <li onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                    <li onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="list personal">
+                <ul class="mailBox">
+                    <li class="read" onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする会社のコンテンツをテストす会社のコンテンツをテストす</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                    <li class="read" onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                    <li onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                    <li class="read" onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                    <li class="read" onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                    <li class="read" onclick="window.location.href='./mail_page.html'">
+                        <div class="title">テスト会社のテーマ</div>
+                        <div class="textBox">
+                            <p>会社のコンテンツをテストする</p>
+                            <span class="date">2021/06/16</span>
+                        </div>
+                        <div class="inputBox"><input type="checkbox"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mailBody post">
+            <div class="subClass">
+                <ul>
+                    <li>
+                        <button class="active">人気</button>
+                    </li>
+                    <li class="mid">
+                        <button>ノーマル</button>
+                    </li>
+                    <li>
+                        <button>入金</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="list pop display">
+                <ul class="mailBox">
+                    <li onclick="window.location.href='./mail_page.html'">
+                        <p>ルーキーシリーズ第２戦スカパー！・ＪＬＣ杯</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="list nor">
+                <ul class="mailBox">
+                    <li onclick="window.location.href='./mail_page.html'">
+                        <p>ルーキーシリーズ第２戦スカパー！・ＪＬＣ杯</p>
+                    </li>
+                    <li onclick="window.location.href='./mail_page.html'">
+                        <p>読売新聞社杯　全日本王座決定戦　開設６９周年記念</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="list dep">
+                <ul class="mailBox">
+                    
+                </ul>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter"></div>
+    <div class="bg"></div>
+</body>
+</html>

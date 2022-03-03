@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <img class="logo" src="./images/new/icon/logo.png">
+            <!--語言列-->
+            <label>
+                <button class="lang">日本語</button>
+            </label>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--跑馬燈-->
+        <div class="marqueeBox">
+            <i class="marquee_ic"></i>
+            <div class="marquee">
+                <pre>公告測試公告測試公告測試</pre>
+            </div>
+        </div>
+        <!--登入區-->
+        <div class="memberArea">
+            <!--大登入按鈕-->
+            <div class="loginBtn display">
+                <span>ログイン / 登録</span>
+            </div>
+            <!--大登入按鈕登入後樣式-->
+            <div class="alLogin">
+                <ul>
+                    <li>
+                        <span class="name">user898</span>
+                        <div class="lv">工程測試階級</div>
+                    </li>
+                    <li class="amount">$9883</li>
+                </ul>
+            </div>
+            <!--存提-->
+            <div class="operate">
+                <div onclick="unlogin()">
+                    <span>入</span>
+                </div>
+                <div onclick="unlogin()">
+                    <span>出</span>
+                </div>
+                <div class="vipBtn" onclick="window.location.href='./html/vip.html'">
+                    <span>VIP</span>
+                </div>
+            </div>
+        </div>
+        <!--圖片輪播-->
+        <div class="ad">
+            <section class="single-item">
+                <img src="./images/new/banner.png">
+                <img src="./images/new/banner.png">
+                <img src="./images/new/banner.png">
+                <img src="./images/new/banner.png">
+            </section>
+        </div>
+        <!--遊戲區-->
+        <div class="homeCenter">
+            <ul class="gameList">
+                <ol>
+                    <button class="bigBtn">主要賽事日程表</button>
+                    <ol class="page display">
+                        <li class="league3" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                桐生
+                                <span class="type"></span>
+                            </p>
+                            <p>3日目</p>
+                        </li>
+                        <li class="league2" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                戶田
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li class="league1" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                江戶川
+                                <span class="type"></span>
+                            </p>
+                            <p>2日目</p>
+                        </li>
+                        <li class="league0" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                平和島
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li class="typeM" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                多摩川
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li class="typeA" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                浜名湖
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li class="noMar typeN" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                蒲郡
+                                <span class="type"></span>
+                            </p>
+                            <p>4日目</p>
+                        </li>
+                        <li class="noMar" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                常滑
+                                <span class="type"></span>
+                            </p>
+                            <p>4日目</p>
+                        </li>
+                    </ol>
+                    <ol class="page">
+                        <li class="typeNoob" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                津
+                                <span class="type"></span>
+                            </p>
+                            <p>3日目</p>
+                        </li>
+                        <li class="typeGold" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                三国
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li class="typeGirl" onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                びわこ
+                                <span class="type"></span>
+                            </p>
+                            <p>2日目</p>
+                        </li>
+                        <li onclick="unlogin()">
+                            <p class="name" >
+                                <span class="league"></span>
+                                住之江
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                尼崎
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                鳴門
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li onclick="unlogin()" class="noMar">
+                            <p class="name">
+                                <span class="league"></span>
+                                丸亀
+                                <span class="type"></span>
+                            </p>
+                            <p>4日目</p>
+                        </li>
+                        <li onclick="unlogin()" class="noMar">
+                            <p class="name">
+                                <span class="league"></span>
+                                児島
+                                <span class="type"></span>
+                            </p>
+                            <p>4日目</p>
+                        </li>
+                    </ol>
+                    <ol class="page">
+                        <li onclick="unlogin()" class="league3 typeM">
+                            <p class="name">
+                                <span class="league"></span>
+                                宮島
+                                <span class="type"></span>
+                            </p>
+                            <p>3日目</p>
+                        </li>
+                        <li onclick="unlogin()" class="league2 typeNoob">
+                            <p class="name">
+                                <span class="league"></span>
+                                徳山
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li onclick="unlogin()" class="league1 typeA">
+                            <p class="name">
+                                <span class="league"></span>
+                                下関
+                                <span class="type"></span>
+                            </p>
+                            <p>2日目</p>
+                        </li>
+                        <li onclick="unlogin()" class="league0 typeGold">
+                            <p class="name">
+                                <span class="league"></span>
+                                若松
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                芦屋
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li onclick="unlogin()">
+                            <p class="name">
+                                <span class="league"></span>
+                                福岡
+                                <span class="type"></span>
+                            </p>
+                            <p>-</p>
+                        </li>
+                        <li onclick="unlogin()" class="noMar">
+                            <p class="name">
+                                <span class="league"></span>
+                                唐津
+                                <span class="type"></span>
+                            </p>
+                            <p>4日目</p>
+                        </li>
+                        <li onclick="unlogin()" class="noMar">
+                            <p class="name">
+                                <span class="league"></span>
+                                大村
+                                <span class="type"></span>
+                            </p>
+                            <p>4日目</p>
+                        </li>
+                    </ol>
+                    <div class="pageList">
+                        <div class="prev"></div>
+                        <button class="active">1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <div class="next"></div>
+                    </div>
+                </ol>
+                <div class="remindBox">
+                    <p>
+                        <span class="morning_ic"></span>
+                        モーニング
+                    </p>
+                    <p>
+                        <span class="afternoon_ic"></span>
+                        サマータイム
+                    </p>
+                    <p>
+                        <span class="night_ic"></span>
+                        ナイター
+                    </p>
+                    <p>
+                        <span class="noob_ic"></span>
+                        ルーキーシリーズ
+                    </p>
+                    <p class="noMar">
+                        <span class="gold_ic"></span>
+                        オールレディース
+                    </p>
+                    <p class="noMar">
+                        <span class="girl_ic"></span>
+                        ヴィーナスシリーズ
+                    </p>
+                </div>
+            </ul>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li class="active" onclick="window.location.href='./index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="unlogin()">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="unlogin()">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="unlogin()">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li onclick="unlogin()">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter">
+        <!--請先登入-->
+        <div class="jumpWindow plsGo">
+            <div class="title">ヒント</div>
+            <div class="content">先にログインください</div>
+            <div class="btnBox">
+                <button class="close">確認</button>
+            </div>
+        </div>
+        <!--登入帳密視窗-->
+        <div class="jumpWindow loginWindow">
+            <div class="title">
+                <div class="icon"></div>
+                <p>メンバーログイン</p>
+                <i class="close"></i>
+            </div>
+            <form>
+                <label class="account">
+                    <input type="text" placeholder="アカウントまたは携帯電話番号を入力して">
+                </label>
+                <label class="pwd">
+                    <input type="password" placeholder="パスワード">
+                    <i class="eye"></i>
+                </label>
+                <div class="forget">
+                    <p>パスワード<span>を忘れましたか</span>?</p>
+                </div>
+                <button type="button" class="realLogin">ログイン</button>
+            </form>
+            <div class="registerBtn">
+                まだ会員ではありませんか？<p>新規会員登録</p>
+            </div>
+        </div>
+        <!--忘記密碼-->
+        <div class="jumpWindow forgetWindow">
+            <div class="title">
+                <p>パスワードをお忘れの方</p>
+                <i class="close"></i>
+            </div>
+            <form>
+                <input type="text" placeholder="携帯番号を入力してください">
+                <button>バスワード変更</button>
+                <p class="remind">
+                    <span>携帯電話に新しいパスワードをお送りしますので</span>
+                    <span>ショートメールをご確認ください</span>
+                </p>
+            </form>
+        </div> 
+        <!--註冊-->
+        <div class="jumpWindow registerWindow">
+            <div class="title">
+                <p>会員登録</p>
+                <i class="close"></i>
+            </div>
+            <form>
+                <label class="account">
+                    <input type="text" placeholder="アカウントを入力してください">
+                </label>
+                <label class="pwd">
+                    <input type="text" placeholder="パスワードを入力してください">
+                    <i class="eye"></i>
+                </label>
+                <label class="pwdCheck">
+                    <input type="text" placeholder="パスワードを確認">
+                </label>
+                <label class="mail">
+                    <input type="text" placeholder="招待コード">
+                </label>
+                <label class="phone">
+                    <input type="text" placeholder="携帯電話">
+                </label>
+                <label class="isCheck">
+                    <p class="pBox">
+                        <input type="checkbox">
+                        全部読んで同意する
+                    </p>
+                    <p class="detail">関連用語とプライバシーポリシー</p>
+                </label>
+                <button class="checkBtn">確認</button>
+            </form>
+        </div>
+        <!--使用條款-->
+        <div class="jumpWindow ruleWindow">
+            <div class="title">
+                <p>利用規約</p>
+                <i class="close"></i>
+            </div>
+            <div class="content">
+                <div class="ruleBody">
+                    <h2>遵守會員規範及法律規定</h2>
+                    <p>您瞭解您註冊成為會員後，即可使用本公司所提供之各項服務(以下稱本服務)。當會員使用本服務時，即表示除了同意遵守本服務條款外，還同意接受本公司對會員規範(包括各項遊戲規則、球賽投注規則、公告及注意事項等)及相關法令規定之拘束，本公司i88所有產品與客戶服務、軟件系統、網絡架構等相關業務事宜，請使用本服務之會員請遵守使用者當地法令之許可，如有違反之情事恕非本服務之負責範圍。</p>
+                    <h2>服務簡介</h2>
+                    <p>本公司旨在創造一個『安全可靠』、『即時便利』、『公平公正』、『專業營運』的優質娛樂服務平台，強調的讓會員不受時空的限制，24 小時隨時上線就可以參與一個公平公正的遊戲，亦可以享受到與世界各地玩家切磋的樂趣，我們秉持以客為尊的態度，不斷開發創新及了解客戶需求是本公司引以為傲的經營理念，翼望能創造出嶄新的娛樂價值以及達到多方普及的目的，成為具有領導指標性的娛樂網站。2.虛擬貨幣銀行服務：本公司提供網路金流付費平台，你所購買的點數將可享受符合本公司平台的服務。若您使用虛偽不正之方式進行「儲值」，本公司也將保留隨時終止您會員資格及使用各項服務之權利。</p>
+                    <h2>真實登錄義務</h2>
+                    <p>基於本公司所提供之各項服務，您同意於註冊時依註冊申請程序所提示之項目，登錄您本人正確、真實及完整之個人資料；當您的個人資料有異動時，請立即更新，以維持您個人資料之正確、真實及完整。如因您登錄不實資料或冒用他人名義以致於侵害他人之權利或違法時，應自負法律責任；您並同意您所提供之個人資料不實或個人資料有異動但沒有更新以致於與原登錄之資料不符時，本公司有權隨時終止您的會員資格及使用各項會員服務之權利。</p>
+                    <h2>服務之停止與更改</h2>
+                    <p>會員登錄之資料不實。2.使用他人的名義申請本服務。3.違反遊戲公平原則。4.參與遊戲或比賽時，故意鑽研系統漏洞或利用遊戲弱點以影響結果。5.違反本服務條款時。6.本公司不允許不公平的下注方式、雙邊下注、無風險下注及任何無風險解凍之下注方式，如有發現上述問題之玩家，本公司有終止玩家帳號使用之權力。如有任何爭議問題，本公司有最終決定權。無論任何情形，就停止或更改服務或終止會員帳戶服務所可能產生之困擾、不便或損害，本服務對任何會員或第三人均不負任何責任。</p>
+                    <h2>服務暫停或中斷</h2>
+                    <ul>
+                        <li>
+                            <p>本公司於下列情形之一時，得暫停或中斷本服務之全部或一部，對於使用者不負擔任何賠償責任：</p>
+                            <ol>
+                                <li>對於本服務相關系統設備進行遷移、更換或維護時。</li>
+                                <li>因不可歸責於本公司所造成服務停止或中斷。</li>
+                                <li>因不可抗力所造成服務停止或中斷</li>
+                            </ol>
+                            <li>
+                                <p>如因本公司對於本網站相關系統設備進行遷移、更換或維護而必須暫停或中斷全部或一部之服務時，本公司於暫停或中斷前將以電子郵件通知或於本網站上公告。</p>
+                            </li>
+                            <li>
+                                <p>對於本服務之暫停或中斷，可能造成您使用上的不便、資料遺失或其他經濟及時間上之損失，您平時應採取適當的防護措施，以保障您的權益。</p>
+                            </li>
+                        </li>
+                    </ul>
+                    <h2>保管義務</h2>
+                    <p>會員有義務妥善保管在本網站之帳號與密碼，並為此組帳號與密碼登入系統後所進行之一切活動負責。為維護會員自身權益，請勿將帳號與密碼洩露或提供予第三人知悉，或出借或轉讓他人使用。</p>
+                    <h2>同意各項球賽及遊戲規則</h2>
+                    <p>本服務條款如有增訂或修改，您同意自該修訂條款於本網站公告之時起受其拘束，本網站將不對會員個別通知。如您於公告後繼續使用本服務，則視為您已經同意該修訂條款。</p>
+                    <h2>隱私權聲明</h2>
+                    <p>我們致力為客戶保護隱私並提供一個最安全的遊戲平臺，我們在此網站搜集的資料將會為您提供最卓越的服務，我們不會出賣或租賃您的個人資料給第三方，客戶所提供的個人資料均經過 SSL128 加密技術處理，並儲存在安全的、非公開的作業系統，對於有機會接觸客戶的個人資料的協助夥伴也必需遵守我們訂立的隱私保密規則。</p>
+                    <h2>免責聲明</h2>
+                    <p>部份地區或國家法律尚未明定線上博彩的合法性問題，甚至某些地區或國家已明確規範線上博彩為非法行為。我們無意邀請任何人在這些地區或國家非法使用本服務平台。使用者必需確定在您所居住的地區或國家使用線上博彩是否合法，並負完全的責任，使用本服務之會員請遵守使用者當地法令之許可，如有違反之情事恕非本公司之負責範圍。</p>
+                </div>
+            </div>
+            <button class="close">同 意</button>
+        </div>
+        <!--最新公告-->
+        <div class="jumpWindow news">
+            <div class="title">
+                <p>最新のお知らせ</p>
+                <i class="close"></i>
+            </div>
+            <ul class="typeList">
+                <li class="active noMar">ノーマル</li>
+                <li>人気</li>
+                <li>入金</li>
+            </ul>
+            <ul class="content normal display">
+                <li class="noMar">
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+                <li>
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+                <li>
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+                <li>
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+                <li>
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+                <li>
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+            </ul>
+            <ul class="content hot">
+                <li class="noMar">
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+                <li>
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+                <li>
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試</div>
+                </li>
+            </ul>
+            <ul class="content deposit">
+                <li class="noMar">
+                    <div class="date">2022-01-13</div>
+                    <div class="text">工程測試工程測試工程測試工程測試工程測試工程測試工程測試工程測試</div>
+                </li>
+            </ul>
+        </div>
+        <!--language-->
+        <div class="jumpWindow langWindow">
+            <div class="title">
+                <i class="close"></i>
+            </div>
+            <ul>
+                <li>繁體中文</li>
+                <li>简体中文</li>
+                <li class="active">日本語</li>
+                <li>English</li>
+            </ul>
+        </div>
+    </div>
+    <!--背景色-->
+    <div class="bg"></div>
+</body>
+</html>

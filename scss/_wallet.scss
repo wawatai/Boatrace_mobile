@@ -1,0 +1,215 @@
+//我的錢包
+.walletWrap {
+    width: 100%;
+    min-height: calc(100vh - 92px);
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+    //上半
+    .walletBox {
+        width: 100%;
+        height: auto;
+        padding-bottom: 24px;
+        margin-bottom: 10px;
+        background: $backgroundColor_14;
+        border-bottom: solid 1px $borderColor_6;
+
+        //漸層
+        .gradient {
+            width: 100%;
+            height: auto;
+
+            .content {
+                width: 100%;
+                height: auto;
+                margin-bottom: 24px;
+                background: $backgroundColor_2;
+
+                .amount {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 92%;
+                        height: 1px;
+                        background: $backgroundColor_13;
+                    }
+
+                    .half {
+                        width: 50%;
+                        height: auto;
+                        box-sizing: border-box;
+                        padding: 12px 8px;
+
+                        .title {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 10px;
+                            color: $font-color_7;
+                            font-size: 15px;
+                            font-weight: bold;
+                            letter-spacing: 2px;
+                            padding-left: 10px;
+                        }
+
+                        .money {
+                            color: $font-color_2;
+                            font-size: 25px;
+                            font-weight: bold;
+                            display: flex;
+                            align-items: center;
+                            height: 33px;
+                            width: 100%;
+                            padding-left: 10px;
+                            box-sizing: border-box;
+                        }
+                    }
+                }
+
+                .limit {
+                    width: 100%;
+                    height: 43px;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 15px;
+                    box-sizing: border-box;
+
+                    p {
+                        font-size: 12px;
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        color: $font-color_3;
+
+                        &.money {
+                            margin-left: 10px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        //轉存提
+        ul {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0 8vw;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px 15px;
+                border-radius: 3px;
+
+                &:active,&.active {
+                    background: $backgroundColor_1;
+
+                    i {
+                        background: none;
+
+                        &::before {
+                            top: -11.47vw;
+                        }
+                    }
+
+                    p {
+                        color: $font-color_1;
+                    }
+                }
+
+                i {
+                    display: block;
+                    width: 11.47vw;
+                    height: 11.47vw;
+                    position: relative;
+                    overflow: hidden;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        filter: drop-shadow(0 11.47vw 0 $backgroundColor_2);
+                    }
+                }
+
+                p {
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    color: $font-color_7;
+                    padding-top: 6px;
+                }
+            }
+        }
+    }
+
+    //選項
+    .options {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        padding: 0 14px 0 23px;
+        margin-bottom: 17px;
+        border: solid 1px $borderColor_6;
+        border-width: 1px 0;
+        box-sizing: border-box;
+        background: $backgroundColor_2;
+
+        &:active,&.active {
+            background: $backgroundColor_1;
+
+            p {
+                color: $font-color_1;
+            }
+
+            .arrow_ic,.icon {
+                background-position-y: 100%;
+            }
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+
+            .icon {
+                display: block;
+                width: 5.6vw;
+                height: 7.3vw;
+                margin-right: 18px;
+
+                &.record {
+                    background-position-x: 100%;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                color: $font-color_7;
+            }
+        }
+
+        .arrow_ic {
+            display: block;
+            width: 2.13vw;
+            height: 3.5vw;
+        }
+    }
+}

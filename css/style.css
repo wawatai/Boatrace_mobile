@@ -1,0 +1,5153 @@
+@charset "UTF-8";
+button:disabled {
+  background: #cccccc !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  pointer-events: none;
+}
+
+header .content label::before {
+  background: url("../images/new/icon/arrow_w.png") no-repeat;
+  background-size: 100%;
+}
+
+header .back_arrow {
+  background: url("../images/new/icon/arrow_g.png") no-repeat;
+  background-size: 100%;
+  background-position-y: 100%;
+}
+
+header .refresh_ic {
+  background: url("../images/new/icon/svg/refresh_w.svg") no-repeat;
+  background-size: 100%;
+}
+
+.marqueeBox .marquee_ic {
+  background: url("../images/new/icon/marqueeIC.png") no-repeat;
+  background-size: 100%;
+}
+
+.memberArea .loginBtn::before {
+  background: url("../images/new/icon/loginIC.png") no-repeat;
+  background-size: 100%;
+}
+
+.gameList .type {
+  background: url("../images/new/icon/gameTypeIC.png") no-repeat;
+  background-size: 600%;
+}
+
+.gameList .pageList div {
+  background: url("../images/new/icon/arrow_blue.png") no-repeat;
+  background-size: 100%;
+}
+
+.gameList .remindBox span {
+  background: url("../images/new/icon/gameTypeIC.png") no-repeat;
+  background-size: 600%;
+}
+
+.eventType .all_ic {
+  background: url("../images/new/icon/entire.png") no-repeat;
+  background-size: 100%;
+  background-position-y: 100%;
+}
+
+.walletWrap .deposit_ic, .walletWrap .deposit_ic::before {
+  background: url("../images/new/icon/svg/deposit.svg") no-repeat;
+  background-size: 100%;
+}
+
+.walletWrap .withdrawal_ic, .walletWrap .withdrawal_ic::before {
+  background: url("../images/new/icon/svg/withdrawal.svg") no-repeat;
+  background-size: 100%;
+}
+
+.walletWrap .arrow_ic {
+  background: url("../images/new/icon/arrow_g.png") no-repeat;
+  background-size: 100%;
+}
+
+.walletWrap .options .icon {
+  background: url("../images/new/icon/walletIC.png") no-repeat;
+  background-size: 200%;
+}
+
+.memberWrap .user .btnBox i {
+  background: url("../images/new/icon/memberBigBtn.png") no-repeat;
+  background-size: 200%;
+  background-position-x: 1px;
+}
+
+.memberWrap .user ul li i {
+  background: url("../images/new/icon/memberMainBtn.png") no-repeat;
+  background-size: 400%;
+}
+
+.memberWrap .options i:not(.arrow_ic) {
+  background: url("../images/new/icon/memberIC.png") no-repeat;
+  background-size: 600%;
+}
+
+.memberWrap .options .arrow_ic {
+  background: url("../images/new/icon/arrow_g.png") no-repeat;
+  background-size: 60%;
+}
+
+.memberInfo .noCheck {
+  background: url("../images/new/icon/nocheck.png") no-repeat;
+  background-size: 100%;
+}
+
+.memberInfo .check {
+  background: url("../images/new/icon/svg/check.svg") no-repeat;
+  background-size: 100%;
+}
+
+.vipWrap .medal {
+  background: url("../images/new/icon/vipLevel.png") no-repeat;
+  background-size: contain;
+}
+
+.vipWrap .cards .prev, .vipWrap .cards .next {
+  background: url("../images/new/icon/arrow_g.png") no-repeat;
+  background-size: 100%;
+}
+
+.vipWrap .cards .card {
+  background: url("../images/new/card_bg.png") no-repeat;
+  background-size: cover;
+}
+
+.vipWrap .bottomWrap .arrow {
+  background: url("../images/new/icon/arrow_g.png") no-repeat;
+  background-size: 100%;
+}
+
+.vipDetail .listBox i::before {
+  background: url("../images/new/icon/arrow_w.png") no-repeat;
+  background-size: 100%;
+}
+
+.vipDetail .fingerBox .finger {
+  background: url("../images/new/icon/finger.png") no-repeat;
+  background-size: 100%;
+}
+
+.vipDetail .fingerBox i {
+  background: url("../images/new/icon/arrow_orange.png") no-repeat;
+  background-size: 100%;
+}
+
+.helpWrap .helpHeader .arrow {
+  background: url("../images/new/icon/arrow_g.png") no-repeat;
+  background-size: 100%;
+}
+
+.editBtn {
+  background: url("../images/new/icon/svg/edit.svg") no-repeat;
+  background-size: 100%;
+}
+
+.depositList .bankCard_ic {
+  background: url("../images/new/icon/svg/bankCard.svg") no-repeat;
+  background-size: 100%;
+}
+
+.depositList .atm_ic {
+  background: url("../images/new/icon/svg/atm.svg") no-repeat;
+  background-size: 100%;
+}
+
+.depositList .usdt_ic {
+  background: url("../images/new/icon/svg/usdt.svg") no-repeat;
+  background-size: 100%;
+}
+
+.depositList .bank_ic {
+  background: url("../images/new/icon/svg/bank.svg") no-repeat;
+  background-size: 100%;
+}
+
+.depositList .shop_ic {
+  background: url("../images/new/icon/svg/shop.svg") no-repeat;
+  background-size: 100%;
+}
+
+.depositList li.active::after {
+  background: url("../images/new/icon/checkArrow.png") no-repeat center;
+  background-size: 60%;
+}
+
+.withdrawalTop .refresh_ic {
+  background: url("../images/new/icon/svg/refresh.svg") no-repeat;
+  background-size: 100%;
+}
+
+.icon.service {
+  background: url("../images/new/icon/svg/customer-service.svg") no-repeat;
+  background-size: 100%;
+}
+
+.icon.line {
+  background: url("../images/new/icon/svg/line.svg") no-repeat;
+  background-size: 100%;
+}
+
+footer i {
+  background: url("../images/new/icon/footerIC.png") no-repeat;
+  background-size: 500%;
+}
+
+.jumpWindow .title .close {
+  background: url("../images/new/icon/svg/close.svg") no-repeat;
+  background-size: 100%;
+}
+
+.jumpWindow.loginWindow .title .icon {
+  background: url("../images/new/icon/userIC.png") no-repeat;
+  background-size: 100%;
+}
+
+.jumpWindow.loginWindow label::before, .jumpWindow.registerWindow label::before {
+  background: url("../images/new/icon/inputIC.png") no-repeat;
+  background-size: 400%;
+}
+
+.jumpWindow.loginWindow .pwd .eye, .jumpWindow.registerWindow .pwd .eye {
+  background: url("../images/new/icon/svg/eye.svg") no-repeat;
+  background-size: 100%;
+}
+
+.jumpWindow.loginWindow .pwd.active .eye, .jumpWindow.registerWindow .pwd.active .eye {
+  background: url("../images/new/icon/svg/eye2.svg") no-repeat center;
+  background-size: 100%;
+}
+
+.slick-prev::before, .slick-next::before {
+  background: url("../images/new/icon/arrow_blue.png") no-repeat;
+  background-size: 100%;
+}
+
+.bg {
+  background: url("../images/new/bg.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
+header .logo {
+  width: 150px;
+  height: 26px;
+}
+
+.single-item {
+  width: 100%;
+  height: 47vw;
+}
+.single-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.eventList .eventImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px 5px 0 0;
+}
+
+.eventDetail .eventImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.activityWindow .box img {
+  width: 100%;
+  height: auto;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "微軟正黑體";
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "微軟正黑體";
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px;
+  font-family: "微軟正黑體";
+}
+
+select, input {
+  outline: none;
+  box-sizing: border-box;
+  font-family: "微軟正黑體";
+}
+
+main {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+html body main {
+  padding: 45px 0 48px;
+}
+html body .bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+  background-attachment: fixed;
+}
+html body .bg.forvipDetail {
+  background: #e9eef2;
+}
+html body header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: auto;
+}
+html body header .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  background: #0069d5;
+  padding: 0 14px;
+  box-sizing: border-box;
+  position: relative;
+}
+html body header .content .title {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0 auto;
+}
+html body header .content .back_arrow {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%) scaleX(-1);
+  left: 14px;
+}
+html body header .content .refresh_ic {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+html body header .content .detailBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 14px;
+  width: auto;
+  height: 27px;
+  background: #0069d5;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 5px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+html body header .content .detailBtn:active, html body header .content .detailBtn.active {
+  background: #ffffff;
+  color: #0069d5;
+}
+html body header .content .editBtn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 14px;
+  width: 21px;
+  height: 21px;
+}
+html body header .content .editBtn.display {
+  display: block;
+}
+html body header .content .doneBtn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 14px;
+  width: auto;
+  height: 27px;
+  background: #0069d5;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 5px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+html body header .content .doneBtn:active, html body header .content .doneBtn.active {
+  background: #ffffff;
+  color: #0069d5;
+}
+html body header .content .doneBtn.display {
+  display: block;
+}
+html body header .content label {
+  width: auto;
+  height: auto;
+  font-size: 2vw;
+  background: #0069d5;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  position: absolute;
+  right: 14px;
+}
+html body header .content label::before {
+  content: "";
+  position: absolute;
+  width: 3vw;
+  height: 2vw;
+  top: 55%;
+  transform: translateY(-50%);
+  right: 2vw;
+  pointer-events: none;
+}
+html body header .content label button {
+  width: auto;
+  height: 27px;
+  background: none;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 3px 30px 4px 8px;
+  color: #ffffff;
+}
+html body .ad {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+html body .ad .single-item {
+  margin-bottom: 13vw;
+}
+html body .ad .single-item .slick-list {
+  height: 100%;
+}
+html body .ad .single-item .slick-list .slick-track {
+  height: 100%;
+}
+html body .ad .single-item .slick-list .slick-track img {
+  outline: none;
+}
+html body .ad .single-item .slick-dots {
+  bottom: -13vw;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13vw;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: solid 1px #d4d9dd;
+}
+html body .ad .single-item .slick-dots li button::before {
+  width: 3vw;
+  height: 3vw;
+  background: #cacfd3;
+  border-radius: 3vw;
+  opacity: 1;
+  color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html body .ad .single-item .slick-dots li.slick-active button::before {
+  background: #0069d5;
+}
+html body .ad .single-item .slick-prev, html body .ad .single-item .slick-next {
+  top: unset;
+  bottom: calc(-13vw + 1px);
+  transform: translate(0);
+  width: 13vw;
+  height: 13vw;
+  z-index: 1;
+}
+html body .ad .single-item .slick-prev::before, html body .ad .single-item .slick-next::before {
+  content: "";
+  position: absolute;
+  width: 4vw;
+  height: 7vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html body .ad .single-item .slick-prev {
+  left: 0;
+}
+html body .ad .single-item .slick-next {
+  right: 0;
+}
+html body .ad .single-item .slick-next::before {
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+html body .marqueeBox {
+  width: 92%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: solid 1px #0069d5;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin: 2vw auto;
+}
+html body .marqueeBox .marquee_ic {
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  margin-left: 0.8vw;
+}
+html body .marqueeBox .marquee {
+  width: 94%;
+  height: auto;
+  overflow: hidden;
+  margin-right: 1vw;
+}
+html body .marqueeBox .marquee pre {
+  display: inline-block;
+  font-size: 2vw;
+  color: #0069d5;
+  animation: marquee 8s linear 0s infinite;
+  padding-left: 100%;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+html body .memberArea {
+  width: 100%;
+  height: 17vw;
+  display: flex;
+  margin-bottom: 4vw;
+  background: #ffffff;
+}
+html body .memberArea .loginBtn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+html body .memberArea .loginBtn.display {
+  display: flex;
+}
+html body .memberArea .loginBtn::before {
+  content: "";
+  position: absolute;
+  width: 9vw;
+  height: 9vw;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+html body .memberArea .loginBtn::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 67%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background: #0069d5;
+}
+html body .memberArea .loginBtn span {
+  font-size: 3.7vw;
+  font-weight: bold;
+  color: #0069d5;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 60%;
+  display: inline-block;
+  white-space: nowrap;
+}
+html body .memberArea .alLogin {
+  justify-content: center;
+  align-items: center;
+  padding: 0 2vw;
+  width: 70%;
+  height: 100%;
+  box-sizing: border-box;
+  display: none;
+  position: relative;
+}
+html body .memberArea .alLogin::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 67%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background: #0069d5;
+}
+html body .memberArea .alLogin.display {
+  display: flex;
+}
+html body .memberArea .alLogin ul li {
+  display: flex;
+  height: 16px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+html body .memberArea .alLogin ul li.amount {
+  width: auto;
+  max-width: 33.76vw;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #f07b1c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+html body .memberArea .alLogin ul li .name {
+  width: 26vw;
+  height: auto;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #0069d5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+html body .memberArea .alLogin ul li .lv {
+  width: auto;
+  height: 20px;
+  padding: 0 5px;
+  background: #f07b1c;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+html body .memberArea .operate {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 4.5%;
+  box-sizing: border-box;
+}
+html body .memberArea .operate.login {
+  padding: 0 1.5%;
+}
+html body .memberArea .operate.login .vipBtn {
+  display: flex;
+}
+html body .memberArea .operate div {
+  width: 11vw;
+  height: 11vw;
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  box-shadow: 0 1px 1px 0 #00000049;
+  border-radius: 11vw;
+  position: relative;
+}
+html body .memberArea .operate div:active, html body .memberArea .operate div.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  box-shadow: 0 0 5px 3px #0000002b inset;
+}
+html body .memberArea .operate div.vipBtn {
+  display: none;
+}
+html body .memberArea .operate div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  font-weight: bold;
+  color: #ffffff;
+}
+html body .homeCenter {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 4vw;
+  background: #ffffff;
+  border: solid 1px #d4d9dd;
+  border-width: 1px 0;
+  box-sizing: border-box;
+  margin: 4vw 0 5vw;
+}
+html body .homeCenter .gameList {
+  width: 100%;
+  height: auto;
+}
+html body .homeCenter .gameList ol {
+  width: 100%;
+  height: auto;
+}
+html body .homeCenter .gameList ol .bigBtn {
+  width: 100%;
+  height: 10vw;
+  background: #0069d5;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  letter-spacing: 2px;
+}
+html body .homeCenter .gameList ol ol {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 4vw;
+  display: none;
+}
+html body .homeCenter .gameList ol ol.display {
+  display: flex;
+}
+html body .homeCenter .gameList ol ol li {
+  width: 49%;
+  height: 22vw;
+  box-sizing: border-box;
+  background: #eef2f5;
+  border: solid 1px #cacfd3;
+  margin-bottom: 2%;
+}
+html body .homeCenter .gameList ol ol li.noMar {
+  margin: 0;
+}
+html body .homeCenter .gameList ol ol li.league3 .league {
+  display: flex;
+  background: #3e7ece;
+}
+html body .homeCenter .gameList ol ol li.league2 .league {
+  display: flex;
+  background: #78b14a;
+}
+html body .homeCenter .gameList ol ol li.league1 .league {
+  display: flex;
+  background: #f0bc16;
+}
+html body .homeCenter .gameList ol ol li.league0 .league {
+  display: flex;
+  background: #EE3F3D;
+}
+html body .homeCenter .gameList ol ol li.typeM .type {
+  display: block;
+  background-position-x: 0;
+}
+html body .homeCenter .gameList ol ol li.typeA .type {
+  display: block;
+  background-position-x: 20%;
+}
+html body .homeCenter .gameList ol ol li.typeN .type {
+  display: block;
+  background-position-x: 40%;
+}
+html body .homeCenter .gameList ol ol li.typeNoob .type {
+  display: block;
+  background-position-x: 60%;
+}
+html body .homeCenter .gameList ol ol li.typeGold .type {
+  display: block;
+  background-position-x: 80%;
+}
+html body .homeCenter .gameList ol ol li.typeGirl .type {
+  display: block;
+  background-position-x: 100%;
+}
+html body .homeCenter .gameList ol ol li p {
+  width: 100%;
+  height: 50%;
+  color: #4c5159;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vw;
+}
+html body .homeCenter .gameList ol ol li p.name {
+  background: #cacfd3;
+  position: relative;
+}
+html body .homeCenter .gameList ol ol li p .league {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1vw;
+  color: #ffffff;
+  width: 20%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+html body .homeCenter .gameList ol ol li p .type {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2vw;
+  width: 5vw;
+  height: 5vw;
+}
+html body .homeCenter .gameList ol .pageList {
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 4vw;
+}
+html body .homeCenter .gameList ol .pageList button {
+  background: none;
+  color: #cacfd3;
+  font-size: 3.4vw;
+  font-weight: bold;
+  margin: 0 3vw;
+}
+html body .homeCenter .gameList ol .pageList button:active, html body .homeCenter .gameList ol .pageList button.active {
+  color: #0069d5;
+}
+html body .homeCenter .gameList ol .pageList div {
+  position: absolute;
+  width: 4vw;
+  height: 7vw;
+  opacity: 0.5;
+}
+html body .homeCenter .gameList ol .pageList div:active, html body .homeCenter .gameList ol .pageList div.active {
+  opacity: 1;
+}
+html body .homeCenter .gameList ol .pageList div.prev {
+  left: 0;
+}
+html body .homeCenter .gameList ol .pageList div.next {
+  right: 0;
+  transform: scaleX(-1);
+}
+html body .homeCenter .gameList .remindBox {
+  width: 100%;
+  height: auto;
+  background: #eef2f5;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 4vw;
+  margin-top: 4vw;
+}
+html body .homeCenter .gameList .remindBox p {
+  width: 50%;
+  font-size: 3.7vw;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+html body .homeCenter .gameList .remindBox p.noMar {
+  margin: 0;
+}
+html body .homeCenter .gameList .remindBox p span {
+  display: inline-block;
+  width: 3.7vw;
+  height: 3.7vw;
+  margin-right: 1.5vw;
+}
+html body .homeCenter .gameList .remindBox p span.morning_ic {
+  background-position-x: 0;
+}
+html body .homeCenter .gameList .remindBox p span.afternoon_ic {
+  background-position-x: 20%;
+}
+html body .homeCenter .gameList .remindBox p span.night_ic {
+  background-position-x: 40%;
+}
+html body .homeCenter .gameList .remindBox p span.noob_ic {
+  background-position-x: 60%;
+}
+html body .homeCenter .gameList .remindBox p span.gold_ic {
+  background-position-x: 80%;
+}
+html body .homeCenter .gameList .remindBox p span.girl_ic {
+  background-position-x: 100%;
+}
+html body footer {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+html body footer ul {
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  background: #0069d5;
+}
+html body footer ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+}
+html body footer ul li:hover, html body footer ul li.active {
+  background: #003f97;
+}
+html body footer ul li i {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+html body footer ul li i.menu_ic {
+  background-position-x: 0;
+}
+html body footer ul li i.event_ic {
+  background-position-x: 25%;
+}
+html body footer ul li i.wallet_ic {
+  background-position-x: 50%;
+}
+html body footer ul li i.service_ic {
+  background-position-x: 75%;
+}
+html body footer ul li i.center_ic {
+  background-position-x: 100%;
+}
+html body footer ul li p {
+  width: 100%;
+  font-size: 12px;
+  color: #ffffff;
+  padding-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+html body .filter {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #00000066;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  display: none;
+}
+html body .filter.display {
+  display: flex;
+}
+html body .filter .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #ffffff;
+  background: #0069d5;
+  position: relative;
+}
+html body .filter .title i {
+  width: 4.73vw;
+  height: 4.73vw;
+  position: absolute;
+  right: 3.38vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+html body .filter .plsGo {
+  width: 92%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .plsGo.display {
+  display: block;
+}
+html body .filter .plsGo .content {
+  font-size: 14px;
+  color: #0069d5;
+  letter-spacing: 1px;
+  font-weight: bold;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 24px 0 0;
+  text-align: center;
+}
+html body .filter .plsGo .content p {
+  white-space: nowrap;
+  line-height: 20px;
+}
+html body .filter .plsGo .btnBox {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+html body .filter .plsGo .btnBox button {
+  width: 92%;
+  height: 40px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .filter .plsGo .btnBox button:active, html body .filter .plsGo .btnBox button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .filter .loginWindow {
+  width: 87.2vw;
+  height: auto;
+  padding-bottom: 13vw;
+  background: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .loginWindow.display {
+  display: block;
+}
+html body .filter .loginWindow .title {
+  height: 18.67vw;
+}
+html body .filter .loginWindow .title .icon {
+  width: 9vw;
+  height: 9vw;
+  margin-right: 10px;
+}
+html body .filter .loginWindow form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+html body .filter .loginWindow form label {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+html body .filter .loginWindow form label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 20px;
+  height: 24px;
+}
+html body .filter .loginWindow form label.account {
+  margin: 11.73vw 0 8vw;
+}
+html body .filter .loginWindow form label.account::before {
+  background-position-x: 0;
+}
+html body .filter .loginWindow form label.pwd::before {
+  background-position-x: -20px;
+}
+html body .filter .loginWindow form label input {
+  width: 77.6vw;
+  height: 9.87vw;
+  background: #eef5f8;
+  border: solid 1px #c2c2c2;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #5f6368;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  padding-left: 35px;
+}
+html body .filter .loginWindow form label input::placeholder {
+  color: #a6afbf;
+}
+html body .filter .loginWindow form label .eye {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  display: block;
+  width: 6.13vw;
+  height: 4.26vw;
+}
+html body .filter .loginWindow form .forget {
+  width: 77.6vw;
+  height: auto;
+  text-align: right;
+  margin-top: 10px;
+}
+html body .filter .loginWindow form .forget p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #f07b1c;
+}
+html body .filter .loginWindow form .forget p span {
+  margin: 0 2px;
+  text-decoration: underline;
+}
+html body .filter .loginWindow form .realLogin {
+  width: 77.6vw;
+  height: 11.2vw;
+  margin: 8vw 0;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .filter .loginWindow form .realLogin:active, html body .filter .loginWindow form .realLogin.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .filter .loginWindow .registerBtn {
+  color: #0069d5;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html body .filter .loginWindow .registerBtn p {
+  color: #f07b1c;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+html body .filter .forgetWindow {
+  width: 87.2vw;
+  height: auto;
+  background: #ffffff;
+  border-radius: 3px;
+  display: none;
+}
+html body .filter .forgetWindow.display {
+  display: block;
+}
+html body .filter .forgetWindow form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+}
+html body .filter .forgetWindow form input {
+  width: 77.6vw;
+  height: 9.87vw;
+  margin-top: 19px;
+  background: #eef5f8;
+  border: solid 1px #c2c2c2;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #5f6368;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+html body .filter .forgetWindow form input::placeholder {
+  color: #a6afbf;
+}
+html body .filter .forgetWindow form button {
+  width: 77.6vw;
+  height: 11.2vw;
+  margin-top: 15px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .filter .forgetWindow form button:active, html body .filter .forgetWindow form button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .filter .forgetWindow form .remind {
+  width: 77.6vw;
+  height: auto;
+  margin: 15px auto;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f07b1c;
+}
+html body .filter .forgetWindow form .remind span {
+  display: block;
+  line-height: 21px;
+}
+html body .filter .registerWindow {
+  width: 87.2vw;
+  height: auto;
+  padding-bottom: 7.2vw;
+  background: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .registerWindow.display {
+  display: block;
+}
+html body .filter .registerWindow .title {
+  height: 14.67vw;
+}
+html body .filter .registerWindow form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 9.06vw;
+}
+html body .filter .registerWindow form label {
+  position: relative;
+  margin-bottom: 5.06vw;
+}
+html body .filter .registerWindow form label::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  width: 20px;
+  height: 24px;
+}
+html body .filter .registerWindow form label.account::before {
+  background-position-x: 0;
+}
+html body .filter .registerWindow form label.pwd::before, html body .filter .registerWindow form label.pwdCheck::before {
+  background-position-x: -20px;
+}
+html body .filter .registerWindow form label.mail::before {
+  background-position-x: -60px;
+}
+html body .filter .registerWindow form label.phone::before {
+  background-position-x: -40px;
+}
+html body .filter .registerWindow form label.isCheck {
+  width: 77.33vw;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0069d5;
+  text-align: center;
+}
+html body .filter .registerWindow form label.isCheck::before {
+  display: none;
+}
+html body .filter .registerWindow form label.isCheck input[type=checkbox] {
+  width: 4.5vw;
+  height: 4.5vw;
+  margin-right: 10px;
+}
+html body .filter .registerWindow form label.isCheck p {
+  color: #f07b1c;
+}
+html body .filter .registerWindow form label.isCheck p.pBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  color: #0069d5;
+}
+html body .filter .registerWindow form label input {
+  width: 77.33vw;
+  height: 9.6vw;
+  background: #eef5f8;
+  border: solid 1px #c2c2c2;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #5f6368;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  padding-left: 35px;
+}
+html body .filter .registerWindow form label input::placeholder {
+  color: #a6afbf;
+}
+html body .filter .registerWindow form label .eye {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 6.13vw;
+  height: 4.26vw;
+}
+html body .filter .registerWindow form .checkBtn {
+  width: 77.33vw;
+  height: 11.6vw;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .filter .registerWindow form .checkBtn:active, html body .filter .registerWindow form .checkBtn.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .filter .ruleWindow {
+  width: 87.2vw;
+  height: auto;
+  background: #ffffff;
+  border-radius: 1.5vw;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .ruleWindow.display {
+  display: block;
+}
+html body .filter .ruleWindow .content {
+  width: 100%;
+  height: calc(68vh - 120px);
+  overflow-y: auto;
+}
+html body .filter .ruleWindow .content .ruleBody {
+  width: calc(100% - 30px);
+  margin: 14px auto;
+}
+html body .filter .ruleWindow .content .ruleBody h2 {
+  font-size: 4.3vw;
+  padding: 10px 5px;
+  font-weight: bold;
+  line-height: 1.8;
+  color: #0069d5;
+}
+html body .filter .ruleWindow .content .ruleBody p {
+  font-size: 3.4vw;
+  padding: 10px 5px;
+  line-height: 1.8;
+  font-weight: bold;
+  color: #323232;
+}
+html body .filter .ruleWindow .content .ruleBody ul {
+  list-style: initial;
+  margin-bottom: 16px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 2em;
+}
+html body .filter .ruleWindow .content .ruleBody ul li {
+  line-height: 1.8;
+}
+html body .filter .ruleWindow .content .ruleBody ul li p {
+  margin-top: 16px;
+}
+html body .filter .ruleWindow .content .ruleBody ul li ol {
+  padding-left: 2em;
+  list-style-type: lower-roman;
+}
+html body .filter .ruleWindow button {
+  display: block;
+  margin: 15px auto;
+  width: 77.6vw;
+  height: 11.2vw;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .filter .ruleWindow button:active, html body .filter .ruleWindow button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .filter .news {
+  width: 92.27vw;
+  height: auto;
+  padding-bottom: 5vw;
+  background: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .news.display {
+  display: block;
+}
+html body .filter .news .typeList {
+  width: 90%;
+  height: 17vw;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 7px;
+  align-items: center;
+}
+html body .filter .news .typeList li {
+  width: auto;
+  height: 10vw;
+  margin-left: 10px;
+  font-size: 4vw;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #0069d5;
+  border-radius: 3px;
+  border: solid 1px #dbdbdb;
+  background: #eef2f5;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .filter .news .typeList li:active, html body .filter .news .typeList li.active {
+  background: #0069d5;
+  border-color: transparent;
+  color: #ffffff;
+}
+html body .filter .news .typeList li.noMar {
+  margin: 0;
+}
+html body .filter .news .content {
+  width: 100%;
+  height: auto;
+  max-height: 324px;
+  overflow-y: auto;
+  display: none;
+}
+html body .filter .news .content.display {
+  display: block;
+}
+html body .filter .news .content li {
+  padding: 15px 18px 15px;
+  border: solid 1px #dcdcdc;
+  border-radius: 3px;
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 10px auto 0;
+}
+html body .filter .news .content li.noMar {
+  margin-top: 0;
+}
+html body .filter .news .content li .date {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding-right: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+html body .filter .news .content li .text {
+  width: 100%;
+  height: auto;
+  font-size: 3.7vw;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #0069d5;
+  line-height: 20px;
+}
+html body .filter .langWindow {
+  width: 92vw;
+  height: auto;
+  background: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .langWindow.display {
+  display: block;
+}
+html body .filter .langWindow ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 3.2vw;
+}
+html body .filter .langWindow ul li {
+  width: 100%;
+  height: 9.87vw;
+  margin-bottom: 2.4vw;
+  background: linear-gradient(to top, #e6e6e6 0, #ffffff 78%);
+  border: solid 1px #c2c2c2;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #5f5f5f;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .filter .langWindow ul li:active, html body .filter .langWindow ul li.active {
+  background: #0069d5;
+  color: #fff;
+}
+html body .filter .langWindow ul li:active, html body .filter .langWindow ul li.active {
+  background: linear-gradient(to top, #9bd722 0%, #99d420 45%, #8fc819 100%);
+  color: #ffffff;
+}
+html body .filter .langWindow ul li:last-child {
+  margin: 0;
+}
+html body .filter .cellphoneWindow {
+  width: 92.27vw;
+  height: auto;
+  background: #ffffff;
+  border-radius: 1.5vw;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .cellphoneWindow.display {
+  display: block;
+}
+html body .filter .cellphoneWindow .content {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+html body .filter .cellphoneWindow .content .smallTitle {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0069d5;
+  font-size: 4vw;
+}
+html body .filter .cellphoneWindow .content form {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0 24px;
+}
+html body .filter .cellphoneWindow .content form input {
+  width: 100%;
+  height: 42px;
+  background: #eef5f8;
+  border: solid 1px #c2c2c2;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #5f6368;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+html body .filter .cellphoneWindow .content form input::placeholder {
+  color: #a6afbf;
+}
+html body .filter .cellphoneWindow .content form button {
+  width: 100%;
+  height: 42px;
+}
+html body .filter .cellphoneWindow .content form button.check {
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  margin: 8px 0 45px;
+  border-radius: 3px;
+  position: relative;
+}
+html body .filter .cellphoneWindow .content form button.check:active, html body .filter .cellphoneWindow .content form button.check.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+}
+html body .filter .cellphoneWindow .content form button.check .remind {
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+  font-weight: normal;
+  margin: 0;
+}
+html body .filter .cellphoneWindow .content form button.close {
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  margin: 16px 0 8px;
+}
+html body .filter .cellphoneWindow .content form button.close:active, html body .filter .cellphoneWindow .content form button.close.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .filter .cellphoneWindow .content .remind {
+  color: #f07b1c;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+html body .filter .passwordWindow {
+  width: 92.27vw;
+  height: auto;
+  background: #ffffff;
+  border-radius: 1.5vw;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .passwordWindow.display {
+  display: block;
+}
+html body .filter .passwordWindow .content {
+  width: 100%;
+  height: auto;
+  padding-bottom: 25px;
+}
+html body .filter .passwordWindow .content form {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 25px 24px 0;
+}
+html body .filter .passwordWindow .content form input {
+  width: 100%;
+  height: 42px;
+  background: #eef5f8;
+  border: solid 1px #c2c2c2;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #5f6368;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+}
+html body .filter .passwordWindow .content form input::placeholder {
+  color: #a6afbf;
+}
+html body .filter .passwordWindow .content form button {
+  width: 100%;
+  height: 44px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .filter .passwordWindow .content form button:active, html body .filter .passwordWindow .content form button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .filter .activityWindow {
+  width: 92.27vw;
+  height: auto;
+  background: #ffffff;
+  border-radius: 1.5vw;
+  overflow: hidden;
+  display: none;
+}
+html body .filter .activityWindow.display {
+  display: block;
+}
+html body .filter .activityWindow .content {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 24px 24px 0;
+}
+html body .filter .activityWindow .content .box {
+  width: 100%;
+  height: auto;
+}
+html body .filter .activityWindow .content .box p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #0069d5;
+  font-weight: bold;
+  line-height: 24px;
+}
+html body .filter .activityWindow .content .btnBox {
+  width: 100%;
+  height: auto;
+  padding: 18px 0;
+  text-align: center;
+}
+html body .filter .activityWindow .content .btnBox button {
+  width: 92%;
+  height: 42px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .filter .activityWindow .content .btnBox button:active, html body .filter .activityWindow .content .btnBox button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .eventType {
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+}
+html body .eventType ul {
+  display: flex;
+}
+html body .eventType ul li {
+  width: auto;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: solid 2px transparent;
+  padding: 6px 8px;
+}
+html body .eventType ul li:active, html body .eventType ul li.active {
+  border-color: #0069d5;
+}
+html body .eventType ul li:active span, html body .eventType ul li.active span {
+  color: #0069d5;
+}
+html body .eventType ul li:active .all_ic, html body .eventType ul li.active .all_ic {
+  background-position-y: 0;
+}
+html body .eventType ul li .all_ic {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 8px;
+}
+html body .eventType ul li span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+html body .eventList {
+  width: 100%;
+  height: calc(100vh - 174px);
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 10px 14px 0;
+}
+html body .eventList ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+html body .eventList ul li {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+html body .eventList ul li .eventBox {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+  border: solid 1px #dcdcdc;
+}
+html body .eventList ul li .eventBox .eventImg {
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+  min-height: 85px;
+  height: auto;
+}
+html body .eventList ul li .eventBox p {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 7px;
+  justify-content: flex-end;
+}
+html body .eventList ul li .eventBox p button {
+  width: 95px;
+  height: 27px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 3vw;
+}
+html body .eventList ul li .eventBox p button:active, html body .eventList ul li .eventBox p button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .eventList ul li .eventBox p button.apply {
+  background: linear-gradient(to bottom, #ff952e 0, #ef7513 100%);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 3vw;
+  margin-left: 5px;
+}
+html body .eventList ul li .eventBox p button.apply:active, html body .eventList ul li .eventBox p button.apply.active {
+  background: linear-gradient(to top, #ff952e 0, #ef7513 100%);
+}
+html body .eventDetail {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+}
+html body .eventDetail .eventImg {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 5px;
+}
+html body .eventDetail .detailHeader, html body .eventDetail .detailContent {
+  width: 94.13vw;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin-top: 10px;
+  background: #ffffff;
+  border-radius: 3px;
+  border: solid 1px #dcdcdc;
+}
+html body .eventDetail .detailHeader ul .title, html body .eventDetail .detailContent ul .title {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #323232;
+}
+html body .eventDetail .detailHeader ul .content, html body .eventDetail .detailContent ul .content {
+  display: flex;
+}
+html body .eventDetail .detailHeader ul .content div, html body .eventDetail .detailContent ul .content div {
+  color: #0069d5;
+  font-weight: bold;
+  font-size: 14px;
+}
+html body .eventDetail .detailHeader ul .content div.smallTitle, html body .eventDetail .detailContent ul .content div.smallTitle {
+  width: 20vw;
+}
+html body .eventDetail .detailHeader ul .content div.smallContent, html body .eventDetail .detailContent ul .content div.smallContent {
+  width: 62vw;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+html body .eventDetail .detailHeader ul .infoBox p, html body .eventDetail .detailContent ul .infoBox p {
+  font-weight: bold;
+  color: #0069d5;
+  font-style: 14px;
+  line-height: 20px;
+}
+html body .eventDetail .detailHeader .contentFooter, html body .eventDetail .detailContent .contentFooter {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+html body .walletWrap {
+  width: 100%;
+  min-height: calc(100vh - 92px);
+  height: auto;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+html body .walletWrap .walletBox {
+  width: 100%;
+  height: auto;
+  padding-bottom: 24px;
+  margin-bottom: 10px;
+  background: #f7f7f7;
+  border-bottom: solid 1px #c2c2c2;
+}
+html body .walletWrap .walletBox .gradient {
+  width: 100%;
+  height: auto;
+}
+html body .walletWrap .walletBox .gradient .content {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+  background: #ffffff;
+}
+html body .walletWrap .walletBox .gradient .content .amount {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+html body .walletWrap .walletBox .gradient .content .amount::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92%;
+  height: 1px;
+  background: #dcdcdc;
+}
+html body .walletWrap .walletBox .gradient .content .amount .half {
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 12px 8px;
+}
+html body .walletWrap .walletBox .gradient .content .amount .half .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #5f5f5f;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left: 10px;
+}
+html body .walletWrap .walletBox .gradient .content .amount .half .money {
+  color: #0069d5;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 33px;
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+html body .walletWrap .walletBox .gradient .content .limit {
+  width: 100%;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+html body .walletWrap .walletBox .gradient .content .limit p {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f07b1c;
+}
+html body .walletWrap .walletBox .gradient .content .limit p.money {
+  margin-left: 10px;
+  font-size: 15px;
+}
+html body .walletWrap .walletBox ul {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 8vw;
+}
+html body .walletWrap .walletBox ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+html body .walletWrap .walletBox ul li:active, html body .walletWrap .walletBox ul li.active {
+  background: #0069d5;
+}
+html body .walletWrap .walletBox ul li:active i, html body .walletWrap .walletBox ul li.active i {
+  background: none;
+}
+html body .walletWrap .walletBox ul li:active i::before, html body .walletWrap .walletBox ul li.active i::before {
+  top: -11.47vw;
+}
+html body .walletWrap .walletBox ul li:active p, html body .walletWrap .walletBox ul li.active p {
+  color: #ffffff;
+}
+html body .walletWrap .walletBox ul li i {
+  display: block;
+  width: 11.47vw;
+  height: 11.47vw;
+  position: relative;
+  overflow: hidden;
+}
+html body .walletWrap .walletBox ul li i::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  filter: drop-shadow(0 11.47vw 0 #ffffff);
+}
+html body .walletWrap .walletBox ul li p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+  padding-top: 6px;
+}
+html body .walletWrap .options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  padding: 0 14px 0 23px;
+  margin-bottom: 17px;
+  border: solid 1px #c2c2c2;
+  border-width: 1px 0;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+html body .walletWrap .options:active, html body .walletWrap .options.active {
+  background: #0069d5;
+}
+html body .walletWrap .options:active p, html body .walletWrap .options.active p {
+  color: #ffffff;
+}
+html body .walletWrap .options:active .arrow_ic, html body .walletWrap .options:active .icon, html body .walletWrap .options.active .arrow_ic, html body .walletWrap .options.active .icon {
+  background-position-y: 100%;
+}
+html body .walletWrap .options div {
+  display: flex;
+  align-items: center;
+}
+html body .walletWrap .options div .icon {
+  display: block;
+  width: 5.6vw;
+  height: 7.3vw;
+  margin-right: 18px;
+}
+html body .walletWrap .options div .icon.record {
+  background-position-x: 100%;
+}
+html body .walletWrap .options div p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+html body .walletWrap .options .arrow_ic {
+  display: block;
+  width: 2.13vw;
+  height: 3.5vw;
+}
+html body .memberWrap {
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 92px);
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+html body .memberWrap .user {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  background: #ffffff;
+  padding-bottom: 19px;
+  border-bottom: solid 1px #c2c2c2;
+}
+html body .memberWrap .user .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px 15px 17px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+html body .memberWrap .user .info div .account {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #0069d5;
+  font-weight: bold;
+}
+html body .memberWrap .user .info div .account .lv {
+  min-width: 50px;
+  width: auto;
+  height: 18px;
+  padding: 0 5px;
+  margin-right: 9px;
+  border-radius: 1vw;
+  background: #f07b1c;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+html body .memberWrap .user .info div .date {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #666c75;
+}
+html body .memberWrap .user .info button {
+  width: auto;
+  height: auto;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px 15px;
+}
+html body .memberWrap .user .info button:active, html body .memberWrap .user .info button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .memberWrap .user .wallet {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+html body .memberWrap .user .wallet p {
+  display: flex;
+  align-items: center;
+  width: 64.53vw;
+  height: 8.27vw;
+  box-sizing: border-box;
+  padding-left: 16px;
+  background: #eff5f8;
+  border-style: solid;
+  border-width: 1px 0 1px 1px;
+  border-color: #c2c2c2;
+  border-radius: 3px 0 0 3px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #555555;
+  font-weight: bold;
+}
+html body .memberWrap .user .wallet button {
+  width: 27.73vw;
+  height: 8.27vw;
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  border-radius: 0 3px 3px 0;
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  border-color: #c2c2c2;
+}
+html body .memberWrap .user .wallet button:active, html body .memberWrap .user .wallet button.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+}
+html body .memberWrap .user .btnBox {
+  display: flex;
+  width: 92.26vw;
+  height: auto;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+html body .memberWrap .user .btnBox button {
+  width: 45.07vw;
+  height: 18.4vw;
+  background: linear-gradient(to top, #e6e6e6 0, #ffffff 78%);
+  border: solid 1px #c2c2c2;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #5f5f5f;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .memberWrap .user .btnBox button:active, html body .memberWrap .user .btnBox button.active {
+  background: #0069d5;
+  color: #fff;
+}
+html body .memberWrap .user .btnBox button:active .text, html body .memberWrap .user .btnBox button.active .text {
+  color: #ffffff;
+}
+html body .memberWrap .user .btnBox button:active .text p, html body .memberWrap .user .btnBox button.active .text p {
+  color: #ffffff;
+}
+html body .memberWrap .user .btnBox button:active i, html body .memberWrap .user .btnBox button.active i {
+  background-position-y: 100%;
+}
+html body .memberWrap .user .btnBox button i {
+  display: block;
+  width: 9vw;
+  height: 9vw;
+}
+html body .memberWrap .user .btnBox button i.vip_ic {
+  background-position-x: 100%;
+}
+html body .memberWrap .user .btnBox button .text {
+  margin-left: 3.47vw;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #0069d5;
+}
+html body .memberWrap .user .btnBox button .text.jp {
+  font-size: 12px;
+}
+html body .memberWrap .user .btnBox button .text p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+  text-align: left;
+}
+html body .memberWrap .user ul {
+  display: flex;
+  justify-content: space-around;
+  width: 92.26vw;
+  margin: 15px auto 0;
+}
+html body .memberWrap .user ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 23.53vw;
+  padding: 5px 0;
+  height: auto;
+  position: relative;
+  border-radius: 3px;
+}
+html body .memberWrap .user ul li:active, html body .memberWrap .user ul li.active {
+  background: #0069d5;
+}
+html body .memberWrap .user ul li:active i, html body .memberWrap .user ul li.active i {
+  background-position-y: 100%;
+}
+html body .memberWrap .user ul li:active p, html body .memberWrap .user ul li.active p {
+  color: #ffffff;
+}
+html body .memberWrap .user ul li i {
+  display: block;
+  width: 10.4vw;
+  height: 9.33vw;
+}
+html body .memberWrap .user ul li i.mail_ic {
+  background-position-x: -20.8vw;
+}
+html body .memberWrap .user ul li i.card_ic {
+  background-position-x: -31.2vw;
+}
+html body .memberWrap .user ul li p {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  color: #5f5f5f;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+html body .memberWrap .user ul li .bubble {
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 17px;
+  min-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  padding: 0 1px 2px;
+  top: 2px;
+  right: 17px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #f07b1c;
+}
+html body .memberWrap .options {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0 14px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  margin-bottom: 10px;
+  border: solid 1px #c2c2c2;
+}
+html body .memberWrap .options:active, html body .memberWrap .options.active {
+  background: #0069d5;
+}
+html body .memberWrap .options:active i, html body .memberWrap .options.active i {
+  background-position-y: 100%;
+}
+html body .memberWrap .options:active p, html body .memberWrap .options.active p {
+  color: #ffffff;
+}
+html body .memberWrap .options div {
+  display: flex;
+  align-items: center;
+}
+html body .memberWrap .options div i {
+  display: block;
+  margin-right: 18px;
+  width: 7.5vw;
+  height: 7.5vw;
+}
+html body .memberWrap .options div i.help_ic {
+  background-position-x: 20%;
+}
+html body .memberWrap .options div i.about_ic {
+  background-position-x: 40%;
+}
+html body .memberWrap .options div i.lang_ic {
+  background-position-x: 80%;
+}
+html body .memberWrap .options div i.logout_ic {
+  background-position-x: 100%;
+}
+html body .memberWrap .options div p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+html body .memberWrap .options .arrow_ic {
+  display: block;
+  width: 4vw;
+  height: 4vw;
+}
+html body .memberList {
+  display: flex;
+  background: #ffffff;
+  overflow-x: auto;
+  width: 100%;
+  height: auto;
+}
+html body .memberList span {
+  width: 50vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-bottom: solid 3px transparent;
+  font-weight: bold;
+  color: #5f5f5f;
+  flex-shrink: 0;
+}
+html body .memberList span:active, html body .memberList span.active {
+  color: #0069d5;
+  border-color: #0069d5;
+}
+html body .memberList span.noWrap {
+  width: auto;
+  white-space: nowrap;
+  padding: 0 5px;
+}
+html body .memberInfo {
+  overflow-y: auto;
+  width: 100%;
+  height: calc(100vh - 153px);
+  padding: 25px 0;
+  box-sizing: border-box;
+}
+html body .memberInfo form {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding-bottom: 1px;
+}
+html body .memberInfo form .inputList li {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 7px 17px;
+  border-top: solid 1px #dcdcdc;
+  flex-wrap: wrap;
+  position: relative;
+}
+html body .memberInfo form .inputList li.active {
+  height: 103px;
+}
+html body .memberInfo form .inputList li.active button {
+  display: block;
+}
+html body .memberInfo form .inputList li em::before {
+  content: "※";
+  color: #c50803;
+  padding-right: 5px;
+  font-size: 14px;
+}
+html body .memberInfo form .inputList li span {
+  width: 20vw;
+  color: #5f5f5f;
+  font-size: 14px;
+  font-weight: bold;
+}
+html body .memberInfo form .inputList li input {
+  width: 64vw;
+  height: 36px;
+  background: none;
+  border: none;
+  text-align: right;
+  font-size: 14px;
+  border-radius: 3px;
+  color: #5f5f5f;
+  box-sizing: border-box;
+  padding-right: 2vw;
+  border: solid 1px transparent;
+  font-weight: bold;
+}
+html body .memberInfo form .inputList li input::placeholder {
+  color: #acacac;
+}
+html body .memberInfo form .inputList li input.active {
+  border-color: #b3b3b3;
+  background: #eef2f5;
+}
+html body .memberInfo form .inputList li input.userName {
+  color: #0069d5;
+}
+html body .memberInfo form .inputList li button {
+  display: none;
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  border-radius: 3px;
+}
+html body .memberInfo form .inputList li button:active, html body .memberInfo form .inputList li button.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+}
+html body .memberInfo form .inputList li .err {
+  display: none;
+  width: auto;
+  position: absolute;
+  right: 36px;
+  bottom: 2px;
+  color: #f07b1c;
+  font-size: 12px;
+}
+html body .memberInfo form .inputList li .err.display {
+  display: block;
+}
+html body .memberInfo form button {
+  width: 88vw;
+  height: 42px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  display: block;
+  margin: 8px auto;
+}
+html body .memberInfo form button:active, html body .memberInfo form button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .memberInfo .info_1 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+html body .memberInfo .info_1 ul {
+  width: 100%;
+  height: auto;
+}
+html body .memberInfo .info_1 ul li {
+  width: 100%;
+  height: 50px;
+  border-top: solid 1px #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 24px;
+}
+html body .memberInfo .info_1 ul li span {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0069d5;
+}
+html body .memberInfo .info_1 ul li span.title {
+  color: #5f5f5f;
+}
+html body .memberInfo .info_2 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+html body .memberInfo .info_2 li {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 24px;
+  border-top: solid 1px #dcdcdc;
+  flex-wrap: wrap;
+}
+html body .memberInfo .info_2 li.active {
+  height: 100px;
+}
+html body .memberInfo .info_2 li.active button {
+  display: block;
+}
+html body .memberInfo .info_2 li.security {
+  height: 70px;
+}
+html body .memberInfo .info_2 li.security div {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  background: #f8eded;
+  border: solid 1px #d38f8f;
+  color: #5f5f5f;
+  padding: 0 20px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+}
+html body .memberInfo .info_2 li.security div span {
+  padding-left: 5px;
+  width: auto;
+}
+html body .memberInfo .info_2 li.security div span.low {
+  color: #ef2929;
+}
+html body .memberInfo .info_2 li.security div span.middle {
+  color: #ff8d68;
+}
+html body .memberInfo .info_2 li.security div span.high {
+  color: #5aa960;
+}
+html body .memberInfo .info_2 li.pwd {
+  border-bottom: solid 1px #dcdcdc;
+}
+html body .memberInfo .info_2 li.pwd .title {
+  width: 88vw;
+}
+html body .memberInfo .info_2 li i {
+  display: block;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+html body .memberInfo .info_2 li span {
+  display: flex;
+  font-size: 13px;
+  font-weight: bold;
+  align-items: center;
+  width: 28vw;
+  justify-content: flex-end;
+}
+html body .memberInfo .info_2 li span.title {
+  width: 57vw;
+  justify-content: flex-start;
+}
+html body .memberInfo .info_2 li span.empty {
+  color: #f07b1c;
+}
+html body .memberInfo .info_2 li button {
+  display: none;
+  width: 88vw;
+  height: 42px;
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  border-radius: 3px;
+}
+html body .memberInfo .info_2 li button:active, html body .memberInfo .info_2 li button.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+}
+html body .memberPlatform {
+  overflow-y: auto;
+  width: 100%;
+  height: calc(100vh - 153px);
+  box-sizing: border-box;
+  padding-bottom: 15px;
+}
+html body .memberPlatform .platformBox {
+  width: 90%;
+  height: auto;
+  margin: 12px auto 0;
+  background: #ffffff;
+  border: solid 1px #dcdcdc;
+  border-radius: 3px;
+}
+html body .memberPlatform .platformBox .title {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 14px;
+  color: #0069d5;
+  border-bottom: solid 1px #dcdcdc;
+}
+html body .memberPlatform .platformBox .content {
+  width: 100%;
+  height: auto;
+}
+html body .memberPlatform .platformBox .content li {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  height: 42px;
+  align-items: center;
+  padding: 0 14px;
+}
+html body .memberPlatform .platformBox .content li p {
+  color: #5f5f5f;
+  font-size: 14px;
+}
+html body .memberPlatform .platformBox .content li button {
+  width: 55px;
+  height: 32px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 12px;
+}
+html body .memberPlatform .platformBox .content li button:active, html body .memberPlatform .platformBox .content li button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .memberPlatform .platformBox .content li button.un {
+  background: none;
+  border: none;
+  color: transparent;
+  pointer-events: none;
+}
+@media only screen and (max-width: 360px) {
+  html body .memberInfo .info_2 li span {
+    font-size: 12px;
+  }
+}
+html body .helpWrap {
+  width: 100%;
+  height: auto;
+}
+html body .helpWrap .helpHeader {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-bottom: solid 1px #c2c2c2;
+}
+html body .helpWrap .helpHeader .selectBox {
+  width: 92.27vw;
+  height: 42px;
+  position: relative;
+  border: solid 1px #c2c2c2;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .helpWrap .helpHeader .selectBox p {
+  color: #0069d5;
+  font-size: 14px;
+  font-weight: bold;
+}
+html body .helpWrap .helpHeader .selectBox select {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+html body .helpWrap .helpHeader .selectBox select option {
+  background: #ffffff;
+}
+html body .helpWrap .helpHeader .selectBox i {
+  display: block;
+  width: 9px;
+  height: 16px;
+  position: absolute;
+  right: 14px;
+  transform: rotate(90deg);
+}
+html body .helpWrap .helpBody {
+  width: 100%;
+  height: calc(100vh - 164px);
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 15px 4vw;
+}
+html body .helpWrap .helpBody ul {
+  width: 100%;
+  height: auto;
+}
+html body .helpWrap .helpBody ul li {
+  width: 100%;
+  height: 51px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: solid 1px #c2c2c2;
+  color: #323232;
+}
+html body .helpWrap .helpBody ul li:active, html body .helpWrap .helpBody ul li.active {
+  background: #0069d5;
+  color: #ffffff;
+}
+html body .helpWrap .help_page {
+  width: 100%;
+  height: calc(100vh - 102px);
+  overflow-x: auto;
+  box-sizing: border-box;
+  padding: 18px 14px;
+}
+html body .helpWrap .help_page .textBox {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border: solid 1px #c2c2c2;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 18px 14px;
+  overflow-y: auto;
+}
+html body .helpWrap .help_page .textBox .title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0069d5;
+  letter-spacing: 1px;
+  margin: 14px 0;
+}
+html body .helpWrap .help_page .textBox .title.first {
+  margin-top: 0;
+}
+html body .helpWrap .help_page .textBox .cnt {
+  margin-bottom: 8px;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+html body .customerHeader {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 1rem 1.5rem;
+}
+html body .customerHeader .title {
+  width: 100%;
+  height: auto;
+}
+html body .customerHeader .title p {
+  color: #0069d5;
+  font-size: 4vw;
+  font-weight: bold;
+  line-height: 22px;
+}
+html body .customerHeader .content {
+  font-size: 3vw;
+  color: #5f5f5f;
+  font-weight: bold;
+  line-height: 22px;
+  margin-top: 4px;
+}
+html body a {
+  display: flex;
+  background: #ffffff;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 10px;
+  margin: 1rem;
+  box-sizing: border-box;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+}
+html body a .icon {
+  width: 35px;
+  height: 35px;
+}
+html body a .textBox {
+  width: calc(100% - 4rem);
+  height: auto;
+  margin-left: 1rem;
+}
+html body a .textBox div {
+  line-height: 1.2rem;
+}
+html body a .textBox div.title {
+  font-size: 4vw;
+}
+html body a .textBox div.entitle {
+  font-size: 3vw;
+}
+html body a .textBox div.prompt {
+  font-size: 3vw;
+}
+html body a.mainBtn {
+  border: solid 1px #0069d5;
+}
+html body a.mainBtn .title {
+  color: #0069d5;
+}
+html body a.mainBtn .entitle {
+  color: #3cbbf0;
+}
+html body a.mainBtn .prompt {
+  color: #555555;
+}
+html body a.lineBtn {
+  border: solid 1px #4ea104;
+}
+html body a.lineBtn .title {
+  color: #4ea104;
+  font-size: 3.7vw !important;
+}
+html body a.lineBtn .prompt {
+  color: #72d01e;
+}
+html body .vipWrap {
+  width: 100%;
+  min-height: calc(100vh - 92px);
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+html body .vipWrap .topWrap {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #c2c2c2;
+  background: #ffffff;
+}
+html body .vipWrap .topWrap .info {
+  width: 100%;
+  height: auto;
+  padding: 0 4vw 7.46vw;
+  margin-bottom: 6.66vw;
+  border-bottom: solid 1px #c2c2c2;
+  box-sizing: border-box;
+}
+html body .vipWrap .topWrap .info .content {
+  padding-top: 14px;
+  margin-bottom: 9.33vw;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+html body .vipWrap .topWrap .info .content .account {
+  font-size: 16px;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+  color: #0069d5;
+  font-weight: bold;
+}
+html body .vipWrap .topWrap .info .content .text {
+  display: flex;
+  margin-bottom: 12px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #f07b1c;
+  font-weight: bold;
+}
+html body .vipWrap .topWrap .info .content .text p {
+  margin-left: 8px;
+  font-size: 14px;
+}
+html body .vipWrap .topWrap .info .content .medal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22.93vw;
+  height: 30.13vw;
+}
+html body .vipWrap .topWrap .info .expBar {
+  width: 100%;
+  height: auto;
+}
+html body .vipWrap .topWrap .info .expBar .level {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+html body .vipWrap .topWrap .info .expBar .level p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #0069d5;
+  font-weight: bold;
+}
+html body .vipWrap .topWrap .info .expBar .bar {
+  width: 100%;
+  height: 8px;
+  background: #dcdcdc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+html body .vipWrap .topWrap .info .expBar .bar .cur {
+  width: 10%;
+  height: 100%;
+  border-radius: 4px;
+  background: #0069d5;
+}
+html body .vipWrap .topWrap .levelBox {
+  position: relative;
+  width: 92%;
+  height: 6.86vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html body .vipWrap .topWrap .levelBox div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+html body .vipWrap .topWrap .levelBox div hr {
+  width: 100%;
+  border: solid 1px #dcdcdc;
+}
+html body .vipWrap .topWrap .levelBox ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  overflow-x: scroll;
+}
+html body .vipWrap .topWrap .levelBox ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 13.66vw;
+  height: 6.33vw;
+  margin-right: 4.99vw;
+  background: #dcdcdc;
+  border-radius: 4vw;
+  font-size: 12px;
+  color: #ffffff;
+}
+html body .vipWrap .topWrap .levelBox ul li.active {
+  background: #0069d5;
+}
+html body .vipWrap .topWrap .cards {
+  width: 100%;
+  height: 47.46vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1vw;
+  margin-top: 5.33vw;
+  box-sizing: border-box;
+}
+html body .vipWrap .topWrap .cards i {
+  width: 2.67vw;
+  height: 5.33vw;
+}
+html body .vipWrap .topWrap .cards i.prev {
+  transform: scaleX(-1);
+}
+html body .vipWrap .topWrap .cards div:not(.text) {
+  width: 88.27vw;
+  height: 47.47vw;
+  overflow: hidden;
+}
+html body .vipWrap .topWrap .cards div:not(.text) ul {
+  display: flex;
+  transition: all 0.5s ease;
+}
+html body .vipWrap .topWrap .cards div:not(.text) ul li {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 88.27vw;
+  height: 47.47vw;
+  flex-shrink: 0;
+  padding: 0 6.67vw;
+  box-sizing: border-box;
+  border: solid 1px #c2c2c2;
+  border-radius: 10px;
+}
+html body .vipWrap .topWrap .cards div:not(.text) ul li .medal {
+  position: absolute;
+  top: 0;
+  left: 5.6vw;
+  width: 19.47vw;
+  height: 25.87vw;
+}
+html body .vipWrap .topWrap .cards div:not(.text) ul li .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.4vw;
+  font-size: 14px;
+  color: #0069d5;
+  font-weight: bold;
+}
+html body .vipWrap .topWrap .cards div:not(.text) ul li .text p {
+  margin-top: 2.4vw;
+  font-size: 18px;
+}
+html body .vipWrap .midWrap {
+  background: #ffffff;
+  padding: 15px 12px;
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border: solid 1px #c2c2c2;
+  border-width: 1px 0;
+  box-sizing: border-box;
+}
+html body .vipWrap .midWrap .smallTitle {
+  margin-bottom: 15px;
+  font-style: 17px;
+  letter-spacing: 2px;
+  color: #0069d5;
+  font-weight: bold;
+}
+html body .vipWrap .midWrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+html body .vipWrap .midWrap ul li {
+  width: 100%;
+  height: 17.6vw;
+  min-height: 51px;
+  padding-left: 12px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #0069d5;
+  font-weight: bold;
+  margin-bottom: 3vw;
+  display: flex;
+  justify-content: center;
+  background: #eff5f8;
+  border: solid 1px #c2c2c2;
+  flex-direction: column;
+}
+html body .vipWrap .midWrap ul li.noMar {
+  margin: 0;
+}
+html body .vipWrap .midWrap ul li p {
+  font-weight: bold;
+  font-size: 22px;
+  color: #5f5f5f;
+  margin-top: 6px;
+}
+html body .vipWrap .bottomWrap {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  background: #ffffff;
+  border-top: solid 1px #c2c2c2;
+}
+html body .vipWrap .bottomWrap button {
+  width: 90%;
+  height: 52px;
+  margin: 0 auto;
+  background: linear-gradient(to top, #e6e6e6 0, #ffffff 78%);
+  border: solid 1px #c2c2c2;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #5f5f5f;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #0069d5;
+}
+html body .vipWrap .bottomWrap button:active, html body .vipWrap .bottomWrap button.active {
+  background: #0069d5;
+  color: #fff;
+}
+html body .vipWrap .bottomWrap button .arrow {
+  width: 3vw;
+  height: 5vw;
+}
+html body .vipWrap .bottomWrap button:active .arrow, html body .vipWrap .bottomWrap button.active .arrow {
+  background-position-y: 100%;
+}
+html body .vipDetail {
+  width: 100%;
+  min-height: calc(100vh - 92px);
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+html body .vipDetail .title {
+  color: #323232;
+  font-size: 4vw;
+  display: flex;
+  width: 92%;
+  margin: 0 auto;
+  height: 60px;
+  align-items: center;
+  font-weight: bold;
+}
+html body .vipDetail .title.blue {
+  color: #0069d5;
+}
+html body .vipDetail .listBox {
+  display: flex;
+  width: 92%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+html body .vipDetail .listBox .arrow {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  top: 6px;
+  left: 53px;
+  display: block;
+  background: #0069d5;
+  z-index: 1;
+}
+html body .vipDetail .listBox .arrow::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  width: 16px;
+  height: 10px;
+}
+html body .vipDetail .listBox .arrow.next {
+  left: unset;
+  right: 1px;
+}
+html body .vipDetail .listBox .arrow.next::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+html body .vipDetail .listBox .listLeft {
+  width: 18%;
+  height: auto;
+  border-radius: 5px 0 0 5px;
+  border: solid 1px #c2c2c2;
+  border-right: none;
+  overflow: hidden;
+}
+html body .vipDetail .listBox .listLeft ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 42px;
+  background: #ffffff;
+  color: #323232;
+  border-bottom: solid 1px #c2c2c2;
+}
+html body .vipDetail .listBox .listLeft ul li.listTitle {
+  background: #0069d5;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+}
+html body .vipDetail .listBox .listLeft ul li.gray {
+  background: #f7f7f7;
+}
+html body .vipDetail .listBox .listLeft ul li.noBorder {
+  border: none;
+}
+html body .vipDetail .listBox .listLeft ul li p {
+  color: #323232;
+  font-size: 14px;
+  font-weight: bold;
+  border-right: solid 1px #c2c2c2;
+  width: 100%;
+  text-align: center;
+}
+html body .vipDetail .listBox .listRight {
+  width: 82%;
+  height: auto;
+  border-radius: 0 5px 5px 0;
+  border: solid 1px #c2c2c2;
+  border-left: none;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+html body .vipDetail .listBox .listRight ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 42px;
+  background: #ffffff;
+  color: #323232;
+  border-bottom: solid 1px #c2c2c2;
+  padding: 0 12px;
+  position: relative;
+}
+html body .vipDetail .listBox .listRight ul li.listTitle {
+  background: #0069d5;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
+html body .vipDetail .listBox .listRight ul li.listTitle::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 14px;
+  background: #ffffff;
+}
+html body .vipDetail .listBox .listRight ul li.gray {
+  background: #f7f7f7;
+}
+html body .vipDetail .listBox .listRight ul li.noBorder {
+  border: none;
+}
+html body .vipDetail .listBox .listRight ul li p {
+  position: absolute;
+  color: #323232;
+  font-size: 14px;
+  font-weight: bold;
+  border-right: solid 1px #c2c2c2;
+  width: 100%;
+  text-align: center;
+}
+html body .vipDetail .listBox .listRight .fingerBox {
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: disappear 4s ease 0s infinite;
+}
+html body .vipDetail .listBox .listRight .fingerBox .finger {
+  width: 31px;
+  height: 42px;
+  margin-bottom: 8px;
+}
+html body .vipDetail .listBox .listRight .fingerBox i {
+  display: block;
+  width: 15px;
+  height: 12px;
+  position: absolute;
+  top: 7px;
+  left: 45px;
+}
+html body .vipDetail .listBox .listRight .fingerBox i.left {
+  transform: scaleX(-1);
+  right: 52px;
+  left: unset;
+  animation: arrowMove2 4s ease 0s infinite;
+}
+html body .vipDetail .listBox .listRight .fingerBox i.right {
+  animation: arrowMove1 4s ease 0s infinite;
+}
+@keyframes arrowMove1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(70%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(70%);
+  }
+}
+@keyframes arrowMove2 {
+  0% {
+    transform: scaleX(-1) translateX(0);
+  }
+  25% {
+    transform: scaleX(-1) translateX(70%);
+  }
+  50% {
+    transform: scaleX(-1) translateX(0);
+  }
+  75% {
+    transform: scaleX(-1) translateX(70%);
+  }
+}
+@keyframes disappear {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+html body .vipDetail .remindBox {
+  width: 92%;
+  height: auto;
+  margin: 0 auto;
+}
+html body .vipDetail .remindBox p {
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #5f5f5f;
+  margin-bottom: 24px;
+}
+html body .vipDetail .remindBox p span {
+  display: inline-block;
+}
+html body .applyHeader {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+}
+html body .applyHeader ul {
+  display: flex;
+  width: auto;
+  height: 100%;
+  overflow-x: auto;
+}
+html body .applyHeader ul li {
+  width: auto;
+  height: 100%;
+  box-sizing: border-box;
+  border-bottom: solid 2px transparent;
+  display: flex;
+  align-items: center;
+  color: #5f5f5f;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+html body .applyHeader ul li:active, html body .applyHeader ul li.active {
+  border-color: #0069d5;
+  color: #0069d5;
+}
+html body .applyBody {
+  width: 100%;
+  height: calc(100vh - 132px);
+  overflow-y: scroll;
+}
+html body .applyBody.apply {
+  display: none;
+}
+html body .applyBody.apply.display {
+  display: block;
+}
+html body .applyBody.apply .list {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 4% 0;
+}
+html body .applyBody.apply .list .box {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background: #ffffff;
+  margin-bottom: 15px;
+  border: solid 1px #c2c2c2;
+  box-sizing: border-box;
+}
+html body .applyBody.apply .list .box .title {
+  width: 100%;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px #c2c2c2;
+  background: #0069d5;
+  color: #ffffff;
+  font-weight: bold;
+}
+html body .applyBody.apply .list .box ul li {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 8px 13px;
+}
+html body .applyBody.apply .list .box ul li.cur {
+  background: #f7f7f7;
+}
+html body .applyBody.apply .list .box ul li label {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+}
+html body .applyBody.apply .list .box ul li p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+html body .applyBody.apply .list .box ul li p em {
+  color: #f07b1c;
+}
+html body .applyBody.apply .list .box ul li p em.sp {
+  color: #0069d5;
+}
+html body .applyBody.apply .btnBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 15px 5px;
+}
+html body .applyBody.apply .btnBox button {
+  width: 50%;
+  height: 32px;
+  margin: 0 5px;
+}
+html body .applyBody.apply .btnBox button.applyBtn {
+  background: linear-gradient(to bottom, #ff952e 0, #ef7513 100%);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 12px;
+}
+html body .applyBody.apply .btnBox button.applyBtn:active, html body .applyBody.apply .btnBox button.applyBtn.active {
+  background: linear-gradient(to top, #ff952e 0, #ef7513 100%);
+}
+html body .applyBody.apply .btnBox button.seeBtn {
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 12px;
+}
+html body .applyBody.apply .btnBox button.seeBtn:active, html body .applyBody.apply .btnBox button.seeBtn.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .applyBody.already {
+  display: none;
+}
+html body .applyBody.already.display {
+  display: block;
+}
+html body .applyBody.already .list {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 4% 0;
+}
+html body .applyBody.already .list .box {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background: #ffffff;
+  margin-bottom: 15px;
+  border: solid 1px #c2c2c2;
+  box-sizing: border-box;
+}
+html body .applyBody.already .list .box .title {
+  width: 100%;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px #c2c2c2;
+  background: #0069d5;
+  color: #ffffff;
+  font-weight: bold;
+}
+html body .applyBody.already .list .box ul li {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 8px 13px;
+}
+html body .applyBody.already .list .box ul li.cur {
+  background: #f7f7f7;
+}
+html body .applyBody.already .list .box ul li label {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+}
+html body .applyBody.already .list .box ul li p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+html body .applyBody.already .list .box ul li p em {
+  color: #f07b1c;
+}
+html body .applyBody.already .list .box ul li p em.sp {
+  color: #0069d5;
+}
+html body .applyBody.already .btnBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 15px 12px;
+}
+html body .applyBody.already .btnBox button {
+  width: 100%;
+  height: 32px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 12px;
+}
+html body .applyBody.already .btnBox button:active, html body .applyBody.already .btnBox button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .applyBody.applyRecord {
+  display: none;
+}
+html body .applyBody.applyRecord.display {
+  display: block;
+}
+html body .applyBody.applyRecord .searchContain {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px #c2c2c2;
+  background: #ffffff;
+}
+html body .applyBody.applyRecord .searchContain form {
+  width: 100%;
+  height: auto;
+}
+html body .applyBody.applyRecord .searchContain form ul li {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+html body .applyBody.applyRecord .searchContain form ul li.noMar {
+  margin: 0;
+}
+html body .applyBody.applyRecord .searchContain form ul li p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #5f5f5f;
+  margin-bottom: 10px;
+}
+html body .applyBody.applyRecord .searchContain form ul li select {
+  width: 100%;
+  height: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0069d5;
+  border-radius: 3px;
+  border: solid 1px #c2c2c2;
+  padding-left: 3vw;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #eff5f8;
+  background-image: linear-gradient(45deg, transparent 50%, #0069d5 0), linear-gradient(135deg, #0069d5 50%, transparent 0);
+  background-position: calc(100% - 20px) calc(1em + 4px), calc(100% - 15px) calc(1em + 4px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+html body .applyBody.applyRecord .searchContain form ul li .date {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px #c2c2c2;
+  border-radius: 3px;
+  background: #eff5f8;
+}
+html body .applyBody.applyRecord .searchContain form ul li .date input {
+  background: none;
+  border: none;
+  width: 40%;
+  height: 100%;
+  font-size: 3.5vw;
+  color: #323232;
+  font-weight: bold;
+}
+html body .applyBody.applyRecord .searchContain form ul li .btnBox {
+  width: 100%;
+  display: flex;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: solid 1px #c2c2c2;
+}
+html body .applyBody.applyRecord .searchContain form ul li .btnBox button {
+  width: 25%;
+  height: 38px;
+  background: linear-gradient(to top, #e6e6e6 0, #ffffff 78%);
+  border: solid 1px #c2c2c2;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #5f5f5f;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 0 1px 0 0;
+  border-radius: 0;
+}
+html body .applyBody.applyRecord .searchContain form ul li .btnBox button:active, html body .applyBody.applyRecord .searchContain form ul li .btnBox button.active {
+  background: #0069d5;
+  color: #fff;
+}
+html body .applyBody.applyRecord .searchContain form ul li .btnBox button.noBorder {
+  border: none;
+}
+html body .applyBody.applyRecord .searchContain form ul li .check {
+  width: 100%;
+  height: 41px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .applyBody.applyRecord .searchContain form ul li .check:active, html body .applyBody.applyRecord .searchContain form ul li .check.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .applyBody.applyRecord .review {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 4% 0;
+  margin-bottom: 5vw;
+}
+html body .applyBody.applyRecord .review .noData {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 80px;
+  box-sizing: border-box;
+  color: #5f5f5f;
+  font-weight: bold;
+  font-size: 14px;
+}
+html body .applyBody.applyRecord .review .noData.display {
+  display: flex;
+}
+html body .applyBody.applyRecord .review .recordBox {
+  display: none;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: solid 1px #c2c2c2;
+  background: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+html body .applyBody.applyRecord .review .recordBox.display {
+  display: block;
+}
+html body .applyBody.applyRecord .review .recordBox ul {
+  width: 100%;
+  height: auto;
+}
+html body .applyBody.applyRecord .review .recordBox ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 38px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #323232;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+html body .applyBody.applyRecord .review .recordBox ul li.title {
+  color: #0069d5;
+  border-bottom: solid 1px #c2c2c2;
+}
+html body .applyBody.applyRecord .review .recordBox ul li.title p {
+  color: #5f5f5f;
+}
+html body .applyBody.applyRecord .review .recordBox ul li.title p .status {
+  color: #f07b1c;
+}
+html body .applyBody.applyRecord .review .recordBox ul li span {
+  color: #0069d5;
+  font-size: 13px;
+}
+html body .applyBody.applyRecord .review .recordBox ul li span.reason {
+  color: #f07b1c;
+}
+html body .recordHeader {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+}
+html body .recordHeader ul {
+  display: flex;
+  width: auto;
+  height: 100%;
+  overflow-x: auto;
+}
+html body .recordHeader ul li {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  border-bottom: solid 2px transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5f5f5f;
+  font-weight: bold;
+  font-size: 14px;
+}
+html body .recordHeader ul li:active, html body .recordHeader ul li.active {
+  border-color: #0069d5;
+  color: #0069d5;
+}
+html body .recordBody {
+  width: 100%;
+  height: calc(100vh - 133px);
+  overflow-y: scroll;
+}
+html body .recordBody.dealRecord {
+  display: none;
+}
+html body .recordBody.dealRecord.display {
+  display: block;
+}
+html body .recordBody.dealRecord .searchContain {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px #c2c2c2;
+  background: #ffffff;
+}
+html body .recordBody.dealRecord .searchContain form {
+  width: 100%;
+  height: auto;
+}
+html body .recordBody.dealRecord .searchContain form ul li {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+html body .recordBody.dealRecord .searchContain form ul li.noMar {
+  margin: 0;
+}
+html body .recordBody.dealRecord .searchContain form ul li p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #5f5f5f;
+  margin-bottom: 10px;
+}
+html body .recordBody.dealRecord .searchContain form ul li select {
+  width: 100%;
+  height: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0069d5;
+  border-radius: 3px;
+  border: solid 1px #c2c2c2;
+  padding-left: 3vw;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #eff5f8;
+  background-image: linear-gradient(45deg, transparent 50%, #0069d5 0), linear-gradient(135deg, #0069d5 50%, transparent 0);
+  background-position: calc(100% - 20px) calc(1em + 4px), calc(100% - 15px) calc(1em + 4px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+html body .recordBody.dealRecord .searchContain form ul li .date {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px #c2c2c2;
+  border-radius: 3px;
+  background: #eff5f8;
+}
+html body .recordBody.dealRecord .searchContain form ul li .date input {
+  background: none;
+  border: none;
+  width: 40%;
+  height: 100%;
+  font-size: 3.5vw;
+  color: #323232;
+  font-weight: bold;
+}
+html body .recordBody.dealRecord .searchContain form ul li .btnBox {
+  width: 100%;
+  display: flex;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: solid 1px #c2c2c2;
+}
+html body .recordBody.dealRecord .searchContain form ul li .btnBox button {
+  width: 25%;
+  height: 38px;
+  background: linear-gradient(to top, #e6e6e6 0, #ffffff 78%);
+  border: solid 1px #c2c2c2;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #5f5f5f;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 0 1px 0 0;
+  border-radius: 0;
+}
+html body .recordBody.dealRecord .searchContain form ul li .btnBox button:active, html body .recordBody.dealRecord .searchContain form ul li .btnBox button.active {
+  background: #0069d5;
+  color: #fff;
+}
+html body .recordBody.dealRecord .searchContain form ul li .btnBox button.noBorder {
+  border: none;
+}
+html body .recordBody.dealRecord .searchContain form ul li .check {
+  width: 100%;
+  height: 41px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .recordBody.dealRecord .searchContain form ul li .check:active, html body .recordBody.dealRecord .searchContain form ul li .check.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .recordBody.dealRecord .review {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 4% 0;
+  margin-bottom: 5vw;
+}
+html body .recordBody.dealRecord .review .noData {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 80px;
+  box-sizing: border-box;
+  color: #5f5f5f;
+  font-weight: bold;
+  font-size: 14px;
+}
+html body .recordBody.dealRecord .review .noData.display {
+  display: flex;
+}
+html body .recordBody.dealRecord .review .recordBox {
+  display: none;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: solid 1px #c2c2c2;
+  background: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+html body .recordBody.dealRecord .review .recordBox.display {
+  display: block;
+}
+html body .recordBody.dealRecord .review .recordBox ul {
+  width: 100%;
+  height: auto;
+}
+html body .recordBody.dealRecord .review .recordBox ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 38px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #323232;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+html body .recordBody.dealRecord .review .recordBox ul li.title {
+  color: #0069d5;
+  border-bottom: solid 1px #c2c2c2;
+  font-size: 14px;
+}
+html body .recordBody.dealRecord .review .recordBox ul li.title p {
+  color: #5f5f5f;
+}
+html body .recordBody.dealRecord .review .recordBox ul li span {
+  color: #f07b1c;
+  font-size: 13px;
+}
+html body .recordBody.dealRecord .review .recordBox ul li span.reason {
+  color: #5f5f5f;
+}
+html body .recordBody.waterRecord {
+  display: none;
+}
+html body .recordBody.waterRecord.display {
+  display: block;
+}
+html body .recordBody.waterRecord .list {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 4% 0;
+}
+html body .recordBody.waterRecord .list .box {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background: #ffffff;
+  margin-bottom: 15px;
+  border: solid 1px #c2c2c2;
+  box-sizing: border-box;
+}
+html body .recordBody.waterRecord .list .box .title {
+  width: 100%;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #c2c2c2;
+  color: #0069d5;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 0 13px;
+  font-size: 14px;
+}
+html body .recordBody.waterRecord .list .box ul li {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 8px 13px;
+}
+html body .recordBody.waterRecord .list .box ul li label {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+}
+html body .recordBody.waterRecord .list .box ul li p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+html body .recordBody.waterRecord .list .box ul li p em {
+  color: #f07b1c;
+}
+html body .recordBody.waterRecord .list .box ul li div {
+  width: 100%;
+  height: 42px;
+  background: #f0f5f8;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+html body .recordBody.waterRecord .list .box ul li div p {
+  color: #617b8d;
+  font-size: 14px;
+}
+html body .recordBody.waterRecord .btnBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 15px 5px;
+}
+html body .recordBody.waterRecord .btnBox button {
+  width: 50%;
+  height: 32px;
+  margin: 0 5px;
+}
+html body .recordBody.waterRecord .btnBox button.moreBtn {
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  font-size: 12px;
+  border-radius: 3px;
+}
+html body .recordBody.waterRecord .btnBox button.moreBtn:active, html body .recordBody.waterRecord .btnBox button.moreBtn.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+}
+html body .recordBody.waterRecord .btnBox button.checkBtn {
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 12px;
+}
+html body .recordBody.waterRecord .btnBox button.checkBtn:active, html body .recordBody.waterRecord .btnBox button.checkBtn.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .mailHeader {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+}
+html body .mailHeader ul {
+  display: flex;
+  width: auto;
+  height: 100%;
+  overflow-x: auto;
+}
+html body .mailHeader ul li {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  border-bottom: solid 2px transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5f5f5f;
+  font-weight: bold;
+  font-size: 14px;
+}
+html body .mailHeader ul li:active, html body .mailHeader ul li.active {
+  border-color: #0069d5;
+  color: #0069d5;
+}
+html body .mailBody {
+  width: 100%;
+  height: auto;
+}
+html body .mailBody.normal {
+  display: none;
+}
+html body .mailBody.normal.display {
+  display: block;
+}
+html body .mailBody.normal .subClass {
+  width: 100%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .mailBody.normal .subClass button {
+  width: 46%;
+  height: 42px;
+  background: linear-gradient(to top, #e6e6e6 0, #ffffff 78%);
+  border: solid 1px #c2c2c2;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #5f5f5f;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+html body .mailBody.normal .subClass button:active, html body .mailBody.normal .subClass button.active {
+  background: #0069d5;
+  color: #fff;
+}
+html body .mailBody.normal .subClass button.left {
+  border-right: none !important;
+  border-radius: 3px 0 0 3px;
+}
+html body .mailBody.normal .subClass button.right {
+  border-left: none !important;
+  border-radius: 0 3px 3px 0;
+}
+html body .mailBody.normal .editBox {
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  display: none;
+}
+html body .mailBody.normal .editBox.display {
+  display: flex;
+}
+html body .mailBody.normal .editBox .all {
+  display: flex;
+  align-items: center;
+  color: #323232;
+  font-size: 16px;
+  font-weight: bold;
+}
+html body .mailBody.normal .editBox .all input {
+  margin-right: 10px;
+  position: relative;
+}
+html body .mailBody.normal .editBox .all input::before {
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  border: solid 1px #0069d5;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+html body .mailBody.normal .editBox .all input:checked::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #f07b1c;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html body .mailBody.normal .editBox .modify button {
+  width: 82px;
+  height: 28px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 12px;
+}
+html body .mailBody.normal .editBox .modify button:active, html body .mailBody.normal .editBox .modify button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .mailBody.normal .editBox .modify button.delete {
+  background: linear-gradient(to bottom, #ff952e 0, #ef7513 100%);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  font-size: 12px;
+}
+html body .mailBody.normal .editBox .modify button.delete:active, html body .mailBody.normal .editBox .modify button.delete.active {
+  background: linear-gradient(to top, #ff952e 0, #ef7513 100%);
+}
+html body .mailBody.normal .list {
+  width: 100%;
+  height: calc(100vh - 205px);
+  overflow-y: auto;
+}
+html body .mailBody.normal .list.editing {
+  height: calc(100vh - 265px);
+}
+html body .mailBody.normal .list.editing .title, html body .mailBody.normal .list.editing .textBox {
+  padding: 0 30px 0 50px;
+}
+html body .mailBody.normal .list.editing .inputBox {
+  display: flex;
+}
+html body .mailBody.normal .list.system, html body .mailBody.normal .list.personal {
+  display: none;
+}
+html body .mailBody.normal .list.system.display, html body .mailBody.normal .list.personal.display {
+  display: block;
+}
+html body .mailBody.normal .list ul {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0 4%;
+}
+html body .mailBody.normal .list ul li {
+  width: 100%;
+  height: 108px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: solid 1px #c2c2c2;
+  position: relative;
+  margin-bottom: 10px;
+}
+html body .mailBody.normal .list ul li.read {
+  background: #f7f7f7;
+}
+html body .mailBody.normal .list ul li.read .title {
+  color: #323232;
+}
+html body .mailBody.normal .list ul li .title {
+  width: 100%;
+  height: 40%;
+  box-sizing: border-box;
+  padding: 0 30px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0069d5;
+}
+html body .mailBody.normal .list ul li .textBox {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 30px;
+  align-items: center;
+  position: relative;
+}
+html body .mailBody.normal .list ul li .textBox p {
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #5f5f5f;
+  font-size: 14px;
+}
+html body .mailBody.normal .list ul li .textBox .date {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+html body .mailBody.normal .list ul li .inputBox {
+  display: none;
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+html body .mailBody.normal .list ul li .inputBox input {
+  position: relative;
+}
+html body .mailBody.normal .list ul li .inputBox input::before {
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  border: solid 1px #0069d5;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+html body .mailBody.normal .list ul li .inputBox input:checked::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #f07b1c;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html body .mailBody.post {
+  display: none;
+}
+html body .mailBody.post.display {
+  display: block;
+}
+html body .mailBody.post .subClass {
+  width: 100%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .mailBody.post .subClass ul {
+  width: 91%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  border: solid 1px #c2c2c2;
+  display: flex;
+}
+html body .mailBody.post .subClass ul li {
+  width: 34%;
+  height: 42px;
+}
+html body .mailBody.post .subClass ul li.mid {
+  margin: 0 1px;
+}
+html body .mailBody.post .subClass ul li button {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #e6e6e6 0, #ffffff 78%);
+  border: solid 1px #c2c2c2;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #5f5f5f;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0;
+}
+html body .mailBody.post .subClass ul li button:active, html body .mailBody.post .subClass ul li button.active {
+  background: #0069d5;
+  color: #fff;
+}
+html body .mailBody.post .list {
+  width: 100%;
+  height: calc(100vh - 205px);
+  overflow-y: auto;
+}
+html body .mailBody.post .list.pop, html body .mailBody.post .list.nor, html body .mailBody.post .list.dep {
+  display: none;
+}
+html body .mailBody.post .list.pop.display, html body .mailBody.post .list.nor.display, html body .mailBody.post .list.dep.display {
+  display: block;
+}
+html body .mailBody.post .list ul {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0 4%;
+}
+html body .mailBody.post .list ul li {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 5px;
+  border: solid 1px #c2c2c2;
+  position: relative;
+  margin-bottom: 10px;
+}
+html body .mailBody.post .list ul li p {
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0069d5;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+html body .mailContent {
+  width: 90%;
+  height: calc(100vh - 133px);
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 10vw 15px;
+  background: #ffffff;
+  margin: 15px auto 0;
+  border-radius: 5px;
+  border: solid 1px #c2c2c2;
+  position: relative;
+}
+html body .mailContent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8vw;
+  background: #0069d5;
+}
+html body .mailContent .msg {
+  margin-top: 19px;
+}
+html body .mailContent .msg pre {
+  font-size: 17px;
+  color: #0069d5;
+  font-weight: bold;
+  white-space: pre-wrap;
+  line-height: 24px;
+}
+@media only screen and (max-width: 320px) {
+  html body .mailBody.normal .subClass button p {
+    transform: scale(0.8);
+    white-space: nowrap;
+  }
+}
+html body .cardList {
+  width: 100%;
+  height: 212px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #c2c2c2;
+  box-sizing: border-box;
+  padding: 0 14px 15px 14px;
+  background: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+html body .cardList .title {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  color: #5f5f5f;
+  top: 10px;
+  left: 14px;
+}
+html body .cardList ul {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+}
+html body .cardList ul li {
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+  background: linear-gradient(-51deg, #4f9ff1 0%, #0069d5 51%, #5dacfd 100%);
+  margin-right: 10px;
+  border: solid 1px #ffffff;
+  box-shadow: 0 0 5px 0 #00000066;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+html body .cardList ul li.empty {
+  background: linear-gradient(to bottom, #f3fafe 30%, #e5ecf0 100%);
+  border-color: #c2c2c2;
+  box-shadow: none;
+}
+html body .cardList ul li.empty .addCard, html body .cardList ul li.empty .status {
+  display: block;
+}
+html body .cardList ul li.empty .smallTitle, html body .cardList ul li.empty .smallBranch, html body .cardList ul li.empty .code {
+  display: none;
+}
+html body .cardList ul li.waiting .waiting {
+  display: block;
+}
+html body .cardList ul li.waiting .code {
+  margin-bottom: 10px;
+}
+html body .cardList ul li .addCard {
+  display: none;
+  width: 50px;
+  height: 50px;
+  margin: 27px 0;
+  background: #0069d5;
+  border-radius: 50%;
+  position: relative;
+  flex-shrink: 0;
+}
+html body .cardList ul li .addCard::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 75%;
+  background: #ffffff;
+}
+html body .cardList ul li .addCard::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 4px;
+  background: #ffffff;
+}
+html body .cardList ul li .status {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+html body .cardList ul li .status p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #0069d5;
+  text-align: center;
+  line-height: 18px;
+}
+html body .cardList ul li .smallTitle {
+  width: 85%;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+html body .cardList ul li .smallBranch {
+  width: 85%;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+html body .cardList ul li .code {
+  width: 85%;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+html body .cardList ul li .waiting {
+  display: none;
+  width: 85%;
+  height: auto;
+  padding: 5px 0;
+  background: #ffffff;
+  border-radius: 30px;
+  color: #5f5f5f;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+html body .cardContent {
+  width: 100%;
+  height: auto;
+  border: solid 1px #c2c2c2;
+  border-width: 1px 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+html body .cardContent form {
+  width: 92%;
+  height: auto;
+}
+html body .cardContent form .title {
+  color: #0069d5;
+  font-size: 14px;
+  margin: 18px 0 9px 0;
+  font-weight: bold;
+}
+html body .cardContent form .title span {
+  color: #c50803;
+}
+html body .cardContent form select {
+  width: 100%;
+  height: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0069d5;
+  border-radius: 3px;
+  border: solid 1px #c2c2c2;
+  padding-left: 3vw;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #eff5f8;
+  background-image: linear-gradient(45deg, transparent 50%, #0069d5 0), linear-gradient(135deg, #0069d5 50%, transparent 0);
+  background-position: calc(100% - 20px) calc(1em + 4px), calc(100% - 15px) calc(1em + 4px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+html body .cardContent form input {
+  width: 100%;
+  height: 42px;
+  background: #eef5f8;
+  border: solid 1px #c2c2c2;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #5f6368;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+html body .cardContent form input::placeholder {
+  color: #a6afbf;
+}
+html body .cardContent form .remind {
+  color: #f07b1c;
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 18px;
+}
+html body .cardContent form button {
+  width: 100%;
+  height: 42px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  margin: 34px 0;
+}
+html body .cardContent form button:active, html body .cardContent form button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .cardContent form .forBank, html body .cardContent form .forUsdt, html body .cardContent form .forVp {
+  display: none;
+}
+html body .cardContent form .forBank.display, html body .cardContent form .forUsdt.display, html body .cardContent form .forVp.display {
+  display: block;
+}
+html body .depositWrap {
+  width: 100%;
+  height: auto;
+}
+html body .depositWrap .depositList {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 11px 15px 13px;
+  background: #ffffff;
+  border: solid 1px #c2c2c2;
+  border-width: 1px 0;
+}
+html body .depositWrap .depositList .title {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #0069d5;
+}
+html body .depositWrap .depositList ul {
+  width: 100%;
+  height: auto;
+  margin-top: 11px;
+  overflow-x: auto;
+  display: flex;
+}
+html body .depositWrap .depositList ul li {
+  width: 25.4vw;
+  height: 19.2vw;
+  margin-right: 5px;
+  background: linear-gradient(to top, #e6e6e6 0%, #ffffff 78%);
+  border: solid 1px #c2c2c2;
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+html body .depositWrap .depositList ul li.active {
+  border-color: #0069d5;
+}
+html body .depositWrap .depositList ul li.active::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #0069d5;
+  right: 0;
+  bottom: 0;
+  transform: translate(50%, 50%) rotate(45deg);
+}
+html body .depositWrap .depositList ul li.active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+}
+html body .depositWrap .depositList ul li i {
+  display: block;
+  width: 8.27vw;
+  height: 8.27vw;
+}
+html body .depositWrap .depositList ul li p {
+  width: 90%;
+  height: auto;
+  color: #0069d5;
+  font-weight: bold;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 6px;
+  text-align: center;
+}
+html body .depositWrap .depositCnt {
+  display: none;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border: solid 1px #c2c2c2;
+  border-width: 1px 0;
+  box-sizing: border-box;
+  padding: 0 24px 11px;
+}
+html body .depositWrap .depositCnt.display {
+  display: block;
+}
+html body .depositWrap .depositCnt .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0069d5;
+  margin: 18px 0 8px;
+}
+html body .depositWrap .depositCnt .title .red {
+  color: #c50803;
+}
+html body .depositWrap .depositCnt .content {
+  display: flex;
+  height: 48px;
+  align-items: center;
+}
+html body .depositWrap .depositCnt .content span {
+  font-size: 14px;
+  font-weight: bold;
+}
+html body .depositWrap .depositCnt .content span.smallTitle {
+  padding-right: 24px;
+  color: #5f5f5f;
+}
+html body .depositWrap .depositCnt .content span.info {
+  color: #f07b1c;
+  display: flex;
+  align-items: center;
+}
+html body .depositWrap .depositCnt .contentBox {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: solid 1px #c2c2c2;
+  background: #f7f7f7;
+  border-radius: 3px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+html body .depositWrap .depositCnt .contentBox p {
+  letter-spacing: 1px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #f07b1c;
+  display: flex;
+  align-items: center;
+}
+html body .depositWrap .depositCnt .contentBox span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+  margin-top: 10px;
+}
+html body .depositWrap .depositCnt .remind {
+  display: block;
+  font-size: 12px;
+  color: #f07b1c;
+  margin-top: 4px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+html body .depositWrap .depositCnt select {
+  width: 100%;
+  height: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0069d5;
+  border-radius: 3px;
+  border: solid 1px #c2c2c2;
+  padding-left: 3vw;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #eff5f8;
+  background-image: linear-gradient(45deg, transparent 50%, #0069d5 0), linear-gradient(135deg, #0069d5 50%, transparent 0);
+  background-position: calc(100% - 20px) calc(1em + 4px), calc(100% - 15px) calc(1em + 4px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+html body .depositWrap .depositCnt input {
+  width: 100%;
+  height: 42px;
+  background: #eef5f8;
+  border: solid 1px #c2c2c2;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #5f6368;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+html body .depositWrap .depositCnt input::placeholder {
+  color: #a6afbf;
+}
+html body .depositWrap .depositCnt .copy {
+  width: 12.27vw;
+  height: 7.73vw;
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-left: 15px;
+  border: solid 1px #c2c2c2;
+}
+html body .depositWrap .depositCnt .copy:active, html body .depositWrap .depositCnt .copy.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+}
+html body .depositWrap .depositCnt .check {
+  width: 100%;
+  height: 42px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 30px;
+}
+html body .depositWrap .depositCnt .check:active, html body .depositWrap .depositCnt .check.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .depositWrap .remindBox {
+  width: 92.27vw;
+  height: auto;
+  box-sizing: border-box;
+  padding: 14px 15px;
+  background: #ffffff;
+  border: solid 1px #c2c2c2;
+  margin: 6vw auto 8vw;
+}
+html body .depositWrap .remindBox .title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #0069d5;
+}
+html body .depositWrap .remindBox p {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+  line-height: 22px;
+}
+html body .withdrawalWrap {
+  width: 100%;
+  height: auto;
+}
+html body .withdrawalWrap .withdrawalTop {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  background: #f7f7f7;
+  border-bottom: solid 1px #c2c2c2;
+}
+html body .withdrawalWrap .withdrawalTop .content {
+  width: 100%;
+  height: auto;
+  padding: 12px 0 10px 15px;
+  box-sizing: border-box;
+  background: #ffffff;
+  font-weight: bold;
+  font-size: 29px;
+  color: #5f5f5f;
+}
+html body .withdrawalWrap .withdrawalTop .content .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #0069d5;
+}
+html body .withdrawalWrap .withdrawalTop .content .title i {
+  width: 4.27vw;
+  height: 4.27vw;
+  margin-left: 9px;
+}
+html body .withdrawalWrap .withdrawalTop .row {
+  width: 100%;
+  height: 50px;
+  padding: 0 25px;
+  border-bottom: solid 1px #dcdcdc;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #323232;
+}
+html body .withdrawalWrap .withdrawalTop .row p {
+  font-size: 17px;
+}
+html body .withdrawalWrap .withdrawalTop .row.limit {
+  height: 72px;
+  border: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+html body .withdrawalWrap .withdrawalTop .row.limit span {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html body .withdrawalWrap .withdrawalTop .row.limit button {
+  width: 85px;
+  height: 23px;
+  margin-top: 6px;
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  font-size: 12px;
+  border-radius: 3px;
+}
+html body .withdrawalWrap .withdrawalTop .row.limit button:active, html body .withdrawalWrap .withdrawalTop .row.limit button.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+}
+html body .withdrawalWrap .withdrawalCnt {
+  width: 100%;
+  height: auto;
+  border: solid 1px #c2c2c2;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 0 16px 16px;
+}
+html body .withdrawalWrap .withdrawalCnt .textBox {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border: solid 1px #d38f8f;
+  background: #f8eded;
+  margin: 16px 0;
+  border-radius: 5px;
+  color: #5f5f5f;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 20px;
+}
+html body .withdrawalWrap .withdrawalCnt select {
+  width: 100%;
+  height: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0069d5;
+  border-radius: 3px;
+  border: solid 1px #c2c2c2;
+  padding-left: 3vw;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #eff5f8;
+  background-image: linear-gradient(45deg, transparent 50%, #0069d5 0), linear-gradient(135deg, #0069d5 50%, transparent 0);
+  background-position: calc(100% - 20px) calc(1em + 4px), calc(100% - 15px) calc(1em + 4px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+html body .withdrawalWrap .withdrawalCnt input {
+  width: 100%;
+  height: 42px;
+  background: #eef5f8;
+  border: solid 1px #c2c2c2;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #5f6368;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+html body .withdrawalWrap .withdrawalCnt input::placeholder {
+  color: #a6afbf;
+}
+html body .withdrawalWrap .withdrawalCnt .remind {
+  line-height: 24px;
+  color: #f07b1c;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+html body .withdrawalWrap .withdrawalCnt button {
+  width: 100%;
+  height: 42px;
+  background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .withdrawalWrap .withdrawalCnt button:active, html body .withdrawalWrap .withdrawalCnt button.active {
+  background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
+}
+html body .withdrawalWrap .withdrawalCnt .wayBox {
+  display: none;
+  width: 100%;
+  height: auto;
+  padding: 16px 0;
+}
+html body .withdrawalWrap .withdrawalCnt .wayBox.display {
+  display: block;
+}
+html body .withdrawalWrap .remindBox {
+  width: 92.27vw;
+  height: auto;
+  box-sizing: border-box;
+  padding: 14px 15px;
+  background: #ffffff;
+  border: solid 1px #c2c2c2;
+  margin: 6vw auto 8vw;
+}
+html body .withdrawalWrap .remindBox .title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #0069d5;
+}
+html body .withdrawalWrap .remindBox p {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+html body .withdrawalWrap .remindBox p.sp {
+  color: #f07b1c;
+  margin: 0;
+}

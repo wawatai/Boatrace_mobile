@@ -1,0 +1,470 @@
+//跑馬燈
+.marqueeBox {
+    width: 92%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $backgroundColor_2;
+    border: solid 1px $borderColor_2;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: 2vw auto;
+
+    .marquee_ic {
+        display: block;
+        width: 6vw;
+        height: 6vw;
+        margin-left: 0.8vw;
+    }
+
+    .marquee {
+        width: 94%;
+        height: auto;
+        overflow: hidden;
+        margin-right: 1vw;
+
+        pre {
+            display: inline-block;
+            font-size: 2vw;
+            color: $font-color_2;
+            animation: marquee 8s linear 0s infinite;
+            padding-left: 100%;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    }
+}
+
+//登入區
+.memberArea {
+    width: 100%;
+    height: 17vw;
+    display: flex;
+    margin-bottom: 4vw;
+    background: $backgroundColor_2;
+
+    //大登入按鈕
+    .loginBtn {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 100%;
+        position: relative;
+
+        &.display {
+            display: flex;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 9vw;
+            height: 9vw;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10%;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 67%;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            background: $backgroundColor_1;
+        }
+
+        span {
+            font-size: 3.7vw;
+            font-weight: bold;
+            color: $font-color_2;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 60%;
+            display: inline-block;
+            white-space: nowrap;
+        }
+    }
+
+    //大登入按鈕登入後樣式
+    .alLogin {
+        justify-content: center;
+        align-items: center;
+        padding: 0 2vw;
+        width: 70%;
+        height: 100%;
+        box-sizing: border-box;
+        display: none;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 67%;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            background: $backgroundColor_1;
+        }
+
+        &.display {
+            display: flex;
+        }
+
+        ul {
+
+            li {
+                display: flex;
+                height: 16px;
+                align-items: center;
+                margin-bottom: 4px;
+
+                &.amount {
+                    width: auto;
+                    max-width: 33.76vw;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    color: $font-color_3;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin: 0;
+                }
+
+                .name {
+                    width: 26vw;
+                    height: auto;
+                    font-size: 0.75rem;
+                    font-weight: bold;
+                    color: $font-color_2;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                .lv {
+                    width: auto;
+                    height: 20px;
+                    padding: 0 5px;
+                    background: $backgroundColor_5;
+                    font-size: 0.75rem;
+                    font-weight: bold;
+                    color: $font-color_1;
+                    border-radius: 3px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    //存提
+    .operate {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 4.5%;
+        box-sizing: border-box;
+
+        &.login {
+            padding: 0 1.5%;
+
+            .vipBtn {
+                display: flex;
+            }
+        }
+
+        div {
+            width: 11vw;
+            height: 11vw;
+            @include buttonStyle_3;
+
+            &.vipBtn {
+                display: none;
+            }
+
+            span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 4vw;
+                font-weight: bold;
+                color: $font-color_1;
+            }
+        }
+    }
+}
+
+//遊戲區
+.homeCenter {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 4vw;
+    background: $backgroundColor_2;
+    border: solid 1px $borderColor_3;
+    border-width: 1px 0;
+    box-sizing: border-box;
+    margin: 4vw 0 5vw;
+
+    //遊戲種類選單
+    .gameList {
+        width: 100%;
+        height: auto;
+
+        ol {
+            width: 100%;
+            height: auto;
+
+            .bigBtn {
+                width: 100%;
+                height: 10vw;
+                @include buttonStyle_4;
+            }
+
+            ol {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding-top: 4vw;
+                display: none;
+
+                &.display {
+                    display: flex;
+                }
+
+                li {
+                    width: 49%;
+                    height: 22vw;
+                    box-sizing: border-box;
+                    background: $backgroundColor_6;
+                    border: solid 1px #cacfd3;
+                    margin-bottom: 2%;
+
+                    &.noMar {
+                        margin: 0;
+                    }
+
+                    &.league3 {
+
+                        .league {
+                            display: flex;
+                            background: $backgroundColor_7;
+                        }
+                    }
+                    &.league2 {
+
+                        .league {
+                            display: flex;
+                            background: $backgroundColor_8;
+                        }
+                    }
+                    &.league1 {
+
+                        .league {
+                            display: flex;
+                            background: $backgroundColor_9;
+                        }
+                    }
+                    &.league0 {
+
+                        .league {
+                            display: flex;
+                            background: $backgroundColor_10;
+                        }
+                    }
+
+                    &.typeM {
+                        
+                        .type {
+                            display: block;
+                            background-position-x: 0;
+                        }
+                    }
+                    &.typeA {
+                        
+                        .type {
+                            display: block;
+                            background-position-x: 20%;
+                        }
+                    }
+                    &.typeN {
+                        
+                        .type {
+                            display: block;
+                            background-position-x: 40%;
+                        }
+                    }
+                    &.typeNoob {
+                        
+                        .type {
+                            display: block;
+                            background-position-x: 60%;
+                        }
+                    }
+                    &.typeGold {
+                        
+                        .type {
+                            display: block;
+                            background-position-x: 80%;
+                        }
+                    }
+                    &.typeGirl {
+                        
+                        .type {
+                            display: block;
+                            background-position-x: 100%;
+                        }
+                    }
+
+                    p {
+                        width: 100%;
+                        height: 50%;
+                        color: $font-color_4;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 4vw;
+
+                        &.name {
+                            background: $backgroundColor_4;
+                            position: relative;
+                        }
+
+                        .league {
+                            display: none;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            left: 1vw;
+                            color: $font-color_1;
+                            width: 20%;
+                            height: 80%;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        .type {
+                            display: none;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 2vw;
+                            width: 5vw;
+                            height: 5vw;
+                        }
+                    }
+                }
+            }
+
+            .pageList {
+                width: 100%;
+                height: 10vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                margin-top: 4vw;
+
+                button {
+                    background: none;
+                    color: $font-color_5;
+                    font-size: 3.4vw;
+                    font-weight: bold;
+                    margin: 0 3vw;
+
+                    &:active,&.active {
+                        color: $font-color_2;
+                    }
+                }
+
+                div {
+                    position: absolute;
+                    width: 4vw;
+                    height: 7vw;
+                    opacity: 0.5;
+
+                    &:active,&.active {
+                        opacity: 1;
+                    }
+
+                    &.prev {
+                        left: 0;
+                    }
+
+                    &.next {
+                        right: 0;
+                        transform: scaleX(-1);
+                    }
+                }
+            }
+        }
+
+        .remindBox {
+            width: 100%;
+            height: auto;
+            background: $backgroundColor_6;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            padding: 4vw;
+            margin-top: 4vw;
+
+            p {
+                width: 50%;
+                font-size: 3.7vw;
+                color: $font-color_6;
+                display: flex;
+                align-items: center;
+                margin-bottom: 3vw;
+
+                &.noMar {
+                    margin: 0;
+                }
+
+                span {
+                    display: inline-block;
+                    width: 3.7vw;
+                    height: 3.7vw;
+                    margin-right: 1.5vw;
+
+                    &.morning_ic {
+                        background-position-x: 0;
+                    }
+                    &.afternoon_ic {
+                        background-position-x: 20%;
+                    }
+                    &.night_ic {
+                        background-position-x: 40%;
+                    }
+                    &.noob_ic {
+                        background-position-x: 60%;
+                    }
+                    &.gold_ic {
+                        background-position-x: 80%;
+                    }
+                    &.girl_ic {
+                        background-position-x: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

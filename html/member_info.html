@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='./member.html'"></i>
+            <div class="title">個人情報</div>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--會員中心內頁滑軸-->
+        <div class="memberList">
+            <span class="active">基本情報</span>
+            <span class="noWrap" onclick="window.location.href='./member_platform.html'">プラットフォームアカウントのパスワード</span>
+        </div>
+        <!--會員中心內頁基本情報-->
+        <div class="memberInfo">
+            <form>
+                <ul class="inputList">
+                    <li>
+                        <em></em>
+                        <span>お名前</span>
+                        <input class="userName" type="text" placeholder="実名を入力してください。カード所有者の名前は同じである必要があります。" value="user898">
+                    </li>
+                    <li>
+                        <em></em>
+                        <span>誕生日</span>
+                        <input type="date">
+                        <p class="err display">18歳未満は登録禁止</p>
+                    </li>
+                    <li class="active">
+                        <em></em>
+                        <span>Eメール</span>
+                        <input type="text" placeholder="Eメールを入力してください" value="opp1211@gmail.com">
+                        <button type="button">変更</button>
+                    </li>
+                    <li>
+                        <span>住所</span>
+                        <input type="text" placeholder="住所を記入してください,スペース、記号などを禁止します">
+                        <button type="button">変更</button>
+                    </li>
+                    <li class="active">
+                        <em></em>
+                        <span>Line ID</span>
+                        <input type="text" placeholder="Line IDまたはWeChat IDのいずれかを入力できます" value="999ddd">
+                        <button type="button">変更</button>
+                    </li>
+                    <li>
+                        <em></em>
+                        <span>WeChat</span>
+                        <input type="text" placeholder="Line IDまたはWeChat IDのいずれかを入力できます">
+                        <button type="button">変更</button>
+                    </li>
+                </ul>
+                <button>データ保存</button>
+            </form>
+            <div class="info_1">
+                <ul>
+                    <li>
+                        <span class="title">アカウント</span>
+                        <span>user898</span>
+                    </li>
+                </ul> 
+            </div>
+            <ul class="info_2">
+                <li class="security">
+                    <div>
+                        アカウントのセキュリティレベル:
+                        <span class="low">低</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="title">
+                        <i class="noCheck"></i>
+                        基本情報を入力してください
+                    </span>
+                    <span class="empty">認定されていない</span>
+                </li>
+                <li class="active">
+                    <span class="title">
+                        <i class="check"></i>
+                        携帯電話番号を連携してください
+                    </span>
+                    <span>0987654325</span>
+                    <button class="changePhoneBtn">変更</button>
+                </li>
+                <li>
+                    <span class="title">
+                        <i class="noCheck"></i>
+                        銀行口座追加
+                    </span>
+                    <span class="empty">認定されていない</span>
+                </li>
+                <li>
+                    <span class="title">
+                        <i class="noCheck"></i>
+                        Eメールを入力してください
+                    </span>
+                    <span class="empty">認定されていない</span>
+                </li>
+                <li class="active pwd">
+                    <span class="title">
+                        <i class="check"></i>
+                        変更パスワード 
+                    </span>
+                    <button class="changePwdBtn">変更</button>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li class="active" onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter">
+        <div class="jumpWindow cellphoneWindow">
+            <div class="title">
+                ヒント
+                <i class="close"></i>
+            </div>
+            <div class="content">
+                <p class="smallTitle">元の番号 : 0987278367</p>
+                <form>
+                    <input type="text" placeholder="新しい電話番号を入力してください">
+                    <button type="button" class="check">
+                        認証コードを取得する
+                        <p class="remind">電話番号は11桁である必要があります</p>
+                    </button>
+                    <input type="text" placeholder="認証コード">
+                    <button type="button" class="close">確認</button>
+                    <p class="remind">認証コードを送信した後、すぐにライ</p>
+                    <p class="remind">ブチャットに連絡してください</p>
+                </form>
+            </div>
+        </div>
+        <div class="jumpWindow passwordWindow">
+            <div class="title">
+                バスワード変更
+                <i class="close"></i>
+            </div>
+            <div class="content">
+                <form>
+                    <input type="text" placeholder="旧パスワード">
+                    <input type="text" placeholder="新しいパスワード">
+                    <input type="text" placeholder="パスワードを確認">
+                    <button type="button" class="close">確認</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+</body>
+</html>

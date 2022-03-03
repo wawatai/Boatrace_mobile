@@ -1,0 +1,181 @@
+//提款
+.withdrawalWrap {
+    width: 100%;
+    height: auto;
+
+    //上部
+    .withdrawalTop {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        background: $backgroundColor_14;
+        border-bottom: solid 1px $borderColor_6;
+
+        .content {
+            width: 100%;
+            height: auto;
+            padding: 12px 0 10px 15px;
+            box-sizing: border-box;
+            background: $backgroundColor_2;
+            font-weight: bold;
+            font-size: 29px;
+            color: $font-color_7;
+
+            .title {
+                display: flex;
+                align-items: center;
+                margin-bottom: 18px;
+                font-size: 14px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                color: $font-color_2;
+
+                i {
+                    width: 4.27vw;
+                    height: 4.27vw;
+                    margin-left: 9px;
+                }
+            }
+        }
+
+        .row {
+            width: 100%;
+            height: 50px;
+            padding: 0 25px;
+            border-bottom: solid 1px $borderColor_5;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color: $font-color_8;
+
+            p {
+                font-size: 17px;
+            }
+
+            &.limit {
+                height: 72px;
+                border: none;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+
+                span {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+                button {
+                    width: 85px;
+                    height: 23px;
+                    margin-top: 6px;
+                    @include buttonStyle_9;
+                    font-size: 12px;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+
+    //內容
+    .withdrawalCnt {
+        width: 100%;
+        height: auto;
+        border: solid 1px $borderColor_6;
+        background: $backgroundColor_2;
+        box-sizing: border-box;
+        padding: 0 16px 16px;
+
+        .textBox {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            padding: 6px 12px;
+            border: solid 1px $borderColor_8;
+            background: $backgroundColor_16;
+            margin: 16px 0;
+            border-radius: 5px;
+            color: $font-color_7;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        select {
+            width: 100%;
+            height: 42px;
+            @include selectStyle_1;
+        }
+
+        input {
+            width: 100%;
+            height: 42px;
+            @include inputStyle_1;
+            margin-top: 10px;
+        }
+
+        .remind {
+            line-height: 24px;
+            color: $font-color_3;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+            height: 42px;
+            @include buttonStyle_5;
+        }
+
+        .wayBox {
+            display: none;
+            width: 100%;
+            height: auto;
+            padding: 16px 0;
+
+            &.display {
+                display: block;
+            }
+        }
+    }
+
+    //提醒
+    .remindBox {
+        width: 92.27vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 14px 15px;
+        background: $backgroundColor_2;
+        border: solid 1px $borderColor_6;
+        margin: 6vw auto 8vw;
+
+        .title {
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: $font-color_2;
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: $font-color_7;
+            line-height: 22px;
+            margin-bottom: 10px;
+
+            &.sp {
+                color: $font-color_3;
+                margin: 0;
+            }
+        }
+    }
+}

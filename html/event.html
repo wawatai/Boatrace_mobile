@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="./images/new/myIco.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='../index.html'"></i>
+            <div class="title">プロモーション</div>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--優惠選擇列-->
+        <div class="eventType">
+            <ul>
+                <li class="active">
+                    <i class="all_ic"></i>
+                    <span>全てのプロモーション</span>
+                </li>
+            </ul>
+        </div>
+        <!--優惠列表-->
+        <div class="eventList">
+            <ul>
+                <li>
+                    <div class="eventBox">
+                        <div class="eventImg">
+                            <img src="../images/new/eventImg_1.png">
+                        </div>
+                        <p>
+                            <button onclick="window.location.href='./event_page.html'">チェック</button>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="eventBox">
+                        <div class="eventImg">
+                            <img src="../images/new/eventImg_2.png">
+                        </div>
+                        <p>
+                            <button onclick="window.location.href='./event_page.html'">チェック</button>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="eventBox">
+                        <div class="eventImg">
+                            <img src="../images/new/eventImg_2.png">
+                        </div>
+                        <p>
+                            <button onclick="window.location.href='./event_page.html'" disabled>チェック</button>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="eventBox">
+                        <div class="eventImg">
+                            <img src="../images/new/eventImg_1.png">
+                        </div>
+                        <p>
+                            <button onclick="window.location.href='./event_page.html'">チェック</button>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="eventBox">
+                        <div class="eventImg">
+                            <img src="../images/new/eventImg_2.png">
+                        </div>
+                        <p>
+                            <button onclick="window.location.href='./event_page.html'" disabled>チェック</button>
+                            <button class="apply">出金申請する</button>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='../index.html'">
+                <i class="menu_ic"></i>
+                <p>ホーム</p>
+            </li>
+            <li class="active" onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>プロモーション</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>ウォレット</p>
+            </li>
+            <li onclick="window.location.href='./customer.html'">
+                <i class="service_ic"></i>
+                <p>カスタマーサービス</p>
+            </li>
+            <li onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>マイページ</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter">
+        <div class="jumpWindow plsGo">
+            <div class="title">ヒント</div>
+            <div class="content">申請はすでに送信されています</div>
+            <div class="btnBox">
+                <button class="close">同意する</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+</body>
+</html>

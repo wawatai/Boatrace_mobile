@@ -1,0 +1,114 @@
+.helpWrap {
+    width: 100%;
+    height: auto;
+
+    .helpHeader {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $backgroundColor_2;
+        border-bottom: solid 1px $borderColor_6;
+
+        .selectBox {
+            width: 92.27vw;
+            height: 42px;
+            position: relative;
+            border: solid 1px $borderColor_6;
+            border-radius: 3px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            p {
+                color: $font-color_2;
+                font-size: 14px;
+                font-weight: bold;
+                
+            }
+
+            select {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+
+                option {
+                    background: $backgroundColor_2;
+                }
+            }
+
+            i {
+                display: block;
+                width: 9px;
+                height: 16px;
+                position: absolute;
+                right: 14px;
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    .helpBody {
+        width: 100%;
+        height: calc(100vh - 164px);
+        overflow-y: scroll;
+        box-sizing: border-box;
+        padding: 15px 4vw;
+
+        ul {
+            width: 100%;
+            height: auto;
+
+            li {
+                width: 100%;
+                height: 51px;
+                margin-bottom: 15px;
+                @include buttonStyle_11;
+            }
+        }
+    }
+
+    .help_page {
+        width: 100%;
+        height: calc(100vh - 102px);
+        overflow-x: auto;
+        box-sizing: border-box;
+        padding: 18px 14px;
+
+        .textBox {
+            width: 100%;
+            height: 100%;
+            background: $backgroundColor_2;
+            border: solid 1px $borderColor_6;
+            border-radius: 3px;
+            box-sizing: border-box;
+            padding: 18px 14px;
+            overflow-y: auto;
+
+            .title {
+                font-size: 22px;
+                font-weight: bold;
+                color: $font-color_2;
+                letter-spacing: 1px;
+                margin: 14px 0;
+    
+                &.first {
+                    margin-top: 0;
+                }
+            }
+    
+            .cnt {
+                margin-bottom: 8px;
+                line-height: 18px;
+                font-size: 14px;
+                font-weight: bold;
+                color: $font-color_7;
+            }
+        }
+    }
+}

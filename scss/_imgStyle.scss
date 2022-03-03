@@ -1,0 +1,282 @@
+//header label
+header .content label::before {
+    background: url('../images/new/icon/arrow_w.png') no-repeat;
+    background-size: 100%;
+}
+//header ic
+header .back_arrow {
+    background: url('../images/new/icon/arrow_g.png') no-repeat;
+    background-size: 100%;
+    background-position-y: 100%;
+}
+//header refreash_ic
+header .refresh_ic {
+    background: url('../images/new/icon/svg/refresh_w.svg') no-repeat;
+    background-size: 100%;
+}
+
+//marquee_ic
+.marqueeBox .marquee_ic {
+    background: url('../images/new/icon/marqueeIC.png') no-repeat;
+    background-size: 100%;
+}
+
+//memverArea .loginBtn::before
+.memberArea .loginBtn::before {
+    background: url('../images/new/icon/loginIC.png') no-repeat;
+    background-size: 100%;
+}
+
+//gameList .typeIC
+.gameList .type {
+    background: url('../images/new/icon/gameTypeIC.png') no-repeat;
+    background-size: 600%;
+}
+//gameList .pageList arrow
+.gameList .pageList div {
+    background: url('../images/new/icon/arrow_blue.png') no-repeat;
+    background-size: 100%;
+}
+//gameList .remindBox ic
+.gameList .remindBox span {
+    background: url('../images/new/icon/gameTypeIC.png') no-repeat;
+    background-size: 600%;
+}
+
+//event all_ic
+.eventType .all_ic {
+    background: url('../images/new/icon/entire.png') no-repeat;
+    background-size: 100%;
+    background-position-y: 100%;
+}
+
+//wallet 存提ic
+.walletWrap .deposit_ic,.walletWrap .deposit_ic::before {
+    background: url('../images/new/icon/svg/deposit.svg') no-repeat;
+    background-size: 100%;
+}
+.walletWrap .withdrawal_ic,.walletWrap .withdrawal_ic::before {
+    background: url('../images/new/icon/svg/withdrawal.svg') no-repeat;
+    background-size: 100%;
+}
+//wallet arrow_ic
+.walletWrap .arrow_ic {
+    background: url('../images/new/icon/arrow_g.png') no-repeat;
+    background-size: 100%;
+}
+//wallet options ic
+.walletWrap .options .icon {
+    background: url('../images/new/icon/walletIC.png') no-repeat;
+    background-size: 200%;
+}
+
+//memberWrap .user大按鈕
+.memberWrap .user .btnBox i {
+    background: url('../images/new/icon/memberBigBtn.png') no-repeat;
+    background-size: 200%;
+    background-position-x: 1px;
+}
+//memberWrap 三按鈕
+.memberWrap .user ul li i {
+    background: url('../images/new/icon/memberMainBtn.png') no-repeat;
+    background-size: 400%;
+}
+//memberWrap options
+.memberWrap .options i:not(.arrow_ic) {
+    background: url('../images/new/icon/memberIC.png') no-repeat;
+    background-size: 600%;
+}
+.memberWrap .options .arrow_ic {
+    background: url('../images/new/icon/arrow_g.png') no-repeat;
+    background-size: 60%;
+}
+
+//member_info .info_2 icon
+.memberInfo .noCheck {
+    background: url('../images/new/icon/nocheck.png') no-repeat;
+    background-size: 100%;
+}
+.memberInfo .check {
+    background: url('../images/new/icon/svg/check.svg') no-repeat;
+    background-size: 100%;
+}
+
+//vip medal
+.vipWrap .medal {
+    background: url('../images/new/icon/vipLevel.png') no-repeat;
+    background-size: contain;
+}
+//vip arrow
+.vipWrap .cards .prev,.vipWrap .cards .next {
+    background: url('../images/new/icon/arrow_g.png') no-repeat;
+    background-size: 100%;
+}
+//vip cardBg
+.vipWrap .cards .card {
+    background: url('../images/new/card_bg.png') no-repeat;
+    background-size: cover;
+}
+//vip bottomWrap arrow
+.vipWrap .bottomWrap .arrow {
+    background: url('../images/new/icon/arrow_g.png') no-repeat;
+    background-size: 100%;
+}
+//vipDetail .listBox arrow
+.vipDetail .listBox i::before {
+    background: url('../images/new/icon/arrow_w.png') no-repeat;
+    background-size: 100%;
+}
+//vipDetail fingerBox
+.vipDetail .fingerBox .finger {
+    background: url('../images/new/icon/finger.png') no-repeat;
+    background-size: 100%;
+}
+.vipDetail .fingerBox i {
+    background: url('../images/new/icon/arrow_orange.png') no-repeat;
+    background-size: 100%;
+}
+
+//helpWrap arrow
+.helpWrap .helpHeader .arrow {
+    background: url('../images/new/icon/arrow_g.png') no-repeat;
+    background-size: 100%;
+}
+
+//mail edit
+.editBtn {
+    background: url('../images/new/icon/svg/edit.svg') no-repeat;
+    background-size: 100%;
+}
+
+//deposit ic
+.depositList .bankCard_ic {
+    background: url('../images/new/icon/svg/bankCard.svg') no-repeat;
+    background-size: 100%;
+}
+.depositList .atm_ic {
+    background: url('../images/new/icon/svg/atm.svg') no-repeat;
+    background-size: 100%;
+}
+.depositList .usdt_ic {
+    background: url('../images/new/icon/svg/usdt.svg') no-repeat;
+    background-size: 100%;
+}
+.depositList .bank_ic {
+    background: url('../images/new/icon/svg/bank.svg') no-repeat;
+    background-size: 100%;
+}
+.depositList .shop_ic {
+    background: url('../images/new/icon/svg/shop.svg') no-repeat;
+    background-size: 100%;
+}
+//deposit checkArrow
+.depositList li.active::after {
+    background: url('../images/new/icon/checkArrow.png') no-repeat center;
+    background-size: 60%;
+}
+
+//withdrawal refresh_ic
+.withdrawalTop .refresh_ic {
+    background: url('../images/new/icon/svg/refresh.svg') no-repeat;
+    background-size: 100%;
+}
+
+//customer icon
+.icon.service {
+    background: url('../images/new/icon/svg/customer-service.svg') no-repeat;
+    background-size: 100%;
+}
+.icon.line {
+    background: url('../images/new/icon/svg/line.svg') no-repeat;
+    background-size: 100%;
+}
+
+//footer ic
+footer i{
+    background: url('../images/new/icon/footerIC.png') no-repeat;
+    background-size: 500%;
+}
+
+//jumpWindow close_ic
+.jumpWindow .title .close {
+    background: url('../images/new/icon/svg/close.svg') no-repeat;
+    background-size: 100%;
+}
+//jumpWindow login_ic
+.jumpWindow.loginWindow .title .icon {
+    background: url('../images/new/icon/userIC.png') no-repeat;
+    background-size: 100%;
+}
+//jumpWindow input_ic
+.jumpWindow.loginWindow label::before,.jumpWindow.registerWindow label::before {
+    background: url('../images/new/icon/inputIC.png') no-repeat;
+    background-size: 400%;
+}
+.jumpWindow.loginWindow .pwd .eye,.jumpWindow.registerWindow .pwd .eye {
+    background: url('../images/new/icon/svg/eye.svg') no-repeat;
+    background-size: 100%;
+}
+.jumpWindow.loginWindow .pwd.active .eye,.jumpWindow.registerWindow .pwd.active .eye {
+    background: url('../images/new/icon/svg/eye2.svg') no-repeat center;
+    background-size: 100%;
+}
+
+//ad arrow
+.slick-prev::before,.slick-next::before {
+    background: url('../images/new/icon/arrow_blue.png') no-repeat;
+    background-size: 100%;
+}
+
+//bg
+.bg {
+    background: url('../images/new/bg.jpg') no-repeat bottom center;
+    background-size: cover;
+}
+
+
+////////img↓
+
+
+//header - logo
+header .logo {
+    width: 150px;
+    height: 26px;
+}
+
+//ad - banner
+.single-item {
+    width: 100%;
+    height: 47vw;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+//eventImg
+.eventList .eventImg {
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 5px 5px 0 0;
+    }
+}
+.eventDetail .eventImg {
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+}
+
+//eventApply
+.activityWindow .box img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,318 @@
+//上滑選單
+.recordHeader {
+    width: 100%;
+    height: 40px;
+    background: $backgroundColor_2;
+
+    ul {
+        display: flex;
+        width: auto;
+        height: 100%;
+        overflow-x: auto;
+
+        li {
+            width: 50%;
+            height: 100%;
+            box-sizing: border-box;
+            border-bottom: solid 2px transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $font-color_7;
+            font-weight: bold;
+            font-size: 14px;
+
+            &:active,&.active {
+                border-color: $borderColor_2;
+                color: $font-color_2;
+            }
+        }
+    }
+}
+
+//內容
+.recordBody {
+    width: 100%;
+    height: calc(100vh - 133px);
+    overflow-y: scroll;
+
+    &.dealRecord {
+        display: none;
+
+        &.display {
+            display: block;
+        }
+
+        .searchContain {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            box-sizing: border-box;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            border-bottom: solid 1px $borderColor_6;
+            background: $backgroundColor_2;
+
+            form {
+                width: 100%;
+                height: auto;
+
+                ul {
+
+                    li {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: 20px;
+
+                        &.noMar {
+                            margin: 0;
+                        } 
+
+                        p {
+                            font-size: 13px;
+                            font-weight: bold;
+                            color: $font-color_7;
+                            margin-bottom: 10px;
+                        }
+
+                        select {
+                            width: 100%;
+                            height: 42px;
+                            @include selectStyle_1;
+                        }
+
+                        .date {
+                            width: 100%;
+                            height: 42px;
+                            display: flex;
+                            justify-content: space-around;
+                            border: solid 1px $borderColor_6;
+                            border-radius: 3px;
+                            background: $backgroundColor_15;
+
+                            input {
+                                background: none;
+                                border: none;
+                                width: 40%;
+                                height: 100%;
+                                font-size: 3.5vw;
+                                color: $font-color_8;
+                                font-weight: bold;
+                            }
+                        }
+
+                        .btnBox {
+                            width: 100%;
+                            display: flex;
+                            height: auto;
+                            border-radius: 5px;
+                            overflow: hidden;
+                            border: solid 1px $borderColor_6;
+
+                            button {
+                                width: 25%;
+                                height: 38px;
+                                @include buttonStyle_2;
+                                border-width: 0 1px 0 0;
+                                border-radius: 0;
+
+                                &.noBorder {
+                                    border: none;
+                                }
+                            }
+                        }
+                        
+                        .check {
+                            width: 100%;
+                            height: 41px;
+                            @include buttonStyle_5;
+                        }
+                    }
+                }
+            }
+        }
+
+        .review {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            padding: 10px 4% 0;
+            margin-bottom: 5vw;
+
+            .noData {
+                display: none;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                padding: 80px;
+                box-sizing: border-box;
+                color: $font-color_7;
+                font-weight: bold;
+                font-size: 14px;
+
+                &.display {
+                    display: flex;
+                }
+            }
+
+            .recordBox {
+                display: none;
+                width: 100%;
+                height: auto;
+                box-sizing: border-box;
+                border: solid 1px $borderColor_6;
+                background: $backgroundColor_2;
+                margin-bottom: 10px;
+                border-radius: 3px;
+
+                &.display {
+                    display: block
+                }
+
+                ul {
+                    width: 100%;
+                    height: auto;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: 38px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: $font-color_8;
+                        box-sizing: border-box;
+                        padding: 0 20px;
+
+                        &.title {
+                            color: $font-color_2;
+                            border-bottom: solid 1px $borderColor_6;
+                            font-size: 14px;
+
+                            p {
+                                color: $font-color_7;
+                            }
+                        }
+
+                        span {
+                            color: $font-color_3;
+                            font-size: 13px;
+
+                            &.reason {
+                                color: $font-color_7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.waterRecord {
+        display: none;
+
+        &.display {
+            display: block;
+        }
+
+        .list {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            padding: 10px 4% 0;
+
+            .box {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+                background: $backgroundColor_2;
+                margin-bottom: 15px;
+                border: solid 1px $borderColor_6;
+                box-sizing: border-box;
+
+                .title {
+                    width: 100%;
+                    height: 37px;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: solid 1px $borderColor_6;
+                    color: $font-color_2;
+                    font-weight: bold;
+                    box-sizing: border-box;
+                    padding: 0 13px;
+                    font-size: 14px;
+                }
+
+                ul {
+                    
+                    li {
+                        display: flex;
+                        justify-content: space-between;
+                        box-sizing: border-box;
+                        padding: 8px 13px;
+
+                        label {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 1px;
+                            color: $font-color_7;
+                        }
+
+                        p {
+                            font-size: 13px;
+                            font-weight: bold;
+                            color: $font-color_7;
+
+                            em {
+                                color: $font-color_3;
+                            }
+                        }
+
+                        div {
+                            width: 100%;
+                            height: 42px;
+                            background: $backgroundColor_17;
+                            display: flex;
+                            align-items: center;
+                            box-sizing: border-box;
+                            padding: 0 8px;
+
+                            p {
+                                color: $font-color_18;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .btnBox {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            box-sizing: border-box;
+            padding: 15px 5px;
+
+            button {
+                width: 50%;
+                height: 32px;
+                margin: 0 5px;
+
+                &.moreBtn {
+                    @include buttonStyle_9;
+                    font-size: 12px;
+                    border-radius: 3px;
+                }
+                &.checkBtn {
+                    @include buttonStyle_5;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
